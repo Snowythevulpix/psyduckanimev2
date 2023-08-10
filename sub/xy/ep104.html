@@ -1,0 +1,62 @@
+<html>
+      <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
+<meta property="og:title" content="Psyduckanime - watch pokemon for free">
+<meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg">
+    <!-- Favicon -->
+    <link rel="icon" href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" />
+  
+<head>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+</head>
+<body>
+
+<div id="player"></div>
+
+<script>
+    var episodeId = "pokemon-xy-z-episode-11";
+    async function getSource() {
+        const request = await fetch("https://consumet-api-production-0afb.up.railway.app/anime/gogoanime/watch/" + episodeId);
+        const json = await request.json();
+        var player = new Clappr.Player({source: json.sources[2].url, parentId: "#player"});
+    }
+    getSource();
+</script>
+</body>
+
+ <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: 424242;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: 424242;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: 424242;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+  </body>
+</html>

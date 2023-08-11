@@ -30,9 +30,9 @@
     <div id="player"></div>
 
     <script>
-        var episodeId = "pokemon-advanced-generation-dub-episode-159";
+        var episodeId = "pokemon-2019-dub-episode-133";
         async function getSource() {
-            const request = await fetch("https://consumet-api-production-0afb.up.railway.app/anime/gogoanime/watch/" + episodeId);
+            const request = await fetch("https://c.delusionz.xyz//anime/gogoanime/watch/" + episodeId);
             const json = await request.json();
             var player = new Clappr.Player({ source: json.sources[2].url, parentId: "#player" });
         }

@@ -32,7 +32,7 @@
     <script>
         var episodeId = "pokemon-sun-moon-episode-110";
         async function getSource() {
-            const request = await fetch("https://consumet-api-production-0afb.up.railway.app/anime/gogoanime/watch/" + episodeId);
+            const request = await fetch("https://c.delusionz.xyz/anime/gogoanime/watch/" + episodeId);
             const json = await request.json();
             var player = new Clappr.Player({ source: json.sources[2].url, parentId: "#player" });
         }
@@ -47,7 +47,7 @@
 
     <script>
         function redirectToDownload() {
-            fetch('https://consumet-api-production-0afb.up.railway.app/anime/gogoanime/watch/' + episodeId)
+            fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
                 .then(response => response.json())
                 .then(data => {
                     var downloadUrl = data.download;

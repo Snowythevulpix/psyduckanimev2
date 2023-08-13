@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-        <title>PsyduckAnime - watch Pokemon Diamond and Pearl for free </title>
-        <meta property="og:title" content="Psyduckanime - watch pokemon for free">
-        <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg">
-        <!-- Favicon -->
-        <link rel="icon" href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" />
+    <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
     <meta property="og:title" content="Psyduckanime - watch pokemon for free">
     <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg">
     <!-- Favicon -->
@@ -31,13 +26,13 @@
         }
     </style>
 </head>
-<body class="dark-mode">
+<body>
     <div id="player"></div>
 
     <script>
-        var episodeId = "pokemon-2019-dub-episode-133";
+        var episodeId = "pokemon-diamond-pearl-dub-episode-22";
         async function getSource() {
-            const request = await fetch("https://c.delusionz.xyz//anime/gogoanime/watch/" + episodeId);
+            const request = await fetch("https://c.delusionz.xyz/anime/gogoanime/watch/" + episodeId);
             const json = await request.json();
             var player = new Clappr.Player({ source: json.sources[2].url, parentId: "#player" });
         }

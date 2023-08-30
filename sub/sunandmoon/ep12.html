@@ -1,15 +1,14 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-    <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
-    <meta property="og:title" content="Psyduckanime - watch pokemon for free">
-    <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg">
-    <!-- Favicon -->
-    <link rel="icon" href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" />
-  
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-
-    <style>
+<title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
+<meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
+<meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
+<!-- Favicon -->
+<link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
+<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="text/javascript"></script>
+<style>
         body {
             padding: 25px;
             background-color: white;
@@ -27,9 +26,8 @@
     </style>
 </head>
 <body class="dark-mode">
-    <div id="player"></div>
-
-    <script>
+<div id="player"></div>
+<script>
         var episodeId = "pokemon-sun-moon-episode-12";
         async function getSource() {
             const request = await fetch("https://c.delusionz.xyz/anime/gogoanime/watch/" + episodeId);
@@ -39,13 +37,10 @@
         getSource();
     </script>
 
-    <h3 id="DarkModetext">Dark Mode is OFF</h3>
-    <button onclick="darkMode()">Dark Mode</button>
-    <button onclick="lightMode()">Light Mode</button>
-
-    <button onclick="redirectToDownload()">Click here to download</button>
-
-    <script>
+<button onclick="darkMode()">Dark Mode</button>
+<button onclick="lightMode()">Light Mode</button>
+<button onclick="redirectToDownload()">Click here to download</button>
+<script>
         function redirectToDownload() {
             fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
                 .then(response => response.json())
@@ -58,8 +53,7 @@
                 });
         }
     </script>
-
-    <script>
+<script>
         function darkMode() {
             var element = document.body;
             var content = document.getElementById("DarkModetext");

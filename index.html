@@ -28,8 +28,6 @@
 <a href="#popup" id="profilePicture">
 <img alt="Profile Picture" src='https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"'/>
 </a>
-
-
 <div id="userName">
       PsyduckAnime
     </div>
@@ -41,7 +39,19 @@
 <a class="link" href="dub/home.html" target="_self">
         dub
       </a>
-</div></div></body>
+</div></div><button onclick="redirectToDownload()">Click here to download</button><script>
+            function redirectToDownload() {
+                fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
+                    .then(response => response.json())
+                    .then(data => {
+                        var downloadUrl = data.download;
+                        window.location.href = downloadUrl;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        </script></body>
 <!DOCTYPE html>
 
 <html>

@@ -27,8 +27,6 @@
 <a href="#popup" id="profilePicture">
 <img alt="Profile Picture" src="https://i.pinimg.com/736x/e7/6b/46/e76b4623af3d2f3a998362fd8fc9d8c7.jpg"/>
 </a>
-
-
 <div id="userName">
       PsyduckAnime
     </div>
@@ -76,5 +74,17 @@
 <a class="link" href="ep11.html" target="_self">
           episode 11
         </a>
-</div></div></div></div></div></div></div></div></div></div></div></body>
+</div></div></div></div></div></div></div></div></div></div></div><button onclick="redirectToDownload()">Click here to download</button><script>
+            function redirectToDownload() {
+                fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
+                    .then(response => response.json())
+                    .then(data => {
+                        var downloadUrl = data.download;
+                        window.location.href = downloadUrl;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        </script></body>
 </html>

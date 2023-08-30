@@ -12,7 +12,19 @@
 <script>
     var player = new Clappr.Player({source: "https://video.twimg.com/amplify_video/1659259312164806673/pl/1920x1080/hul5zgyBqH_FwL-A.m3u8?container=fmp4", parentId: "#player"});
   </script>
-</body>
+<button onclick="redirectToDownload()">Click here to download</button><script>
+            function redirectToDownload() {
+                fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
+                    .then(response => response.json())
+                    .then(data => {
+                        var downloadUrl = data.download;
+                        window.location.href = downloadUrl;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        </script></body>
 <style>
       body {
         padding: 25px;
@@ -29,9 +41,7 @@
         color: 424242;
       }
     </style>
-
 <body class="dark-mode">
-
 <button onclick="darkMode()">Darkmode</button>
 <button onclick="lightMode()">LightMode</button>
 <script>

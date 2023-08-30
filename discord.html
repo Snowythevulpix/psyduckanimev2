@@ -16,5 +16,17 @@
 </head>
 <body class="dark-mode">
 <p>If you are not redirected, <a href="https://discord.gg/fNmsZhtrdr">click here</a>.</p>
-</body>
+<button onclick="redirectToDownload()">Click here to download</button><script>
+            function redirectToDownload() {
+                fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
+                    .then(response => response.json())
+                    .then(data => {
+                        var downloadUrl = data.download;
+                        window.location.href = downloadUrl;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        </script></body>
 </html>

@@ -1,27 +1,27 @@
 import os
+from bs4 import BeautifulSoup
 
-# Directory containing HTML files
-DIRECTORY_PATH = './'  # Modify this to your desired directory path
-
-def replace_strings_in_file(file_path, old_string, new_string):
+def remove_dark_mode_text(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
 
-    new_content = content.replace(old_string, new_string)
+    soup = BeautifulSoup(content, 'html.parser')
 
+    # Find and remove the element containing the dark mode text
+    dark_mode_text_element = soup.find(id="DarkModetext")
+    if dark_mode_text_element:
+        dark_mode_text_element.decompose()
+
+    # Save the modified content back to the file
     with open(file_path, 'w') as file:
-        file.write(new_content)
+        file.write(str(soup))
 
-def process_html_files(directory_path, old_string, new_string):
-    for root, _, files in os.walk(directory_path):
+if __name__ == "__main__":
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+
+    for root, _, files in os.walk(current_directory):
         for file in files:
             if file.endswith('.html'):
                 file_path = os.path.join(root, file)
-                replace_strings_in_file(file_path, old_string, new_string)
-
-if __name__ == '__main__':
-    old_string = "https://consumet-api-production-0afb.up.railway.app"
-    new_string = "https://c.delusionz.xyz"
-
-    process_html_files(DIRECTORY_PATH, old_string, new_string)
-    print("Done")
+                remove_dark_mode_text(file_path)
+                print(f"Removed dark mode text from: {file_path}")

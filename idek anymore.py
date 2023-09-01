@@ -1,39 +1,31 @@
 import os
 from bs4 import BeautifulSoup
 
-# New logo URL
-new_logo_url = "https://psyduckanime.lol/Psyduck.png"
+# Function to replace the specified HTML content
+def replace_content_in_html(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        html_content = file.read()
 
-# Function to update image source URL
-def update_logo_in_html_file(file_path):
-    try:
-        # Read the original HTML file
-        with open(file_path, "r", encoding="utf-8") as file:
-            original_html = file.read()
+    # Parse the HTML using BeautifulSoup
+    soup = BeautifulSoup(html_content, 'html.parser')
 
-        # Parse the HTML using Beautiful Soup
-        soup = BeautifulSoup(original_html, "html.parser")
+    # Find the <img> tag with the specified src attribute
+    img_tag = soup.find('img', src='file:///C:/Users/Hayle/OneDrive/Desktop/psyduckanime%20v2/psyduckanime-main/Psyduck.png')
 
-        # Find and update the logo img tag
-        logo_img = soup.find("img", class_="logo")
-        if logo_img:
-            logo_img["src"] = new_logo_url
+    # If the img_tag is found, replace its src attribute
+    if img_tag:
+        img_tag['src'] = 'https://psyduckanime.lol/Psyduck.png'
 
-        # Write the modified HTML back to the file
-        with open(file_path, "w", encoding="utf-8") as file:
+        # Save the modified content back to the file
+        with open(file_path, 'w', encoding='utf-8') as file:
             file.write(str(soup))
 
-        print(f"Logo updated in {file_path}")
+# Traverse through the current directory and its subdirectories
+for root, _, files in os.walk('.'):
+    for file in files:
+        if file.endswith('home.html'):
+            file_path = os.path.join(root, file)
+            replace_content_in_html(file_path)
+            print(f'Replaced content in {file_path}')
 
-    except Exception as e:
-        print(f"Error updating logo in {file_path}: {e}")
-
-# Get the current directory where the script is located
-current_directory = os.path.dirname(os.path.abspath(__file__))
-
-# Recursively traverse the current directory and its subdirectories
-for root, _, files in os.walk(current_directory):
-    for filename in files:
-        if filename == "home.html":
-            filepath = os.path.join(root, filename)
-            update_logo_in_html_file(filepath)
+print('Replacement completed.')

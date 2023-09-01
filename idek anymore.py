@@ -36,3 +36,4 @@ for root, _, files in os.walk("."):
         if filename.endswith(".html"):
             file_path = os.path.join(root, filename)
             update_logo_in_html_file(file_path)
+print("complete")

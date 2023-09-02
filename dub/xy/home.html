@@ -38,7 +38,7 @@
     </a>
 <!-- Episodes 2 to 146 -->
 <script>
-      for (let episode = 2; episode <= 146; episode++) {
+      for (let episode = 2; episode <= 140; episode++) {
         let link = document.createElement('a');
         link.className = 'link';
         link.href = 'ep' + episode + '.html';
@@ -48,25 +48,5 @@
         document.getElementById('links').appendChild(link);
       }
     </script>
-<script>
-      // Update links for episodes 93 to 140
-      for (let episode = 93; episode <= 140; episode++) {
-        let link = document.getElementsByClassName('link')[episode - 1];
-        link.href = 'xyz/ep' + episode + '.html';
-      }
-    </script>
-</div>
-<script>
-            function redirectToDownload() {
-                fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
-                    .then(response => response.json())
-                    .then(data => {
-                        var downloadUrl = data.download;
-                        window.location.href = downloadUrl;
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                    });
-            }
-        </script></body>
+</body>
 </html>

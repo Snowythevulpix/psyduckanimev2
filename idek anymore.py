@@ -1,31 +1,29 @@
 import os
 from bs4 import BeautifulSoup
 
-# Function to replace the specified HTML content
-def replace_content_in_html(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        html_content = file.read()
+def remove_next_episode_button(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+        soup = BeautifulSoup(content, 'html.parser')
 
-    # Parse the HTML using BeautifulSoup
-    soup = BeautifulSoup(html_content, 'html.parser')
+        # Find and remove the button with the 'onclick' attribute set to 'nextEpisode()'
+        button_tags = soup.find_all('button', {'onclick': 'nextEpisode()'})
+        for button_tag in button_tags:
+            button_tag.extract()  # Remove the button element
 
-    # Find the <img> tag with the specified src attribute
-    img_tag = soup.find('img', src='file:///C:/Users/Hayle/OneDrive/Desktop/psyduckanime%20v2/psyduckanime-main/Psyduck.png')
+    with open(file_path, 'w') as file:
+        file.write(str(soup))
 
-    # If the img_tag is found, replace its src attribute
-    if img_tag:
-        img_tag['src'] = 'https://psyduckanime.lol/Psyduck.png'
+def remove_next_episode_button_from_specific_files(directory):
+    specific_files = ['home.html', 'discord.html', 'test.html', 'index.html']
 
-        # Save the modified content back to the file
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(str(soup))
+    for root, _, files in os.walk(directory):
+        for file_name in files:
+            if file_name in specific_files and file_name.endswith('.html'):
+                file_path = os.path.join(root, file_name)
+                remove_next_episode_button(file_path)
+                print(f"Removed 'Next Episode' button from {file_path}")
 
-# Traverse through the current directory and its subdirectories
-for root, _, files in os.walk('.'):
-    for file in files:
-        if file.endswith('home.html'):
-            file_path = os.path.join(root, file)
-            replace_content_in_html(file_path)
-            print(f'Replaced content in {file_path}')
-
-print('Replacement completed.')
+if __name__ == "__main__":
+    target_directory = "."  # Change this to the directory containing your HTML files
+    remove_next_episode_button_from_specific_files(target_directory)

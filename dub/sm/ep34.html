@@ -34,7 +34,31 @@
                         console.error('Error:', error);
                     });
             }
-        </script></body>
+        </script><script>
+            function nextEpisode() {
+                // Get the current URL
+                const currentUrl = window.location.href;
+
+                // Extract the episode number from the current URL
+                const match = currentUrl.match(/\/ep(\d+)\.html/);
+
+                if (match) {
+                    // Extract the episode number as an integer
+                    const currentEpisodeNumber = parseInt(match[1]);
+
+                    // Calculate the next episode number
+                    const nextEpisodeNumber = currentEpisodeNumber + 1;
+
+                    // Construct the URL for the next episode
+                    const nextEpisodeUrl = `ep${nextEpisodeNumber}.html`;
+
+                    // Redirect to the next episode if it exists
+                    window.location.href = nextEpisodeUrl;
+                } else {
+                    alert('Could not determine the current episode number.');
+                }
+            }
+        </script><button onclick="nextEpisode()">Next Episode</button></body>
 <style>
       body {
         padding: 25px;

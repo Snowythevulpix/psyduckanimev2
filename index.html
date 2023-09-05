@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,25 +22,15 @@
             height: 32px;
             cursor: pointer;
         }
-
-        /* Style for the profile picture */
-        #profilePicture {
-            width: 40px;
-            height: 40px;
-            padding: 5px;
-            cursor: pointer;
-            position: fixed;
-            top: 10px;
-            right: 10px;
-        }
     </style>
 </head>
 <body class="dark-mode">
-    <!-- Discord login button -->
-    <button id="discordLoginButton">Login with Discord</button>
+    <a href="discord.html">
+        <img alt="Logo" class="logo" src="discord-icon.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
+    </a>
 
-    <!-- Profile picture element -->
-    <img id="profilePicture" alt="Profile Picture"/>
+    <!-- Add this to your HTML file where you want to display the profile picture -->
+    <img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px;"/>
 
     <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
@@ -48,51 +39,52 @@
         <div id="stars3"></div>
     </section>
     <!-- End of Parallax Pixel Background Animation -->
+    <a href="#popup" id="profilePicture">
+        <img alt="Profile Picture" src="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
+    </a>
+    <div id="userName">PsyduckAnime</div>
+</div>
+<div id="links">
+    <a class="link" href="sub/home.html" target="_self">sub</a>
+</div>
+<div id="links">
+    <a class="link" href="dub/home.html" target="_self">dub</a>
+</div>
+<button id="discordLoginButton">Login with Discord</button>
 
-    <!-- Your JavaScript code -->
-    <script>
-        // Get a reference to the login button
-        const discordLoginButton = document.getElementById('discordLoginButton');
+<!-- Add this to your HTML file to include JavaScript -->
+<script>
+    // Function to get the value of a query parameter from the URL
+    function getQueryParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
 
-        // Add a click event listener
-        discordLoginButton.addEventListener('click', () => {
-            // Redirect the user to the Discord login page
-            window.location.href = 'https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=https%3A%2F%2Fpsyduckanime.lol&response_type=code&scope=identify%20guilds.join';
-        });
+    // Check if there's an authorization code in the URL
+    const authCode = getQueryParam('code');
 
-        // Function to get the value of a query parameter from the URL
-        function getQueryParam(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
-        }
+    if (authCode) {
+        // Send the authorization code to your server to exchange it for an access token
+        // You'll need to implement this part in your server-side code (server.js)
+        fetch('/getProfileData')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(userData => {
+                // Construct the URL for the profile picture
+                const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
 
-        // Check if there's an authorization code in the URL
-        const authCode = getQueryParam('code');
-
-        if (authCode) {
-            // Send the authorization code to your server to exchange it for an access token
-            // You'll need to implement this part in your server-side code (server.js)
-
-            // Once you have the access token and user data, you can set the profile picture
-            fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(userData => {
-                    // Construct the URL for the profile picture
-                    const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
-
-                    // Display the profile picture in the top right corner
-                    const profilePictureElement = document.getElementById('profilePicture');
-                    profilePictureElement.src = profilePictureUrl;
-                })
-                .catch(error => {
-                    console.error('Error fetching user data:', error);
-                });
-        }
-    </script>
+                // Display the profile picture in the top right corner
+                const profilePictureElement = document.getElementById('profilePicture');
+                profilePictureElement.src = profilePictureUrl;
+            })
+            .catch(error => {
+                console.error('Error fetching user data:', error);
+            });
+    }
+</script>
 </body>
 </html>

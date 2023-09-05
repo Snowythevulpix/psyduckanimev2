@@ -107,8 +107,8 @@
 
 <script>
     // Define your Discord Rich Presence data
-    const clientId = 'YOUR_CLIENT_ID'; // Replace with your Discord Application's Client ID
-    const startTimestamp = Math.floor(Date.now() / 1000);
+    const clientId = '1148540789916434544'; // Replace with your Discord Application's Client ID
+    const startTimestamp = 1507665886; // Replace with your desired timestamp
     
     // Create a new Discord RPC client
     const rpc = new DiscordRPC.Client({ transport: 'ipc' });
@@ -119,11 +119,16 @@
     // Set the Rich Presence activity when the page opens
     rpc.once('ready', () => {
       rpc.setActivity({
-        details: 'Viewing Your Website',
+        details: 'Watching pokemon',
         state: 'Exploring the Features',
         startTimestamp,
-        largeImageKey: 'your_large_image_key',
-        largeImageText: 'Your Website',
+        largeImageKey: 'compressjpeg_online_512x512_image',
+        largeImageText: 'Numbani',
+        smallImageText: 'Rogue - Level 100',
+        partyId: 'ae488379-351d-4a4f-ad32-2b9b01c91657',
+        partySize: 1,
+        partyMax: 1,
+        joinSecret: 'MTI4NzM0OjFpMmhuZToxMjMxMjM='
       });
     });
   </script>

@@ -24,9 +24,9 @@
     </style>
 </head>
 <body class="dark-mode">
-    <a href="discord.html"> <!-- Added anchor tag here -->
+    <a href="discord.html">
         <img alt="Logo" class="logo" src="discord-icon.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
-    </a> <!-- Closed anchor tag here -->
+    </a>
 
     <!-- Add this to your HTML file where you want to display the profile picture -->
     <img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px;"/>
@@ -50,18 +50,8 @@
     <a class="link" href="dub/home.html" target="_self">dub</a>
 </div>
 <button id="discordLoginButton">Login with Discord</button>
-<script>
-  // Get a reference to the login button
-  const discordLoginButton = document.getElementById('discordLoginButton');
 
-  // Add a click event listener
-  discordLoginButton.addEventListener('click', () => {
-    // Redirect the user to the Discord login page
-    window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=1148574567644807218&redirect_uri=https%3A%2F%2Fpsyduckanime.lol&response_type=code&scope=identify%20guilds.join';
-  });
-</script>
 <!-- Add this to your HTML file to include JavaScript -->
-<!-- Modify the client-side JavaScript code in your HTML -->
 <script>
     // Function to get the value of a query parameter from the URL
     function getQueryParam(name) {
@@ -73,13 +63,9 @@
     const authCode = getQueryParam('code');
 
     if (authCode) {
-        console.log('Authorization code:', authCode); // Debugging statement
-
         // Send the authorization code to your server to exchange it for an access token
         // You'll need to implement this part in your server-side code (server.js)
-
-        // Once you have the access token and user data, you can set the profile picture
-        fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
+        fetch('/getProfileData')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -87,12 +73,8 @@
                 return response.json();
             })
             .then(userData => {
-                console.log('User data:', userData); // Debugging statement
-
                 // Construct the URL for the profile picture
                 const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
-
-                console.log('Profile picture URL:', profilePictureUrl); // Debugging statement
 
                 // Display the profile picture in the top right corner
                 const profilePictureElement = document.getElementById('profilePicture');

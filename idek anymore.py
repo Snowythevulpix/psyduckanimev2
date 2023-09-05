@@ -1,45 +1,57 @@
-import os
-from bs4 import BeautifulSoup
+# Define the HTML content to be inserted
+loading_gif_block = '''
+<div id="loading" style="display: block;">
+    <!-- Display the loading GIF with a 16:9 aspect ratio -->
+    <img src="https://psyduckanime.lol/loading.gif" alt="Loading..." style="height: 360px; width: 640px;">
+</div>
+'''
 
-# Define the HTML code you want to insert (excluding line 43)
-inserted_code = """
-    <!-- Your modified HTML code here -->
-"""
+# Define the JavaScript code to hide the loading GIF after the episode is loaded
+hide_loading_gif_script = '''
+<script>
+    // Function to hide the loading GIF
+    function hideLoadingGif() {
+        var loadingDiv = document.getElementById('loading');
+        loadingDiv.style.display = 'none';
+    }
 
-# Get the current directory where the script is located
-directory_path = os.path.dirname(os.path.abspath(__file__))
+    // Create a function to check if the episode is loaded
+    function isEpisodeLoaded() {
+        return new Promise((resolve) => {
+            var player = getPlayer();
+            player.on('play', function () {
+                resolve();
+            });
+        });
+    }
 
-# List of files to ignore
-ignore_files = ['index.html', 'discord.html', 'home.html', 'test.html']
+    // Call the hideLoadingGif function after the episode is loaded
+    isEpisodeLoaded().then(hideLoadingGif);
+</script>
+'''
 
-# Function to modify an HTML file
-def modify_html_file(file_path):
+# Define the file path for ep1.html
+file_path = r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\sub\sm\ep1.html'
+
+try:
+    # Read the content of the HTML file
     with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
+        html_content = file.read()
 
-    # Check if the file should be ignored
-    if os.path.basename(file_path) not in ignore_files:
-        # Find line 43 and keep it as is
-        for i, line in enumerate(lines):
-            if i == 42:  # Line 43 (0-based index)
-                continue
-            # Insert the code at the desired location
-            if '</head>' in line:
-                lines.insert(i, inserted_code)
-                break
+    # Find the insertion point for the loading GIF (just under the top bar definition)
+    insertion_point = '<!-- Insert Loading GIF Here -->'
+    modified_content = html_content.replace('PsyduckAnime - watch pokemon subbed and dubbed for free', 'PsyduckAnime - watch pokemon subbed and dubbed for free' + loading_gif_block, 1)
 
-    # Write the modified HTML back to the file
+    # Find the insertion point for hide loading GIF script (right before </body>)
+    insertion_point_script = '<!-- Insert JavaScript Here -->'
+    modified_content = modified_content.replace('</body>', hide_loading_gif_script + '\n</body>', 1)
+
+    # Write the modified content back to the file
     with open(file_path, 'w', encoding='utf-8') as file:
-        file.writelines(lines)
+        file.write(modified_content)
 
-# Function to traverse the directory and modify HTML files
-def modify_files_in_directory(directory_path):
-    for root, dirs, files in os.walk(directory_path):
-        for filename in files:
-            if filename.endswith('.html'):
-                file_path = os.path.join(root, filename)
-                print(f'Modifying file: {file_path}')
-                modify_html_file(file_path)
-
-# Call the function to start modifying HTML files
-modify_files_in_directory(directory_path)
+    print(f"Updated {file_path}")
+except FileNotFoundError:
+    print(f"Error: File not found at path {file_path}")
+except Exception as e:
+    print(f"An error occurred: {str(e)}")

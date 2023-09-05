@@ -17,7 +17,6 @@ const CLIENT_ID = '1148574567644807218';
 const CLIENT_SECRET = 'anVgkbw4vnwj_pZOvGp3KBwiQj7i--_R';
 const REDIRECT_URI = 'https://worried-tuna-swimsuit.cyclic.app';
 
-
 // Handle the initial OAuth2 request from your GitHub Pages site
 app.get('/auth/discord', (req, res) => {
     const authorizeUrl = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=identify`;
@@ -56,6 +55,17 @@ app.get('/callback', async (req, res) => {
 
     // Redirect back to your GitHub Pages site or wherever you want
     res.redirect('https://psyduckanime.lol');
+});
+
+// Sample endpoint to retrieve user data
+app.get('/getProfileData', (req, res) => {
+    // In a real implementation, you would fetch user data from Discord's API
+    // For now, return sample data
+    const sampleUserData = {
+        id: '1234567890',
+        avatar: 'abcdef1234567890'
+    };
+    res.json(sampleUserData);
 });
 
 app.listen(PORT, () => {

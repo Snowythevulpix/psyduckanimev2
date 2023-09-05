@@ -104,5 +104,29 @@
 </script>
 <!-- Next Episode button -->
 <button onclick="nextEpisode()">Next Episode</button>
+
+<script>
+    // Define your Discord Rich Presence data
+    const clientId = 'YOUR_CLIENT_ID'; // Replace with your Discord Application's Client ID
+    const startTimestamp = Math.floor(Date.now() / 1000);
+    
+    // Create a new Discord RPC client
+    const rpc = new DiscordRPC.Client({ transport: 'ipc' });
+
+    // Initialize the RPC client
+    rpc.login({ clientId }).catch(console.error);
+
+    // Set the Rich Presence activity when the page opens
+    rpc.once('ready', () => {
+      rpc.setActivity({
+        details: 'Viewing Your Website',
+        state: 'Exploring the Features',
+        startTimestamp,
+        largeImageKey: 'your_large_image_key',
+        largeImageText: 'Your Website',
+      });
+    });
+  </script>
+
 </body>
 </html>

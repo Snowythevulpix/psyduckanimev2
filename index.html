@@ -62,6 +62,7 @@
   });
 </script>
 <!-- Add this to your HTML file to include JavaScript -->
+<!-- Modify the client-side JavaScript code in your HTML -->
 <script>
     // Function to get the value of a query parameter from the URL
     function getQueryParam(name) {
@@ -77,18 +78,19 @@
         // You'll need to implement this part in your server-side code (server.js)
 
         // Once you have the access token and user data, you can set the profile picture
-        // Example user data received from Discord's API:
-        const userData = {
-            id: '1234567890', // Discord user ID
-            avatar: 'abcdef1234567890' // Avatar hash
-        };
+        fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
+            .then(response => response.json())
+            .then(userData => {
+                // Construct the URL for the profile picture
+                const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
 
-        // Construct the URL for the profile picture
-        const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
-
-        // Display the profile picture in the top right corner
-        const profilePictureElement = document.getElementById('profilePicture');
-        profilePictureElement.src = profilePictureUrl;
+                // Display the profile picture in the top right corner
+                const profilePictureElement = document.getElementById('profilePicture');
+                profilePictureElement.src = profilePictureUrl;
+            })
+            .catch(error => {
+                console.error('Error fetching user data:', error);
+            });
     }
 </script>
 </body>

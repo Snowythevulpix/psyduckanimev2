@@ -79,8 +79,11 @@
         // Send the authorization code to your server to exchange it for an access token
         // You'll need to implement this part in your server-side code (server.js)
 
-        // Once you have the access token and user data, you can set the profile picture
-        fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
+        // Construct the URL for the profile picture
+        const serverBaseUrl = 'https://criticalecstaticcamel.vulpix773.repl.co';
+        const fetchUrl = `${serverBaseUrl}/getProfileData`; // Update the URL to match your server's endpoint
+
+        fetch(fetchUrl)
             .then(response => response.json())
             .then(userData => {
                 // Construct the URL for the profile picture

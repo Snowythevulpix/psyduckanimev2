@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,9 +28,8 @@
         <img alt="Logo" class="logo" src="discord-icon.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
     </a> <!-- Closed anchor tag here -->
 
-<!-- Add this to your HTML file where you want to display the profile picture -->
-<img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px;"/>
-
+    <!-- Add this to your HTML file where you want to display the profile picture -->
+    <img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px;"/>
 
     <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
@@ -52,7 +49,7 @@
 <div id="links">
     <a class="link" href="dub/home.html" target="_self">dub</a>
 </div>
-<button id="discordLoginButton">Login with Discord</button>
+<button id="sendDataButton">Send Data to Server</button> <!-- Added button here -->
 <script>
   // Get a reference to the login button
   const discordLoginButton = document.getElementById('discordLoginButton');
@@ -62,41 +59,38 @@
     // Redirect the user to the Discord login page
     window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=1148574567644807218&redirect_uri=https://psyduckanime.lol&response_type=code&scope=identify';
   });
-</script>
-<!-- Add this to your HTML file to include JavaScript -->
-<!-- Modify the client-side JavaScript code in your HTML -->
-<script>
-    // Function to get the value of a query parameter from the URL
-    function getQueryParam(name) {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
-    }
 
-    // Check if there's an authorization code in the URL
-    const authCode = getQueryParam('code');
+  // Function to send data to your server
+  function sendDataToServer() {
+    // Replace 'your-server-endpoint' with the actual endpoint on your server
+    const serverEndpoint = 'https://criticalecstaticcamel.vulpix773.repl.co/your-server-endpoint';
 
-    if (authCode) {
-        // Send the authorization code to your server to exchange it for an access token
-        // You'll need to implement this part in your server-side code (server.js)
+    // Data to send to the server (you can customize this)
+    const dataToSend = {
+        key1: 'value1',
+        key2: 'value2'
+    };
 
-        // Construct the URL for the profile picture
-        const serverBaseUrl = 'https://criticalecstaticcamel.vulpix773.repl.co';
-        const fetchUrl = `${serverBaseUrl}/getProfileData`; // Update the URL to match your server's endpoint
+    fetch(serverEndpoint, {
+        method: 'POST', // or 'GET' depending on your needs
+        headers: {
+            'Content-Type': 'application/json', // or other appropriate headers
+        },
+        body: JSON.stringify(dataToSend),
+    })
+    .then(response => response.json())
+    .then(result => {
+        // Handle the response from your server here
+        console.log('Server Response:', result);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+  }
 
-        fetch(fetchUrl)
-            .then(response => response.json())
-            .then(userData => {
-                // Construct the URL for the profile picture
-                const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
-
-                // Display the profile picture in the top right corner
-                const profilePictureElement = document.getElementById('profilePicture');
-                profilePictureElement.src = profilePictureUrl;
-            })
-            .catch(error => {
-                console.error('Error fetching user data:', error);
-            });
-    }
+  // Add a click event listener to the button
+  const sendDataButton = document.getElementById('sendDataButton');
+  sendDataButton.addEventListener('click', sendDataToServer);
 </script>
 </body>
 </html>

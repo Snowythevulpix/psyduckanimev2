@@ -2,52 +2,36 @@
   var player = videojs('my-video');
 </script>
 
-if (authCode) {
-  // Send the authorization code to your server to exchange it for an access token
-  // You'll need to implement this part in your server-side code (server.js)
+// Function to extract the 'code' query parameter from the URL
+function getAuthorizationCode() {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get('code');
+}
 
-  // Once you have the access token and user data, you can set the profile picture
-  fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
-      .then(response => response.json())
-      .then(userData => {
-          // Construct the URL for the profile picture
-          const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
+// Check if the 'code' query parameter is present in the URL
+const authorizationCode = getAuthorizationCode();
 
-          // Display the profile picture in the top right corner
-          const profilePictureElement = document.getElementById('profilePicture');
-          profilePictureElement.src = profilePictureUrl; // Set the src attribute
-
-          // Optionally, you can set the alt attribute and other styles
-          profilePictureElement.alt = userData.username; // Set the alt attribute to the username
-          profilePictureElement.style.display = 'block'; // Display the image
-      })
-      .catch(error => {
-          console.error('Error fetching user data:', error);
-      });
-    }
-// Check if there's an authorization code in the URL
-const authCode = getQueryParam('code');
-
-if (authCode) {
-    // Send the authorization code to your server to exchange it for an access token
-    // You'll need to implement this part in your server-side code (server.js)
-
-    // Once you have the access token and user data, you can set the profile picture
-    fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
-        .then(response => response.json())
-        .then(userData => {
-            // Construct the URL for the profile picture
-            const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
-
-            // Display the profile picture in the top right corner
-            const profilePictureElement = document.getElementById('profilePicture');
-            profilePictureElement.src = profilePictureUrl; // Set the src attribute
-            profilePictureElement.style.display = 'block'; // Display the image
-
-            // Optionally, you can set the alt attribute and other styles
-            profilePictureElement.alt = userData.username; // Set the alt attribute to the username
-        })
-        .catch(error => {
-            console.error('Error fetching user data:', error);
-        });
+if (authorizationCode) {
+  // Send the 'code' to your server using a POST request
+  fetch('https://criticalecstaticcamel.vulpix773.repl.co', { // Replace with your server URL
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ code: authorizationCode }),
+  })
+    .then(response => {
+      if (response.ok) {
+        // Code successfully sent to the server
+        console.log('Authorization code sent to the server.');
+      } else {
+        // Handle errors
+        console.error('Failed to send authorization code to the server.');
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+} else {
+  console.log('No authorization code found in the URL.');
 }

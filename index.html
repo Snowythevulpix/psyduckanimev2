@@ -1,10 +1,12 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
-    <meta property="og:title" content="Psyduckanime - watch Pokemon for free"/>
+    <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
+    <meta property="og:title" content="Psyduckanime - watch pokemon for free"/>
     <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
     <!-- Favicon -->
     <link rel="icon" href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
@@ -28,8 +30,9 @@
         <img alt="Logo" class="logo" src="discord-icon.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
     </a> <!-- Closed anchor tag here -->
 
-    <!-- Add this to your HTML file where you want to display the profile picture -->
-    <img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px;"/>
+<!-- Add this to your HTML file where you want to display the profile picture -->
+<img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px;"/>
+
 
     <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
@@ -42,50 +45,55 @@
         <img alt="Profile Picture" src="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
     </a>
     <div id="userName">PsyduckAnime</div>
+</div>
+<div id="links">
+    <a class="link" href="sub/home.html" target="_self">sub</a>
+</div>
+<div id="links">
+    <a class="link" href="dub/home.html" target="_self">dub</a>
+</div>
+<button id="discordLoginButton">Login with Discord</button>
+<script>
+  // Get a reference to the login button
+  const discordLoginButton = document.getElementById('discordLoginButton');
 
-    <div id="links">
-        <a class="link" href="sub/home.html" target="_self">sub</a>
-    </div>
-    <div id="links">
-        <a class="link" href="dub/home.html" target="_self">dub</a>
-    </div>
-    <button id="discordLoginButton">Login with Discord</button>
-    <script>
-        // Get a reference to the login button
-        const discordLoginButton = document.getElementById('discordLoginButton');
+  // Add a click event listener
+  discordLoginButton.addEventListener('click', () => {
+    // Redirect the user to the Discord login page
+    window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=1148574567644807218&redirect_uri=https://psyduckanime.lol&response_type=code&scope=identify';
+  });
+</script>
+<!-- Add this to your HTML file to include JavaScript -->
+<!-- Modify the client-side JavaScript code in your HTML -->
+<script>
+    // Function to get the value of a query parameter from the URL
+    function getQueryParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
 
-        // Add a click event listener
-        discordLoginButton.addEventListener('click', () => {
-            // Redirect the user to the Discord login page
-            window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=1148574567644807218&redirect_uri=https%3A%2F%2Fcriticalecstaticcamel.vulpix773.repl.co%2Fauth%2Fdiscord%2Fcallback&response_type=code&scope=identify';
-        });
-    </script>
-    <script>
-        // Function to get the value of a query parameter from the URL
-        function getQueryParam(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
-        }
+    // Check if there's an authorization code in the URL
+    const authCode = getQueryParam('code');
 
-        // Check if there's an authorization code in the URL
-        const authCode = getQueryParam('code');
+    if (authCode) {
+        // Send the authorization code to your server to exchange it for an access token
+        // You'll need to implement this part in your server-side code (server.js)
 
-        if (authCode) {
-            // Send the authorization code to your server to exchange it for an access token
-            fetch('https://criticalecstaticcamel.vulpix773.repl.co/auth/discord/callback?code=' + authCode) // Replace with your actual server endpoint to fetch user data
-                .then(response => response.json())
-                .then(userData => {
-                    // Construct the URL for the profile picture
-                    const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
+        // Once you have the access token and user data, you can set the profile picture
+        fetch('/getProfileData') // Replace with the appropriate server endpoint to fetch user data
+            .then(response => response.json())
+            .then(userData => {
+                // Construct the URL for the profile picture
+                const profilePictureUrl = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
 
-                    // Display the profile picture in the top right corner
-                    const profilePictureElement = document.getElementById('profilePicture');
-                    profilePictureElement.src = profilePictureUrl;
-                })
-                .catch(error => {
-                    console.error('Error fetching user data:', error);
-                });
-        }
-    </script>
+                // Display the profile picture in the top right corner
+                const profilePictureElement = document.getElementById('profilePicture');
+                profilePictureElement.src = profilePictureUrl;
+            })
+            .catch(error => {
+                console.error('Error fetching user data:', error);
+            });
+    }
+</script>
 </body>
 </html>

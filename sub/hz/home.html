@@ -29,91 +29,21 @@
 </a>
 <div id="userName">
       PsyduckAnime </div>
-<div id="links">
-<a class="link" href="ep1.html" target="_self">
-        episode 1
-      <a>
-<div id="links">
-<a class="link" href="ep2.html" target="_self">
-        episode 2
-      <a>
-<div id="links">
-<a class="link" href="ep3.html" target="_self">
-        episode 3
-      <a>
-<div id="links">
-<a class="link" href="ep4.html" target="_self">
-        episode 4
-      <a>
-<div id="links">
-<a class="link" href="ep5.html" target="_self">
-        episode 5
-      <a>
-<div id="links">
-<a class="link" href="ep6.html" target="_self">
-        episode 6
-      <a>
-<div id="links">
-<a class="link" href="ep7.html" target="_self">
-        episode 7
-      <a>
-<div id="links">
-<a class="link" href="ep8.html" target="_self">
-        episode 8
-      <a>
-<div id="links">
-<a class="link" href="ep9.html" target="_self">
-        episode 9
-      <a>
-<div id="links">
-<a class="link" href="ep10.html" target="_self">
-        episode 10
-      <a>
-<div id="links">
-<a class="link" href="ep11.html" target="_self">
-        episode 11
-      <a>
-<div id="links">
-<a class="link" href="ep12.html" target="_self">
-        episode 12
-      <a>
-<div id="links">
-<a class="link" href="ep13.html" target="_self">
-        episode 13
-      <a>
-<div id="links">
-<a class="link" href="ep14.html" target="_self">
-            episode 14
-          <a>
-<div id="links">
-<a class="link" href="ep15.html" target="_self">
-                episode 15
-              <a>
-<div id="links">
-<a class="link" href="ep16.html" target="_self">
-                    episode 16
-                  <a>
-<div id="links">
-<a class="link" href="ep17.html" target="_self">
-                        episode 17
-                      <a>
-<div id="links">
-<a class="link" href="ep18.html" target="_self">
-                        episode 18
-                      <a>
-<div id="links">
-<a class="link" href="ep19.html" target="_self">
-                            episode 19
-                          <a>
-<!--<div id="links"-->
-<a class="link" href="ep20.html" target="_self">
-                            episode 20
-                          <a>
-                            <a class="link" href="ep21.html" target="_self">
-                              episode 21
-                            <a>
-                            <a class="link" href="ep22.html" target="_self">
-                              episode 22
-                            <a>                              
 
+      <div id="links">
+        <a class="link" href="ep1.html" target="_self">
+                ep1
+              </a>
+        <!-- Episodes 2 to 146 -->
+        <script>
+                for (let episode = 2; episode <= 23; episode++) {
+                  let link = document.createElement('a');
+                  link.className = 'link';
+                  link.href = 'ep' + episode + '.html';
+                  link.target = '_self';
+                  link.textContent = 'ep' + episode;
+        
+                  document.getElementById('links').appendChild(link);
+                }
+              </script>
 </body></html>

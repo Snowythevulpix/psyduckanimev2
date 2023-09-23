@@ -21,6 +21,14 @@
             height: 32px;
             cursor: pointer;
         }
+        
+        /* Add this style for the widget */
+        .clicky-widget {
+            position: fixed;
+            top: 10px; /* Adjust the top position as needed */
+            right: 10px; /* Adjust the right position as needed */
+            z-index: 9999; /* Ensure it's above other elements */
+        }
     </style>
 </head>
 <body class="dark-mode">
@@ -50,5 +58,11 @@
 <div id="links">
     <a class="link" href="dub/home.html" target="_self">dub</a>
 </div>
+
+<!-- Add this code for the Clicky widget with the specified positioning -->
+<div class="clicky-widget">
+    <script src="//widgets.clicky.com/tally/?site_id=101427484&sitekey=32a3e311b36167f5b84c7297de216161&width=175&height=250&title=&hide_title=0&hide_branding=0" type="text/javascript"></script>
+</div>
+
 </body>
 </html>

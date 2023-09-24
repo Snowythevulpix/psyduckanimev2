@@ -1,57 +1,24 @@
-# Define the HTML content to be inserted
-loading_gif_block = '''
-<div id="loading" style="display: block;">
-    <!-- Display the loading GIF with a 16:9 aspect ratio -->
-    <img src="https://psyduckanime.lol/loading.gif" alt="Loading..." style="height: 360px; width: 640px;">
-</div>
-'''
+import os
 
-# Define the JavaScript code to hide the loading GIF after the episode is loaded
-hide_loading_gif_script = '''
-<script>
-    // Function to hide the loading GIF
-    function hideLoadingGif() {
-        var loadingDiv = document.getElementById('loading');
-        loadingDiv.style.display = 'none';
-    }
+# Directory path
+directory_path = r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\dub\os'
 
-    // Create a function to check if the episode is loaded
-    function isEpisodeLoaded() {
-        return new Promise((resolve) => {
-            var player = getPlayer();
-            player.on('play', function () {
-                resolve();
-            });
-        });
-    }
+# Iterate through files in the directory
+for filename in os.listdir(directory_path):
+    file_path = os.path.join(directory_path, filename)
 
-    // Call the hideLoadingGif function after the episode is loaded
-    isEpisodeLoaded().then(hideLoadingGif);
-</script>
-'''
+    # Check if the file is not 'home.html' and has a '.html' extension
+    if os.path.isfile(file_path) and filename != 'home.html' and filename.endswith('.html'):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            # Read the file content
+            file_content = file.read()
 
-# Define the file path for ep1.html
-file_path = r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\sub\sm\ep1.html'
+            # Replace the line with the desired code
+            file_content = file_content.replace('var episodeId = "pokemon-2019-dub-episode-133";',
+                                                f'var episodeId = "pokemon-dub-episode-{filename[2:-5]}";')
 
-try:
-    # Read the content of the HTML file
-    with open(file_path, 'r', encoding='utf-8') as file:
-        html_content = file.read()
+        # Write the modified content back to the file
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(file_content)
 
-    # Find the insertion point for the loading GIF (just under the top bar definition)
-    insertion_point = '<!-- Insert Loading GIF Here -->'
-    modified_content = html_content.replace('PsyduckAnime - watch pokemon subbed and dubbed for free', 'PsyduckAnime - watch pokemon subbed and dubbed for free' + loading_gif_block, 1)
-
-    # Find the insertion point for hide loading GIF script (right before </body>)
-    insertion_point_script = '<!-- Insert JavaScript Here -->'
-    modified_content = modified_content.replace('</body>', hide_loading_gif_script + '\n</body>', 1)
-
-    # Write the modified content back to the file
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(modified_content)
-
-    print(f"Updated {file_path}")
-except FileNotFoundError:
-    print(f"Error: File not found at path {file_path}")
-except Exception as e:
-    print(f"An error occurred: {str(e)}")
+print("Modification completed.")

@@ -32,22 +32,32 @@
 <div id="userName">
       PsyduckAnime
     </div>
-<div id="links">
-<a class="link" href="ep1.html" target="_self">
-        ep1
-      </a>
-<!-- Episodes 2 to 146 -->
-<script>
-        for (let episode = 2; episode <= 81; episode++) {
-          let link = document.createElement('a');
-          link.className = 'link';
-          link.href = 'ep' + episode + '.html';
-          link.target = '_self';
-          link.textContent = 'ep' + episode;
+    <div id="links">
+        <a class="link" href="ep1.html" target="_self">ep1</a>
+        <!-- Episodes 2 to 81 -->
+    </div>
+    <script>
+        const jsonUrl = "https://c.delusionz.xyz/anime/gogoanime/info/pokemon-dub";
 
-          document.getElementById('links').appendChild(link);
-        }
-      </script>
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => {
+                const totalEpisodes = data.totalEpisodes;
+
+                for (let episode = 2; episode <= totalEpisodes; episode++) {
+                    let link = document.createElement('a');
+                    link.className = 'link';
+                    link.href = 'ep' + episode + '.html';
+                    link.target = '_self';
+                    link.textContent = 'ep' + episode;
+
+                    document.getElementById('links').appendChild(link);
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching JSON data:", error);
+            });
+    </script>
 </div>
 <script>
             function redirectToDownload() {
@@ -87,4 +97,3 @@
             }
         </script></body>
 </html>
-+

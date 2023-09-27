@@ -1,24 +1,21 @@
 import os
+import fileinput
+import re
 
-# Directory path
-directory_path = r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\dub\os'
+# Read the content of ep2.html
+with open(r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\sub\sm\ep2.html', 'r', encoding='utf-8') as ep2_file:
+    ep2_content = ep2_file.read()
 
-# Iterate through files in the directory
-for filename in os.listdir(directory_path):
-    file_path = os.path.join(directory_path, filename)
+directory = r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\sub\sm'
 
-    # Check if the file is not 'home.html' and has a '.html' extension
-    if os.path.isfile(file_path) and filename != 'home.html' and filename.endswith('.html'):
-        with open(file_path, 'r', encoding='utf-8') as file:
-            # Read the file content
-            file_content = file.read()
-
-            # Replace the line with the desired code
-            file_content = file_content.replace('var episodeId = "pokemon-2019-dub-episode-133";',
-                                                f'var episodeId = "pokemon-dub-episode-{filename[2:-5]}";')
-
-        # Write the modified content back to the file
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(file_content)
-
-print("Modification completed.")
+for root, dirs, files in os.walk(directory):
+    for file in files:
+        if file.endswith(".html") and file != "home.html":
+            file_path = os.path.join(root, file)
+            episode_match = re.search(r'ep(\d+)\.html', file)
+            if episode_match:
+                episode_number = episode_match.group(1)
+                modified_content = ep2_content.replace('pokemon-sun-moon-episode-2', f'pokemon-sun-moon-episode-{episode_number}')
+                with open(file_path, 'w', encoding='utf-8') as modified_file:
+                    modified_file.write(modified_content)
+                print(f"Modified: {file_path}")

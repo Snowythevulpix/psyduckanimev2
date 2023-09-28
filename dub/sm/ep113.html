@@ -1,96 +1,109 @@
+
+<!DOCTYPE html>
 <html>
-<title>PsyduckAnime - watch Pokemon Sun and Moon for free </title>
-<meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
-<meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
-<!-- Favicon -->
-<link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
-<meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
-<meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
-<!-- Favicon -->
-<link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
 <head>
-<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="text/javascript"></script>
+    <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
+    <meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
+    <meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
+    <!-- Favicon -->
+    <link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
+    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="text/javascript"></script>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: #424242;
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: #424242;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: #424242;
+        }
+    </style>
 </head>
-<body class="dark-mode"><div class="top-bar"><a href="https://snowythevulpix.github.io/redirect" title="Go to Home"><img alt="Logo" class_="logo" src="https://psyduckanime.lol/Psyduck.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/></a>PsyduckAnime - watch pokemon subbed and dubbed for free</div>
+<body class="dark-mode">
+<div class="top-bar">
+    <a href="https://snowythevulpix.github.io/redirect" title="Go to Home">
+        <img alt="Logo" class_="logo" src="https://psyduckanime.lol/Psyduck.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
+    </a>
+    PsyduckAnime - watch pokemon subbed and dubbed for free
+</div>
+<div id="loading" style="display: block;">
+    <!-- Display the loading GIF with a 16:9 aspect ratio -->
+    <img src="https://psyduckanime.lol/loading.gif" alt="Loading..." style="height: 360px; width: 640px;">
+</div>
 <div id="player"></div>
+<button onclick="darkMode()">Dark Mode</button>
+<button onclick="lightMode()">Light Mode</button>
+<button onclick="redirectToDownload()">Click here to download</button>
 <script>
     var episodeId = "pokemon-sun-and-moon-dub-episode-113";
+
     async function getSource() {
         const request = await fetch("https://c.delusionz.xyz/anime/gogoanime/watch/" + episodeId);
         const json = await request.json();
-        var player = new Clappr.Player({source: json.sources[2].url, parentId: "#player"});
+        var player = new Clappr.Player({ source: json.sources[2].url, parentId: "#player" });
+
+        // Hide the loading GIF after the episode is loaded
+        document.getElementById("loading").style.display = "none";
     }
     getSource();
-</script>
-<button onclick="redirectToDownload()">Click here to download</button><script>
-            function redirectToDownload() {
-                fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
-                    .then(response => response.json())
-                    .then(data => {
-                        var downloadUrl = data.download;
-                        window.location.href = downloadUrl;
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                    });
-            }
-        </script><script>
-            function nextEpisode() {
-                // Get the current URL
-                const currentUrl = window.location.href;
 
-                // Extract the episode number from the current URL
-                const match = currentUrl.match(/\/ep(\d+)\.html/);
+    function nextEpisode() {
+        // Get the current URL
+        const currentUrl = window.location.href;
 
-                if (match) {
-                    // Extract the episode number as an integer
-                    const currentEpisodeNumber = parseInt(match[1]);
+        // Extract the episode number from the current URL
+        const match = currentUrl.match(/\/ep(\d+)\.html/);
 
-                    // Calculate the next episode number
-                    const nextEpisodeNumber = currentEpisodeNumber + 1;
+        if (match) {
+            // Extract the episode number as an integer
+            const currentEpisodeNumber = parseInt(match[1]);
 
-                    // Construct the URL for the next episode
-                    const nextEpisodeUrl = `ep${nextEpisodeNumber}.html`;
+            // Calculate the next episode number
+            const nextEpisodeNumber = currentEpisodeNumber + 1;
 
-                    // Redirect to the next episode if it exists
-                    window.location.href = nextEpisodeUrl;
-                } else {
-                    alert('Could not determine the current episode number.');
-                }
-            }
-        </script><button onclick="nextEpisode()">Next Episode</button></body>
-<style>
-      body {
-        padding: 25px;
-        background-color: white;
-        color: 424242;
-        font-size: 25px;
-      }
-      .dark-mode {
-        background-color: 424242;
-        color: white;
-      }
-      .light-mode {
-        background-color: white;
-        color: 424242;
-      }
-    </style>
-<body class="dark-mode">
-<button onclick="darkMode()">Darkmode</button>
-<button onclick="lightMode()">LightMode</button>
-<script>
-      function darkMode() {
+            // Construct the URL for the next episode
+            const nextEpisodeUrl = `ep${nextEpisodeNumber}.html`;
+
+            // Redirect to the next episode if it exists
+            window.location.href = nextEpisodeUrl;
+        } else {
+            alert('Could not determine the current episode number.');
+        }
+    }
+
+    function redirectToDownload() {
+        fetch('https://c.delusionz.xyz/anime/gogoanime/watch/' + episodeId)
+            .then(response => response.json())
+            .then(data => {
+                var downloadUrl = data.download;
+                window.location.href = downloadUrl;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+
+    function darkMode() {
         var element = document.body;
         var content = document.getElementById("DarkModetext");
         element.className = "dark-mode";
         content.innerText = "Dark Mode is ON";
-      }
-      function lightMode() {
+    }
+
+    function lightMode() {
         var element = document.body;
         var content = document.getElementById("DarkModetext");
         element.className = "light-mode";
         content.innerText = "Dark Mode is OFF";
-      }
-    </script>
+    }
+</script>
+<!-- Next Episode button -->
+<button onclick="nextEpisode()">Next Episode</button>
 </body>
 </html>

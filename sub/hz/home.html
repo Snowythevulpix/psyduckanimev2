@@ -39,42 +39,46 @@
             ep1
         </a>
         
-<script>
-// Define the URL to fetch the totalEpisodes value
-const infoURL = "https://psyduckanime.xyz/anime/gogoanime/info/pokemon-shinsaku-anime";
-
-// Initialize a variable to store the totalEpisodes value
-let totalEpisodes;
-
-// Fetch the data from the URL
-fetch(infoURL)
-  .then(response => {
-    if (response.ok) {
-      return response.json();
-    } else {
-      throw new Error("Failed to fetch total episodes data");
-    }
-  })
-  .then(data => {
-    totalEpisodes = data.totalEpisodes;
-    console.log("Total Episodes:", totalEpisodes);
-  })
-  .catch(error => {
-    console.error("Error:", error);
-  });
-</script>
         <script>
-            // Replace this with the totalEpisodes obtained from the API
+          // Define the URL to fetch the totalEpisodes value
+          const infoURL = "https://psyduckanime.xyz/anime/gogoanime/info/pokemon-shinsaku-anime";
+          
+          // Initialize a variable to store the totalEpisodes value
+          let totalEpisodes;
+          
+          // Fetch the data from the URL
+          fetch(infoURL)
+            .then(response => {
+              if (response.ok) {
+                return response.json();
+              } else {
+                throw new Error("Failed to fetch total episodes data");
+              }
+            })
+            .then(data => {
+              totalEpisodes = data.totalEpisodes;
+              console.log("Total Episodes:", totalEpisodes);
+              
+              // Call a function to create the episode links
+              createEpisodeLinks(totalEpisodes);
+            })
+            .catch(error => {
+              console.error("Error:", error);
+            });
+          
+          // Function to create episode links
+          function createEpisodeLinks(totalEpisodes) {
             for (let episode = 2; episode <= totalEpisodes; episode++) {
-                let link = document.createElement('a');
-                link.className = 'link';
-                link.href = `horizons.html#${episode}`;
-                link.target = '_self';
-                link.textContent = episode.toString();
-
-                document.getElementById('links').appendChild(link);
+              let link = document.createElement('a');
+              link.className = 'link';
+              link.href = `horizons.html#${episode}`;
+              link.target = '_self';
+              link.textContent = episode.toString();
+          
+              document.getElementById('links').appendChild(link);
             }
-        </script>
+          }
+          </script>          
     </div>
 </body>
 </html>

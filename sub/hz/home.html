@@ -38,10 +38,33 @@
         <a class="link" href="horizons.html#1" target="_self">
             ep1
         </a>
+        
+<script>
+// Define the URL to fetch the totalEpisodes value
+const infoURL = "https://psyduckanime.xyz/anime/gogoanime/info/pokemon-shinsaku-anime";
+
+// Initialize a variable to store the totalEpisodes value
+let totalEpisodes;
+
+// Fetch the data from the URL
+fetch(infoURL)
+  .then(response => {
+    if (response.ok) {
+      return response.json();
+    } else {
+      throw new Error("Failed to fetch total episodes data");
+    }
+  })
+  .then(data => {
+    totalEpisodes = data.totalEpisodes;
+    console.log("Total Episodes:", totalEpisodes);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
+</script>
         <script>
             // Replace this with the totalEpisodes obtained from the API
-            const totalEpisodes = 23;
-
             for (let episode = 2; episode <= totalEpisodes; episode++) {
                 let link = document.createElement('a');
                 link.className = 'link';

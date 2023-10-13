@@ -5,11 +5,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Choose Episode - Pocket Monsters 2023</title>
     <!-- Favicon -->
-    <meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
+    <meta content="Psyduckanime - watch Pokémon for free" property="og:title"/>
     <meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
     <!-- Favicon -->
     <link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
-    <link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
+    <link href="https://m.media-amazon.com/images/m/mv5bmgnjmmflywutmdbjn00yzdlltk3nzktzjfjmjzlmwfiodyyxkeyxfqcgdeqvyotayndu0mzc@v1fmjpgux1000.jpg" rel="icon"/>
     <!-- Font Awesome icons -->
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"/>
     <!-- Core theme CSS -->
@@ -25,7 +25,7 @@
     <section class="animated-background">
         <div id="stars1"></div>
         <div id="stars2"></div>
-        <div id "stars3"></div>
+        <div id="stars3"></div>
     </section>
     <!-- End of Parallax Pixel Background Animation -->
     <a href="#popup" id="profilePicture">
@@ -34,51 +34,61 @@
     <div id="userName">
         PsyduckAnime
     </div>
-    <div id="links">
-        <a class="link" href="horizons.html#1" target="_self">
-          1
-        </a>
-        
-        <script>
-          // Define the URL to fetch the totalEpisodes value
-          const infoURL = "https://psyduckanime.xyz/anime/gogoanime/info/pokemon-shinsaku-anime";
-          
-          // Initialize a variable to store the totalEpisodes value
-          let totalEpisodes;
-          
-          // Fetch the data from the URL
-          fetch(infoURL)
+<!-- Loading GIF (half the size of the original) -->
+<div id="loading-screen" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #333; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 999;">
+  <img src="https://psyduckanime.lol/loading.gif" alt="Loading" style="width: 50%; height: 50%;" />
+</div>
+    <!-- Episode Links Container -->
+    <div id="episode-links" style="display: none;">
+        <!-- This is where episode links will be added -->
+    </div>
+    <script>
+        // Define the URL to fetch the totalEpisodes value
+        const infoURL = "https://psyduckanime.xyz/anime/gogoanime/info/pokemon-shinsaku-anime";
+
+        // Initialize a variable to store the totalEpisodes value
+        let totalEpisodes;
+
+        // Fetch the data from the URL
+        fetch(infoURL)
             .then(response => {
-              if (response.ok) {
-                return response.json();
-              } else {
-                throw new Error("Failed to fetch total episodes data");
-              }
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error("Failed to fetch total episodes data");
+                }
             })
             .then(data => {
-              totalEpisodes = data.totalEpisodes;
-              console.log("Total Episodes:", totalEpisodes);
-              
-              // Call a function to create the episode links
-              createEpisodeLinks(totalEpisodes);
+                totalEpisodes = data.totalEpisodes;
+                console.log("Total Episodes:", totalEpisodes);
+
+                // Call a function to create the episode links
+                createEpisodeLinks(totalEpisodes);
             })
             .catch(error => {
-              console.error("Error:", error);
+                console.error("Error:", error);
             });
-          
-          // Function to create episode links
-          function createEpisodeLinks(totalEpisodes) {
-            for (let episode = 2; episode <= totalEpisodes; episode++) {
-              let link = document.createElement('a');
-              link.className = 'link';
-              link.href = `horizons.html#${episode}`;
-              link.target = '_self';
-              link.textContent = episode.toString();
-          
-              document.getElementById('links').appendChild(link);
+
+        // Function to create episode links
+        function createEpisodeLinks(totalEpisodes) {
+            const episodeLinksContainer = document.getElementById("episode-links");
+
+            for (let episode = 1; episode <= totalEpisodes; episode++) {
+                let link = document.createElement("a");
+                link.className = "link";
+                link.href = `horizons.html#${episode}`;
+                link.target = "_self";
+                link.textContent = episode.toString();
+
+                episodeLinksContainer.appendChild(link);
             }
-          }
-          </script>          
-    </div>
+
+            // Hide the loading screen and show the episode links
+            const loadingScreen = document.getElementById("loading-screen");
+            loadingScreen.style.display = "none";
+
+            episodeLinksContainer.style.display = "block";
+        }
+    </script>
 </body>
 </html>

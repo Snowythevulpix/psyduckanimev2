@@ -47,6 +47,41 @@
                     // Find the 1080p video URL from the episode data
                     const video1080p = data.sources.find(source => source.quality === "1080p");
 
+                    let titleofep; // Declare a variable to store the title
+
+// Function to fetch and handle JSON data
+function fetchAndHandleJSON(episodeNumber) {
+    // Construct the URL with the episode number from the fragment identifier
+    const fragmentIdentifier = window.location.hash;
+    const episodeId = parseInt(fragmentIdentifier.substring(1)); // Remove the '#' and convert to an integer
+    const apiUrl = `https://api.jikan.moe/v4/anime/53876/episodes/${episodeId}`;
+
+    // Make a GET request to the API
+    fetch(apiUrl)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then((jsonData) => {
+            // Access the 'title' property from the 'data' object
+            titleofep = jsonData.data.title;
+            console.log("Title of the Episode:", titleofep);
+        })
+        .catch((error) => {
+            console.error("Error fetching JSON data:", error);
+        });
+}
+
+// Call the function to fetch and handle JSON when needed, passing the episode number
+fetchAndHandleJSON();
+
+
+
+
+
+
                     if (video1080p) {
                         // Create a container for the episode
                         const episodeElement = document.createElement("div");

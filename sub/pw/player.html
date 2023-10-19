@@ -120,14 +120,20 @@
 
     <button onclick="darkMode()">Dark Mode</button>
     <button onclick="lightMode()">Light Mode</button>
-    <button onclick="redirectToDownload()">Click here to download</button>
 
     <script>
-        // Your dark mode and light mode functions
-    </script>
-
-    <script>
-        // Your next episode function
-    </script>
+        function darkMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "dark-mode";
+          content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "light-mode";
+          content.innerText = "Dark Mode is OFF";
+        }
+      </script>
 </body>
 </html>

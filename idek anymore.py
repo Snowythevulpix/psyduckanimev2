@@ -1,36 +1,28 @@
 import os
-import re
 
-# Get user input for the episode ID and directory to be edited
-episode_id = input("Enter the episode ID: ")
-directory = input("Enter the directory path to be edited: ")
+def replace_text_in_file(file_path, old_text, new_text):
+    with open(file_path, 'r') as file:
+        file_content = file.read()
+    
+    modified_content = file_content.replace(old_text, new_text)
+    
+    with open(file_path, 'w') as file:
+        file.write(modified_content)
 
-# Read the content from ep1.html
-with open(r'C:\Users\Hayle\OneDrive\Desktop\psyduckanime v2\psyduckanime-main\sub\sm\ep1.html', 'r', encoding='utf-8') as ep1_file:
-    ep1_content = ep1_file.read()
+def search_and_replace_in_directory(directory_path, old_text, new_text):
+    for root, dirs, files in os.walk(directory_path):
+        for file_name in files:
+            if file_name.endswith(".html"):  # Check for HTML files
+                file_path = os.path.join(root, file_name)
+                try:
+                    replace_text_in_file(file_path, old_text, new_text)
+                    print(f"Modified: {file_path}")
+                except Exception as e:
+                    print(f"Error modifying {file_path}: {e}")
 
-for root, dirs, files in os.walk(directory):
-    for file in files:
-        if file.endswith(".html") and file != "home.html":
-            file_path = os.path.join(root, file)
-            episode_match = re.search(r'ep(\d+)\.html', file)
-            if episode_match:
-                episode_number = episode_match.group(1)
-                # Clear the content of the file
-                with open(file_path, 'w', encoding='utf-8') as clear_file:
-                    pass
-
-                # Write the content from ep1.html
-                with open(file_path, 'a', encoding='utf-8') as modified_file:
-                    modified_file.write(ep1_content)
-
-                # Update the episodeId variable
-                with open(file_path, 'r', encoding='utf-8') as original_file:
-                    content = original_file.read()
-
-                modified_content = re.sub(r'var episodeId = "pokemon-sun-moon-episode-\d+";', f'var episodeId = "{episode_id}-{episode_number}";', content)
-
-                with open(file_path, 'w', encoding='utf-8') as modified_file:
-                    modified_file.write(modified_content)
-
-                print(f"Modified: {file_path}")
+if __name__ == "__main__":
+    directory_path = os.path.abspath(os.getcwd())
+    old_text = "https://c.delusionz.xyz/"
+    new_text = "https://psyduckanime.xyz"
+    
+    search_and_replace_in_directory(directory_path, old_text, new_text)

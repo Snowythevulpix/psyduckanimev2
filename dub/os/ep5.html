@@ -34,7 +34,7 @@
 <script>
         var episodeId = "pokemon-dub-episode-5";
         async function getSource() {
-            const request = await fetch("https://psyduckanime.xyz/anime/gogoanime/watch/" + episodeId);
+            const request = await fetch("https://psyduckanime.xyz//anime/gogoanime/watch/" + episodeId);
             const json = await request.json();
             var player = new Clappr.Player({ source: json.sources[2].url, parentId: "#player" });
         }
@@ -45,7 +45,7 @@
 <button onclick="redirectToDownload()">Click here to download</button>
 <script>
         function redirectToDownload() {
-            fetch('https://psyduckanime.xyzanime/gogoanime/watch/' + episodeId)
+            fetch('https://psyduckanime.xyz/anime/gogoanime/watch/' + episodeId)
                 .then(response => response.json())
                 .then(data => {
                     var downloadUrl = data.download;

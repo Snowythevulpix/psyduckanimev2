@@ -4,6 +4,7 @@ def replace_text_in_file(file_path, old_text, new_text):
     with open(file_path, 'r') as file:
         file_content = file.read()
     
+    # Replace old_text with new_text including the slash
     modified_content = file_content.replace(old_text, new_text)
     
     with open(file_path, 'w') as file:
@@ -22,7 +23,7 @@ def search_and_replace_in_directory(directory_path, old_text, new_text):
 
 if __name__ == "__main__":
     directory_path = os.path.abspath(os.getcwd())
-    old_text = "https://c.delusionz.xyz/"
-    new_text = "https://psyduckanime.xyz"
+    old_text = "https://psyduckanime.xyz"
+    new_text = "https://psyduckanime.xyz/"
     
     search_and_replace_in_directory(directory_path, old_text, new_text)

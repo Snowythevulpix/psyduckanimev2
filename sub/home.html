@@ -37,13 +37,12 @@
 <div id="links">
 <a class="link" href="movies/home.html" target="_self">
         movies
-
-        <div id="links">
-          <a class="link" href="pw/home.html" target="_self">
-                  paldean wind's
-                </a>
-
-      </a>
+</a>
+<div id="links">
+<a class="link" href="pw/home.html" target="_self">
+          paldean wind's
+ </a>
+ </a>
 <div id="links">
 <a class="link" href="mpm/home.html" target="_self">
         aim to be a pokemon master (pm19)
@@ -64,41 +63,4 @@
 <a class="link" href="ac/home.html" target="_self">
         legends arceus special
       </a>
-</div></div></div></div></div></div></div><script>
-            function redirectToDownload() {
-                fetch('https://psyduckanime.xyz/anime/gogoanime/watch/' + episodeId)
-                    .then(response => response.json())
-                    .then(data => {
-                        var downloadUrl = data.download;
-                        window.location.href = downloadUrl;
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                    });
-            }
-        </script><script>
-            function nextEpisode() {
-                // Get the current URL
-                const currentUrl = window.location.href;
-
-                // Extract the episode number from the current URL
-                const match = currentUrl.match(/\/ep(\d+)\.html/);
-
-                if (match) {
-                    // Extract the episode number as an integer
-                    const currentEpisodeNumber = parseInt(match[1]);
-
-                    // Calculate the next episode number
-                    const nextEpisodeNumber = currentEpisodeNumber + 1;
-
-                    // Construct the URL for the next episode
-                    const nextEpisodeUrl = `ep${nextEpisodeNumber}.html`;
-
-                    // Redirect to the next episode if it exists
-                    window.location.href = nextEpisodeUrl;
-                } else {
-                    alert('Could not determine the current episode number.');
-                }
-            }
-        </script></body>
 </html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
+    <meta content="Psyduckanime - testing page" property="og:title"/>
+    <meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
+    <!-- Favicon -->
+    <link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
+    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="text/javascript"></script>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: #424242;
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: #424242;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: #424242;
+        }
+    </style>
+</head>
+<body class="dark-mode">
+    <div class="top-bar">
+        <a href="https://snowythevulpix.github.io/redirect" title="Go to Home">
+            <img alt="Logo" class_="logo" src="https://psyduckanime.lol/Psyduck.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
+        </a>
+        PsyduckAnime - watch Pokemon subbed and dubbed for free
+    </div>
+
+    <div id="episode-container"></div>
+
+    <script>
+        // Function to fetch and handle JSON data for the given episode ID
+        async function fetchAndHandleJSON(episodeId) {
+            try {
+                // Construct the URL for the JSON data
+                const apiUrl = `https://api.jikan.moe/v4/anime/56218/episodes/${episodeId}`;
+                const response = await fetch(apiUrl);
+
+                if (!response.ok) {
+                    console.log(`Failed to fetch episode data for episode ${episodeId}`);
+                    return;
+                }
+
+                const jsonData = await response.json();
+                const titleofep = jsonData.data.title;
+                console.log(`Title of Episode ${episodeId}: ${titleofep}`);
+
+                return titleofep;
+            } catch (error) {
+                console.error(`Error loading episode ${episodeId}: ${error.message}`);
+            }
+        }
+
+        // Function to fetch episode data and play using Clappr player
+        async function loadAndPlayEpisode(episodeId) {
+            try {
+                const titleofep = await fetchAndHandleJSON(episodeId);
+
+                if (titleofep) {
+                    // Fetch episode data for the given episode ID
+                    const response = await fetch(`https://psyduckanime.xyz/anime/gogoanime/watch/houkago-no-breath-episode-${episodeId}`);
+
+                    if (!response.ok) {
+                        console.log(`Failed to fetch episode data for episode ${episodeId}`);
+                        return;
+                    }
+
+                    const data = await response.json();
+
+                    // Find the 1080p video URL from the episode data
+                    const video1080p = data.sources.find(source => source.quality === "1080p");
+
+                    if (video1080p) {
+                        // Create a container for the episode
+                        const episodeContainer = document.getElementById("episode-container");
+                        const episodeElement = document.createElement("div");
+                        episodeElement.id = `episode-${episodeId}`;
+
+                        // Create a header with the episode title
+                        const episodeHeader = document.createElement("h2");
+                        episodeHeader.textContent = `Episode ${episodeId} - ${titleofep}`;
+                        episodeElement.appendChild(episodeHeader);
+
+                        // Append the episode container to the main container
+                        episodeContainer.appendChild(episodeElement);
+
+                        // Initialize Clappr player for the episode
+                        const player = new Clappr.Player({
+                            source: video1080p.url,
+                            parentId: `#episode-${episodeId}`,
+                        });
+                    } else {
+                        console.log(`1080p video for episode ${episodeId} not available.`);
+                    }
+                }
+            } catch (error) {
+                console.error(`Error loading episode ${episodeId}: ${error.message}`);
+            }
+        }
+
+        // Get the episode number from the fragment identifier in the URL
+        const fragmentIdentifier = window.location.hash;
+        const episodeId = parseInt(fragmentIdentifier.substring(1));
+
+        // Load and play the episode specified in the URL fragment
+        if (!isNaN(episodeId) && episodeId >= 1) {
+            loadAndPlayEpisode(episodeId);
+        } else {
+            console.log("No episode specified in the URL fragment.");
+        }
+    </script>
+
+    <!-- Your other HTML code -->
+
+    <button onclick="darkMode()">Dark Mode</button>
+    <button onclick="lightMode()">Light Mode</button>
+
+    <script>
+        function darkMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "dark-mode";
+          content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "light-mode";
+          content.innerText = "Dark Mode is OFF";
+        }
+      </script>
+</body>
+</html>

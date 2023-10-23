@@ -1,12 +1,12 @@
 {
-    "hz-sub": "pokemon-shinsaku-anime",
-    "pw-sub": "houkago-no-breath",
-    "pw-dub": "houkago-no-breath-dub",
-    "jn-sub": "pokemon-2019",
-    "jn-dub": "pokemon-2019-dub",
-    "sm-sub": "pokemon-sun-moon",
-    "sm-dub": "pokemon-sun-and-moon-dub",
-    "xy-sub": "Pokemon-xy",
-    "xyz-sub": "pokemon-xy-z"
+    "hzsub": "pokemon-shinsaku-anime",
+    "pwsub": "houkago-no-breath",
+    "pwdub": "houkago-no-breath-dub",
+    "jnsub": "pokemon-2019",
+    "jndub": "pokemon-2019-dub",
+    "smsub": "pokemon-sun-moon",
+    "smdub": "pokemon-sun-and-moon-dub",
+    "xysub": "Pokemon-xy",
+    "xyzsub": "pokemon-xy-z"
 }
   

@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
-    <meta content="Psyduckanime - watch pokemon for free" property="og:title">
-    <meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image">
-    <link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon">
+    <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
+    <meta content="Psyduckanime - watch Pokemon for free" property="og:title">
+    <meta content="https://m.media-amazon.com/images/mv5bmgnjmmy1lwyutmcbjs00ymzdltk3nzktyzjfmjzlmyfiodyyxkeyxfqcGdeqXVyota1odu0mzc@.jpg_ux1000_.jpg" property="og:image">
+    <link href="https://m.media-amazon.com/images/mv5bmgnjmmy1lwyutmcbjs00ymzdltk3nzktyzjfmjzlmyfiodyyxkeyxfqcGdeqXVyota1odu0mzc@.jpg_ux1000_.jpg" rel="icon">
     <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="text/javascript"></script>
 </head>
 <body class="dark-mode">
@@ -16,12 +17,6 @@
     <div id="player"></div>
 
     <script>
-        // Define the initial ID variable
-        let initialId = null;
-
-        // Get the episode number from a separate source or variable
-        const episodeId = 1; // Example episode ID, replace with your actual episode ID.
-
         // Get the URL fragment (everything after the '#')
         const fragmentIdentifier = window.location.hash.substring(1);
 
@@ -30,16 +25,17 @@
 
         if (fragmentParts.length === 2) {
             const shortcut = fragmentParts[0];
+            const episodeId = fragmentParts[1]; // Set episodeId to the number in the URL
 
-            // Load shortcuts from the JSON file
+            // Fetch the shortcuts from the JSON file
             fetch('shortcuts.json')
                 .then(response => response.json())
                 .then(data => {
                     if (data[shortcut]) {
-                        initialId = data[shortcut];
-                        console.log('Initial ID:', initialId);
+                        // Set initialId to the value from shortcuts.json
+                        const initialId = data[shortcut];
 
-                        // Define the API URL using initialId and episodeId
+                        // Construct the API URL using initialId and episodeId
                         const apiUrl = `https://psyduckanime.xyz/anime/gogoanime/watch/${initialId}-episode-${episodeId}`;
                         console.log("API URL:", apiUrl);
 
@@ -121,19 +117,17 @@
         }
     </style>
 
-    <body class="dark-mode">
-        <button onclick="darkMode()">Darkmode</button>
-        <button onclick="lightMode()">LightMode</button>
-        <script>
-            function darkMode() {
-                var element = document.body;
-                element.className = "dark-mode";
-            }
-            function lightMode() {
-                var element = document.body;
-                element.className = "light-mode";
-            }
-        </script>
-    </body>
+    <button onclick="darkMode()">Dark Mode</button>
+    <button onclick="lightMode()">Light Mode</button>
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.className = "dark-mode";
+        }
+        function lightMode() {
+            var element = document.body;
+            element.className = "light-mode";
+        }
+    </script>
 </body>
 </html>

@@ -68,8 +68,8 @@
 </div>
 
 <script>
-        // Function to extract the 'code' parameter from the URL
-        function extractCodeFromURL() {
+   // Function to extract the 'code' parameter from the URL
+   function extractCodeFromURL() {
             const urlParams = new URLSearchParams(window.location.search);
             const code = urlParams.get("code");
 
@@ -84,7 +84,7 @@
         // Function to send the code to your backend
         function sendCodeToBackend(code) {
             // Define the endpoint of your backend
-            const backendEndpoint = 'https://backend.psyduckanime.xyz'; // Replace with your actual route
+            const backendEndpoint = 'https://backend.psyduckanime.xyz/route.js'; // Replace with your actual route
 
             // Create a POST request with the code as the payload
             fetch(backendEndpoint, {
@@ -97,6 +97,7 @@
                 .then(response => {
                     if (response.ok) {
                         console.log('Authorization code sent to the backend successfully.');
+                        // Handle the response from the backend, e.g., display the user's profile picture.
                     } else {
                         console.error('Failed to send the authorization code to the backend.');
                     }

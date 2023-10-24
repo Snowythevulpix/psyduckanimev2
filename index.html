@@ -67,10 +67,25 @@
     <a class="link" href="dub/home.html" target="_self">dub</a>
 </div>
 
-<!-- Add this code for the Clicky widget with the specified positioning -->
-<div class="clicky-widget">
-    <script src="//widgets.clicky.com/tally/?site_id=101427484&sitekey=32a3e311b36167f5b84c7297de216161&width=175&height=250&title=&hide_title=0&hide_branding=0" type="text/javascript"></script>
-</div>
+<script>
+    // Function to extract the 'code' parameter from the URL
+    function extractCodeFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get("code");
+
+        if (code) {
+            // Code found in the URL, print it to the console
+            console.log("Authorization Code:", code);
+
+            // You can now send this code to your server for token exchange and user authentication.
+        } else {
+            console.log("No authorization code found in the URL.");
+        }
+    }
+
+    // Call the function when the page loads to extract the code
+    extractCodeFromURL();
+</script>
 
 </body>
 </html>

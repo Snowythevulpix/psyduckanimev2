@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>PsyduckAnime - best place to watch pokemon subbed and dubbed</title>
-    <meta property="og:title" content="Psyduckanime - watch pokemon for free"/>
+    <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
+    <meta property="og:title" content="Psyduckanime - watch Pokemon for free"/>
     <meta property="og:image" content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
     <!-- Favicon -->
     <link rel="icon" href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
@@ -13,6 +13,7 @@
     <!-- Core theme CSS -->
     <link rel="stylesheet" href="style.css"/>
     <style>
+        /* Your custom styles go here */
         .discord-icon {
             position: fixed;
             top: 10px;
@@ -21,7 +22,7 @@
             height: 32px;
             cursor: pointer;
         }
-        
+
         /* Add this style for the widget */
         .clicky-widget {
             position: fixed;
@@ -37,15 +38,18 @@
                 height: 150px; /* Adjust the height for mobile */
             }
         }
+
+        /* Additional custom styles can be added here */
     </style>
 </head>
 <body class="dark-mode">
+    <!-- Discord Icon -->
     <a href="discord.html">
-        <img alt="Logo" class="logo" src="discord-icon.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
+        <img alt="Discord Icon" class="discord-icon" src="discord-icon.png"/>
     </a>
 
-    <!-- Add this to your HTML file where you want to display the profile picture -->
-    <img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px; display: none;"/>
+    <!-- Profile Picture (hidden by default) -->
+    <img id="profilePicture" alt="Profile Picture" class="clicky-widget" style="display: none;"/>
 
     <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
@@ -54,20 +58,17 @@
         <div id="stars3"></div>
     </section>
     <!-- End of Parallax Pixel Background Animation -->
-    
-    <a href="#popup" id="profilePicture">
-        <img alt="Profile Picture" src="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"/>
-    </a>
-    <div id="userName">PsyduckAnime</div>
-</div>
-<div id="links">
-    <a class="link" href="sub/home.html" target="_self">sub</a>
-</div>
-<div id="links">
-    <a class="link" href="dub/home.html" target="_self">dub</a>
-</div>
 
-<script>
+    <!-- Links -->
+    <div id="links">
+        <a class="link" href="sub/home.html" target="_self">sub</a>
+    </div>
+    <div id="links">
+        <a class="link" href="dub/home.html" target="_self">dub</a>
+    </div>
+
+    <!-- JavaScript Code -->
+    <script>
         // Function to extract the 'code' parameter from the URL
         function extractCodeFromURL() {
             const urlParams = new URLSearchParams(window.location.search);
@@ -113,30 +114,13 @@
 
         // Function to display the profile picture
         function displayProfilePicture(profilePictureUrl) {
-            const profileImage = document.createElement('img');
+            const profileImage = document.getElementById('profilePicture');
             profileImage.src = profilePictureUrl;
-
-            // Append the image to the page
-            document.body.appendChild(profileImage);
+            profileImage.style.display = 'block'; // Show the profile picture
         }
 
         // Call the function when the page loads to extract the code
         extractCodeFromURL();
-
-        fetch('https://backend.psyduckanime.xyz/route.js', {
-    method: 'POST',
-    body: JSON.stringify({ code: yourCodeValue }),
-    mode: 'no-cors', // Set the request mode to 'no-cors'
-})
-    .then(response => {
-        // Handle the response here
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
-
-
-</script>
-
+    </script>
 </body>
 </html>

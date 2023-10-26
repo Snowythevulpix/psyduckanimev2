@@ -2,9 +2,7 @@
 <html>
 <head>
     <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
-    <meta content="Psyduckanime - watch Pokemon for free" property="og:title">
-    <meta content="https://m.media-amazon.com/images/mv5bmgnjmmy1lwyutmcbjs00ymzdltk3nzktyzjfmjzlmyfiodyyxkeyxfqcGdeqXVyota1odu0mzc@.jpg_ux1000_.jpg" property="og:image">
-    <link href="https://m.media-amazon.com/images/mv5bmgnjmmy1lwyutmcbjs00ymzdltk3nzktyzjfmjzlmyfiodyyxkeyxfqcGdeqXVyota1odu0mzc@.jpg_ux1000_.jpg" rel="icon">
+    <link href="https://psyduckanime.lol/Psyduck.png" rel="icon">
     <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js" type="text/javascript"></script>
 </head>
 <body class="dark-mode">
@@ -104,5 +102,35 @@
             element.className = "light-mode";
         }
     </script>
+
+<script>
+const url = `https://psyduckanime.xyz/anime/gogoanime/info/${initialId}`;
+
+// Function to fetch the data
+async function fetchData() {
+  try {
+    const response = await fetch(url);
+    
+    if (response.ok) {
+      const data = await response.json();
+      const image = data.image; // Assuming the response is in JSON format and has an "image" property
+      console.log('Image:', image);
+
+      // You can now use the 'image' variable for your further needs
+    } else {
+      console.error('Failed to retrieve data. Status:', response.status);
+    }
+  } catch (error) {
+    console.error('An error occurred:', error);
+  }
+}
+
+// Call the fetchData function to make the request
+fetchData();
+
+</script>
+
+<meta content="Psyduckanime - watch Pokemon for free" property="og:title">
+<meta content= image property="og:image"/>
 </body>
 </html>

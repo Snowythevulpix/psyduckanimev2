@@ -1,29 +1,39 @@
 import os
+import re
+import chardet
 
-def replace_text_in_file(file_path, old_text, new_text):
-    with open(file_path, 'r') as file:
-        file_content = file.read()
-    
-    # Replace old_text with new_text including the slash
-    modified_content = file_content.replace(old_text, new_text)
-    
-    with open(file_path, 'w') as file:
-        file.write(modified_content)
+# Define the directory path as the current working directory
+directory_path = os.getcwd()
 
-def search_and_replace_in_directory(directory_path, old_text, new_text):
-    for root, dirs, files in os.walk(directory_path):
-        for file_name in files:
-            if file_name.endswith(".html"):  # Check for HTML files
-                file_path = os.path.join(root, file_name)
-                try:
-                    replace_text_in_file(file_path, old_text, new_text)
-                    print(f"Modified: {file_path}")
-                except Exception as e:
-                    print(f"Error modifying {file_path}: {e}")
+# Define the old and new URLs
+old_url = "https://m.media-amazon.com/images/m/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg"
+new_url = "https://psyduckanime.lol/Psyduck.png"
 
-if __name__ == "__main__":
-    directory_path = os.path.abspath(os.getcwd())
-    old_text = "https://psyduckanime.xyz"
-    new_text = "https://psyduckanime.xyz/"
+# Define a function to replace URLs in an HTML file
+def replace_urls_in_html_file(file_path):
+    with open(file_path, 'rb') as file:
+        raw_data = file.read()
+        result = chardet.detect(raw_data)
+        encoding = result['encoding']
+
+    with open(file_path, 'r', encoding=encoding) as file:
+        file_contents = file.read()
+        new_contents = re.sub(re.escape(old_url), new_url, file_contents)
     
-    search_and_replace_in_directory(directory_path, old_text, new_text)
+    with open(file_path, 'w', encoding=encoding) as file:
+        file.write(new_contents)
+
+# Process only HTML files in the current directory and its subdirectories
+for root, dirs, files in os.walk(directory_path):
+    for file_name in files:
+        file_path = os.path.join(root, file_name)
+        
+        # Check if the file has an HTML extension (you can add more extensions if needed)
+        if file_name.endswith('.html') or file_name.endswith('.htm'):
+            try:
+                replace_urls_in_html_file(file_path)
+                print(f"Replaced URLs in {file_path}")
+            except Exception as e:
+                print(f"Error processing {file_path}: {str(e)}")
+
+print("URL replacement for HTML files complete.")

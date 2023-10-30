@@ -41,10 +41,10 @@
 <button onclick="lightMode()">Light Mode</button>
 <button onclick="redirectToDownload()">Click here to download</button>
 <script>
-    var episodeId = "pokemon-sun-moon-episode-1";
+    var episodeId = "pokemon-the-series-sun-moon-3918$episode$62496$dub";
 
     async function getSource() {
-        const request = await fetch("https://psyduckanime.xyz/anime/gogoanime/watch/" + episodeId);
+        const request = await fetch("https://psyduckanime.xyz/anime/zoro/watch/" + episodeId);
         const json = await request.json();
         var player = new Clappr.Player({ source: json.sources[2].url, parentId: "#player" });
 

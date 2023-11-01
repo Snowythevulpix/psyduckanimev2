@@ -106,24 +106,6 @@
           element.className = "light-mode";
         }
 
-        // Define the redirectToDownload function
-        function redirectToDownload() {
-            // Use the apiUrl variable to access the JSON data
-            const downloadUrl = apiUrl.downloadUrl; // Make sure the JSON structure matches
-            if (downloadUrl) {
-                // Redirect to the download URL
-                window.location.href = downloadUrl;
-            } else {
-                alert('Download link not available.');
-            }
-        }
-
-        // Get the download button element
-        const downloadButton = document.getElementById('download-button');
-
-        // Add a click event listener to the download button
-        downloadButton.addEventListener('click', redirectToDownload);
-
     </script>
 
 </body>

@@ -85,7 +85,7 @@
         }
 
         // Get the episode number from the fragment identifier in the URL
-        const fragmentIdentifier = window.location.hash;
+        const fragmentIdentifier = window.location.search;
         const episodeId = parseInt(fragmentIdentifier.substring(1));
 
         // Load and play the episode specified in the URL fragment

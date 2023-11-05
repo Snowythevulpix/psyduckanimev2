@@ -61,46 +61,66 @@
     </a>
     <div id="userName">PsyduckAnime</div>
     <div id="links">
-        <a class="link" href="/home.html" target="_self">Go to homepage</a>
+        <a class="link" href="sub/home.html" target="_self">sub</a>
+    </div>
+    <div id="links">
+        <a class="link" href="dub/home.html" target="_self">dub</a>
     </div>
 
     <!-- JavaScript Code -->
     <script>
-        // Function to check if the URL exists
-        function checkURLExists(url, callback) {
-            fetch(url, { method: 'HEAD' })
+        // Function to extract the 'code' parameter from the URL
+        function extractCodeFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const code = urlParams.get("code");
+
+            if (code) {
+                // Code found in the URL, send it to your backend
+                sendCodeToBackend(code);
+            } else {
+                console.log("No authorization code found in the URL.");
+            }
+        }
+
+        // Function to send the code to your backend
+        function sendCodeToBackend(code) {
+            // Define the endpoint of your backend
+            const backendEndpoint = 'https://backend.psyduckanime.xyz/route.js'; // Replace with your actual route
+
+            // Create a POST request with the code as the payload
+            fetch(backendEndpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ code: code }),
+            })
                 .then(response => {
                     if (response.ok) {
-                        callback(true);
+                        return response.json(); // Parse the response as JSON
                     } else {
-                        callback(false);
+                        console.error('Failed to send the authorization code to the backend.');
+                    }
+                })
+                .then(data => {
+                    if (data && data.profilePictureUrl) {
+                        displayProfilePicture(data.profilePictureUrl);
                     }
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    callback(false);
                 });
         }
 
-        // Function to update the button and perform action based on URL status
-        function updateButtonAndAction() {
-            const homepageButton = document.querySelector('.link');
-            const urlToCheck = "https://psyduckanime.xyz/anime/gogoanime/watch/pokemon-sun-moon-episode-1";
-
-            checkURLExists(urlToCheck, (urlExists) => {
-                if (urlExists) {
-                    // URL exists, load the page
-                    homepageButton.href = urlToCheck;
-                } else {
-                    // URL doesn't exist, update the button text and disable it
-                    homepageButton.textContent = "PsyduckAnime is down, please try again later";
-                    homepageButton.style.pointerEvents = "none"; // Disable the button
-                }
-            });
+        // Function to display the profile picture
+        function displayProfilePicture(profilePictureUrl) {
+            const profileImage = document.getElementById('profilePicture');
+            profileImage.src = profilePictureUrl;
+            profileImage.style.display = 'block'; // Show the profile picture
         }
 
-        // Call the function when the page loads
-        updateButtonAndAction();
+        // Call the function when the page loads to extract the code
+        extractCodeFromURL();
     </script>
-</body>
+    </body>
 </html>

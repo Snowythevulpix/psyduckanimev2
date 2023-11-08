@@ -78,6 +78,9 @@
 
                     // Store the player in the global variable
                     videoPlayer = player;
+
+                    // Attempt to load the saved timestamp if available
+                    loadSavedTimestamp();
                 } else {
                     console.log(`1080p video for episode ${episodeId} not available.`);
                 }
@@ -97,24 +100,23 @@
             console.log("No episode specified in the URL fragment.");
         }
 
-        // JavaScript functions for saving and loading timestamp
-        let savedTimestamp = 0;
-
+        // Function to save the timestamp in Local Storage
         function saveTimestamp() {
             if (videoPlayer) {
-                savedTimestamp = videoPlayer.getCurrentTime();
+                const savedTimestamp = videoPlayer.getCurrentTime();
+                localStorage.setItem('savedTimestamp', savedTimestamp);
                 alert("Timestamp saved: " + savedTimestamp + " seconds");
             } else {
                 alert("Video player not found. Try again after the player is ready.");
             }
         }
 
-        function loadTimestamp() {
-            if (videoPlayer) {
-                videoPlayer.seek(savedTimestamp);
-                alert("Timestamp loaded: " + savedTimestamp + " seconds");
-            } else {
-                alert("Video player not found. Try again after the player is ready.");
+        // Function to load the saved timestamp from Local Storage
+        function loadSavedTimestamp() {
+            const loadedTimestamp = localStorage.getItem('savedTimestamp');
+            if (videoPlayer && loadedTimestamp !== null) {
+                videoPlayer.seek(parseFloat(loadedTimestamp));
+                alert("Timestamp loaded: " + loadedTimestamp + " seconds");
             }
         }
 
@@ -131,7 +133,7 @@
     <!-- Your other HTML code -->
 
     <button onclick="saveTimestamp()">Save Timestamp</button>
-    <button onclick="loadTimestamp()">Load Timestamp</button>
+    <button onclick="loadSavedTimestamp()">Load Timestamp</button>
     <button onclick="darkMode()">Dark Mode</button>
     <button onclick="lightMode()">Light Mode</button>
 </body>

@@ -140,5 +140,36 @@
         downloadButton.addEventListener('click', redirectToDownload);
     </script>
 
+<!-- Save and Load Timestamps Code -->
+<button onclick="saveTimestamp()">Save Timestamp</button>
+<button onclick="loadSavedTimestamp()">Load Timestamp</button>
+
+<script>
+    let videoPlayer; // Variable to hold the video player
+
+    // Function to save the timestamp in Local Storage
+    function saveTimestamp() {
+        if (videoPlayer) {
+            const savedTimestamp = videoPlayer.getCurrentTime();
+            localStorage.setItem('savedTimestamp', savedTimestamp);
+            alert("Timestamp saved: " + savedTimestamp + " seconds");
+        } else {
+            alert("Video player not found. Try again after the player is ready.");
+        }
+    }
+
+    // Function to load the saved timestamp from Local Storage or start from the beginning
+    function loadSavedTimestamp() {
+        const loadedTimestamp = localStorage.getItem('savedTimestamp');
+        if (videoPlayer && loadedTimestamp !== null) {
+            videoPlayer.seek(parseFloat(loadedTimestamp));
+            alert("Timestamp loaded: " + loadedTimestamp + " seconds");
+        } else if (videoPlayer) {
+            videoPlayer.seek(0); // Start from the beginning
+            alert("Starting from the beginning.");
+        }
+    }
+</script>
+
 </body>
 </html>

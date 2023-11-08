@@ -78,9 +78,6 @@
 
                     // Store the player in the global variable
                     videoPlayer = player;
-
-                    // Attempt to load the saved timestamp if available
-                    loadSavedTimestamp();
                 } else {
                     console.log(`1080p video for episode ${episodeId} not available.`);
                 }
@@ -111,12 +108,15 @@
             }
         }
 
-        // Function to load the saved timestamp from Local Storage
+        // Function to load the saved timestamp from Local Storage or start from the beginning
         function loadSavedTimestamp() {
             const loadedTimestamp = localStorage.getItem('savedTimestamp');
             if (videoPlayer && loadedTimestamp !== null) {
                 videoPlayer.seek(parseFloat(loadedTimestamp));
                 alert("Timestamp loaded: " + loadedTimestamp + " seconds");
+            } else if (videoPlayer) {
+                videoPlayer.seek(0); // Start from the beginning
+                alert("Starting from the beginning.");
             }
         }
 
@@ -132,9 +132,10 @@
 
     <!-- Your other HTML code -->
 
-    <button onclick="saveTimestamp()">Save Timestamp</button>
-    <button onclick="loadSavedTimestamp()">Load Timestamp</button>
     <button onclick="darkMode()">Dark Mode</button>
     <button onclick="lightMode()">Light Mode</button>
+    <button onclick="saveTimestamp()">Save Timestamp</button>
+    <button onclick="loadSavedTimestamp()">Load Timestamp</button>
+
 </body>
 </html>

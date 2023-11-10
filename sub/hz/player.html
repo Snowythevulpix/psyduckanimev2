@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
-    <meta content="Psyduckanime - testing page" property="og:title"/>
+    <meta content="Psyduckanime - Watch pokemon for free" property="og:title"/>
     <meta content="https://psyduckanime.lol/Psyduck.png" property="og:image"/>
     <!-- Favicon -->
     <link href="https://psyduckanime.lol/Psyduck.png" rel="icon"/>
@@ -34,7 +34,12 @@
 
     <div id="episode-container"></div>
 
+    <!-- Create a container for the video player -->
+    <div id="videoPlayerContainer"></div>
+
     <script>
+        let videoPlayer; // Variable to hold the video player
+
         // Function to fetch episode data and play using Clappr player
         async function loadAndPlayEpisode(episodeId) {
             try {
@@ -70,6 +75,9 @@
                         source: video1080p.url,
                         parentId: `#episode-${episodeId}`,
                     });
+
+                    // Store the player in the global variable
+                    videoPlayer = player;
                 } else {
                     console.log(`1080p video for episode ${episodeId} not available.`);
                 }
@@ -88,57 +96,46 @@
         } else {
             console.log("No episode specified in the URL fragment.");
         }
+
+        // Function to save the timestamp in Local Storage
+        function saveTimestamp() {
+            if (videoPlayer) {
+                const savedTimestamp = videoPlayer.getCurrentTime();
+                localStorage.setItem('savedTimestamp', savedTimestamp);
+                alert("Timestamp saved: " + savedTimestamp + " seconds");
+            } else {
+                alert("Video player not found. Try again after the player is ready.");
+            }
+        }
+
+        // Function to load the saved timestamp from Local Storage or start from the beginning
+        function loadSavedTimestamp() {
+            const loadedTimestamp = localStorage.getItem('savedTimestamp');
+            if (videoPlayer && loadedTimestamp !== null) {
+                videoPlayer.seek(parseFloat(loadedTimestamp));
+                alert("Timestamp loaded: " + loadedTimestamp + " seconds");
+            } else if (videoPlayer) {
+                videoPlayer.seek(0); // Start from the beginning
+                alert("Starting from the beginning.");
+            }
+        }
+
+        // JavaScript functions for toggling dark and light modes
+        function darkMode() {
+            document.body.className = "dark-mode";
+        }
+
+        function lightMode() {
+            document.body.className = "light-mode";
+        }
     </script>
 
     <!-- Your other HTML code -->
 
     <button onclick="darkMode()">Dark Mode</button>
     <button onclick="lightMode()">Light Mode</button>
-    <button onclick="redirectToDownload()">Click here to download</button>
-
-    <script>
-        function darkMode() {
-          var element = document.body;
-          element.className = "dark-mode";
-        }
-        function lightMode() {
-          var element = document.body;
-          element.className = "light-mode";
-        }
-
-    </script>
-
-<!-- Save and Load Timestamps Code -->
-<button onclick="saveTimestamp()">Save Timestamp</button>
-<button onclick="loadSavedTimestamp()">Load Timestamp</button>
-
-<script>
-    let videoPlayer; // Variable to hold the video player
-
-    // Function to save the timestamp in Local Storage
-    function saveTimestamp() {
-        if (videoPlayer) {
-            const savedTimestamp = videoPlayer.getCurrentTime();
-            localStorage.setItem('savedTimestamp', savedTimestamp);
-            alert("Timestamp saved: " + savedTimestamp + " seconds");
-        } else {
-            alert("Video player not found. Try again after the player is ready.");
-        }
-    }
-
-    // Function to load the saved timestamp from Local Storage or start from the beginning
-    function loadSavedTimestamp() {
-        const loadedTimestamp = localStorage.getItem('savedTimestamp');
-        if (videoPlayer && loadedTimestamp !== null) {
-            videoPlayer.seek(parseFloat(loadedTimestamp));
-            alert("Timestamp loaded: " + loadedTimestamp + " seconds");
-        } else if (videoPlayer) {
-            videoPlayer.seek(0); // Start from the beginning
-            alert("Starting from the beginning.");
-        }
-    }
-</script>
-
+    <button onclick="saveTimestamp()">Save Timestamp</button>
+    <button onclick="loadSavedTimestamp()">Load Timestamp</button>
 
 </body>
 </html>

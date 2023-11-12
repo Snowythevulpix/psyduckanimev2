@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anify API Request</title>
+</head>
+<body>
+    <script>
+    async function fetchData() {
+        const episodeId = 1;
+        const response = await fetch("https://api.anify.tv/episodes/97634");
+        const data = await response.json();
+        
+        for (const provider of data) {
+          const episodes = provider.episodes;
+          for (const episode of episodes) {
+            if (episode.number === episodeId) {
+              console.log("Found episode:", episode.title);
+              console.log("ID:", episode.id);
+              return; // Break out of the loop once the first match is found
+            }
+          }
+        }
+    }
+
+    fetchData();
+    </script>
+</body>
+</html>

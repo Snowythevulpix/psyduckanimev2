@@ -38,7 +38,6 @@
     <div id="videoPlayerContainer"></div>
 
     <script>
-
         let videoPlayer; // Variable to hold the video player
         let episode; // Variable to hold the episode information
 
@@ -64,22 +63,17 @@
                     }
                 }
 
-// ... (previous code)
+                console.log("episodeId is " + episodeId);
 
-console.log("episodeId is " + episodeId);
+                if (!episode) {
+                    console.log(`Episode data not available for episode ${episodeId}`);
+                    return;
+                }
 
-if (!episode) {
-    console.log(`Episode data not available for episode ${episodeId}`);
-    return;
-}
+                // Assign the value of episode.id to episode.watchId
+                episode.watchId = episode.id;
 
-// Assign the value of episode.id to episode.watchId
-episode.watchId = episode.id;
-
-const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zoro&watchId=watch/${episode.watchId}&episodeNumber=${episodeId}&id=97634&subType=dub`);
-
-// ... (the rest of your code)
-
+                const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zoro&watchId=watch/${episode.watchId}&episodeNumber=${episodeId}&id=97634&subType=dub`);
 
                 if (!responseSources.ok) {
                     console.log(`Failed to fetch episode data for episode ${episodeId}`);
@@ -125,11 +119,17 @@ const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zor
         const fragmentIdentifier = window.location.search;
         const episodeId = parseInt(fragmentIdentifier.substring(1));
 
-        // Load and play the episode specified in the URL fragment
-        if (!isNaN(episodeId) && episodeId >= 1) {
-            loadAndPlayEpisode(episodeId);
+        // Check if the episodeId is 146
+        if (episodeId === 146) {
+            alert("This episode doesn't exist. the last episode is 145 not 146");
+            window.location.href = "home.html"; // Redirect to home.html
         } else {
-            console.log("No episode specified in the URL fragment.");
+            // Load and play the episode specified in the URL fragment
+            if (!isNaN(episodeId) && episodeId >= 1) {
+                loadAndPlayEpisode(episodeId);
+            } else {
+                console.log("No episode specified in the URL fragment.");
+            }
         }
 
         // Function to save the timestamp in Local Storage
@@ -171,6 +171,5 @@ const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zor
     <button onclick="lightMode()">Light Mode</button>
     <button onclick="saveTimestamp()">Save Timestamp</button>
     <button onclick="loadSavedTimestamp()">Load Timestamp</button>
-
 </body>
 </html>

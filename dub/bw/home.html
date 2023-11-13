@@ -43,6 +43,12 @@
         <!-- This is where episode links will be added -->
     </div>
     <script>
+
+const s1 = '48';
+const s2 = '49';
+const s3 = '45';
+
+
         // Define the URL to fetch the totalEpisodes value
         const infoURL = "https://psyduckanime.xyz/anime/gogoanime/info/pokemon-black-white-dub";
 
@@ -73,7 +79,7 @@
         function createEpisodeLinks(totalEpisodes) {
             const episodeLinksContainer = document.getElementById("episode-links");
 
-            for (let episode = 1; episode <= totalEpisodes; episode++) {
+            for (let episode = 1; episode <= chosen; episode++) {
                 let link = document.createElement("a");
                 link.className = "link";
                 link.href = `player.html?${episode}`;

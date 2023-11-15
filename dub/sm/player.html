@@ -48,20 +48,25 @@
                 const response = await fetch("https://api.anify.tv/episodes/97634");
                 const data = await response.json();
 
-                for (const provider of data) {
-                    const episodes = provider.episodes;
-                    for (const ep of episodes) {
-                        if (ep.number === episodeId) {
-                            episode = ep;
-                            console.log("Found episode:", episode.title);
-                            console.log("ID:", episode.id);
-                            break; // Break out of the loop once the first match is found
-                        }
-                    }
-                    if (episode) {
-                        break; // Break out of the outer loop if the episode is found
-                    }
-                }
+                let foundCount = 0; // Counter to track the number of matches found
+
+for (const provider of data) {
+    const episodes = provider.episodes;
+    for (const ep of episodes) {
+        if (ep.number === episodeId) {
+            foundCount++; // Increment the counter when a match is found
+            if (foundCount === 2) { // Check if it's the third match
+                episode = ep;
+                console.log("Found third episode:", episode.title);
+                console.log("ID:", episode.id);
+                break; // Break out of the loop once the third match is found
+            }
+        }
+    }
+    if (foundCount === 2) { // Break out of the outer loop if the third match is found
+        break;
+    }
+}
 
                 console.log("episodeId is " + episodeId);
 
@@ -73,7 +78,7 @@
                 // Assign the value of episode.id to episode.watchId
                 episode.watchId = episode.id;
 
-                const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zoro&watchId=watch/${episode.watchId}&episodeNumber=${episodeId}&id=97634&subType=dub`);
+                const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zoro&watchId=watch${episode.watchId}&episodeNumber=${episodeId}&id=19291&subType=dub`);
 
                 if (!responseSources.ok) {
                     console.log(`Failed to fetch episode data for episode ${episodeId}`);

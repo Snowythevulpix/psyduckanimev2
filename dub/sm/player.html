@@ -55,9 +55,9 @@ for (const provider of data) {
     for (const ep of episodes) {
         if (ep.number === episodeId) {
             foundCount++; // Increment the counter when a match is found
-            if (foundCount === 2) { // Check if it's the third match
+            if (foundCount === 1) { // Check if it's the third match
                 episode = ep;
-                console.log("Found third episode:", episode.title);
+                console.log("Found episode:", episode.title);
                 console.log("ID:", episode.id);
                 break; // Break out of the loop once the third match is found
             }

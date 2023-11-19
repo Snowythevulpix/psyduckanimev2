@@ -33,8 +33,23 @@
 
 <!-- Discord Icon using the avatarUrl variable floated to the right -->
 <a href="#discordlogin" style="display: flex; justify-content: flex-end;">
-    <img alt="Logo" class="logo" src="avatarUrl" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
+    <img alt="Logo" class="logo" id="avatarImg" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/>
 </a>
+
+<script>
+    window.onload = () => {
+        // Retrieve the avatar URL from localStorage
+        const avatarUrl = localStorage.getItem('avatarUrl');
+
+        if (avatarUrl) {
+            // Set the retrieved avatar URL as the image source
+            document.getElementById("avatarImg").src = avatarUrl;
+        } else {
+            // Handle case where the avatar URL is not found in localStorage
+            console.error('Avatar URL not found in localStorage');
+        }
+    };
+</script>
 
     <!-- Profile Picture (hidden by default) -->
     <img id="profilePicture" alt="Profile Picture" style="width: 40px; height: 40px; padding: 5px; cursor: pointer; position: fixed; top: 10px; right: 10px; display: none;"/>

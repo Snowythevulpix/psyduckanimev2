@@ -44,36 +44,29 @@
         // Function to fetch episode data and play using Clappr player
         async function loadAndPlayEpisode(episodeId) {
             try {
-                let episodeUrl;
-                if (episodeId === 1) {
-                    episodeUrl = "https://api.anify.tv/episodes/9107";
-                } else if (episodeId === 2) {
-                    episodeUrl = "https://api.anify.tv/episodes/14093";
-                } else if (episodeId === 3) {
-                    episodeUrl = "https://api.anify.tv/episodes/17115";
-                } else {
-                    console.log(`Episode data not available for episode ${episodeId}`);
-                    return;
-                }
-
                 // Fetch episode data for the given episode ID
-                const response = await fetch(episodeUrl);
+                const response = await fetch("https://api.anify.tv/episodes/97634");
                 const data = await response.json();
 
-                for (const provider of data) {
-                    const episodes = provider.episodes;
-                    for (const ep of episodes) {
-                        if (ep.number === episodeId) {
-                            episode = ep;
-                            console.log("Found episode:", episode.title);
-                            console.log("ID:", episode.id);
-                            break; // Break out of the loop once the first match is found
-                        }
-                    }
-                    if (episode) {
-                        break; // Break out of the outer loop if the episode is found
-                    }
-                }
+                let foundCount = 0; // Counter to track the number of matches found
+
+for (const provider of data) {
+    const episodes = provider.episodes;
+    for (const ep of episodes) {
+        if (ep.number === episodeId) {
+            foundCount++; // Increment the counter when a match is found
+            if (foundCount === 1) { // Check if it's the third match
+                episode = ep;
+                console.log("Found episode:", episode.title);
+                console.log("ID:", episode.id);
+                break; // Break out of the loop once the third match is found
+            }
+        }
+    }
+    if (foundCount === 2) { // Break out of the outer loop if the third match is found
+        break;
+    }
+}
 
                 console.log("episodeId is " + episodeId);
 
@@ -85,7 +78,7 @@
                 // Assign the value of episode.id to episode.watchId
                 episode.watchId = episode.id;
 
-                const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zoro&watchId=watch/${episode.watchId}&episodeNumber=${episodeId}&id=97634&subType=dub`);
+                const responseSources = await fetch(`https://api.anify.tv/sources?providerId=zoro&watchId=watch${episode.watchId}&episodeNumber=${episodeId}&id=19291&subType=dub`);
 
                 if (!responseSources.ok) {
                     console.log(`Failed to fetch episode data for episode ${episodeId}`);
@@ -108,7 +101,6 @@
                     episodeHeader.textContent = `Episode ${episodeId}`;
                     episodeElement.appendChild(episodeHeader);
 
-
                     // Append the episode container to the main container
                     episodeContainer.appendChild(episodeElement);
 
@@ -130,13 +122,19 @@
 
         // Get the episode number from the fragment identifier in the URL
         const fragmentIdentifier = window.location.search;
-        const match = fragmentIdentifier.match(/s([1-3])/);
+        const episodeId = parseInt(fragmentIdentifier.substring(1));
 
-        if (match) {
-            const episodeId = parseInt(match[1]);
-            loadAndPlayEpisode(episodeId);
+        // Check if the episodeId is 146
+        if (episodeId === 146) {
+            alert("This episode doesn't exist. the last episode is 145 not 146");
+            window.location.href = "home.html"; // Redirect to home.html
         } else {
-            console.log("No valid episode specified in the URL fragment.");
+            // Load and play the episode specified in the URL fragment
+            if (!isNaN(episodeId) && episodeId >= 1) {
+                loadAndPlayEpisode(episodeId);
+            } else {
+                console.log("No episode specified in the URL fragment.");
+            }
         }
 
         // Function to save the timestamp in Local Storage

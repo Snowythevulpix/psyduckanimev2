@@ -44,6 +44,9 @@
                 // Save the avatar URL locally using localStorage
                 localStorage.setItem('avatarUrl', avatarUrl);
                 console.log(avatarUrl)
+
+                // Redirect to index.html after fetching user data and setting localStorage
+                window.location.href = "/index.html";
             })
             .catch(error => {
                 console.error('Error fetching user data:', error);
@@ -51,10 +54,5 @@
             });
         };
     </script>
-        window.location.href = "/";
-    </script>
-  </head>
-  <body class="dark-mode"><div class="top-bar"><a href="/" title="Go to Home"><img alt="Logo" class_="logo" src="https://psyduckanime.lol/Psyduck.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/></a>PsyduckAnime - watch pokemon subbed and dubbed for free</div>
-  <p>If you are not redirected, <a href="/">click here</a>
 </body>
 </html>

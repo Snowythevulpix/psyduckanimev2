@@ -34,11 +34,15 @@
             .then(result => result.json())
             .then(response => {
                 const { username, discriminator, avatar, id} = response;
-                //set the welcome username string
+                // Set the welcome username string
                 document.getElementById('name').innerText = `${username}#${discriminator}`;
 
-                //set the avatar image by constructing a URL to access Discord's CDN
-                document.getElementById("avatar").src = `https://cdn.discordapp.com/avatars/${id}/${avatar}.jpg`;
+                // Set the avatar image by constructing a URL to access Discord's CDN
+                const avatarUrl = `https://cdn.discordapp.com/avatars/${id}/${avatar}.jpg`;
+                document.getElementById("avatar").src = avatarUrl;
+
+                // Save the avatar URL locally using localStorage
+                localStorage.setItem('avatarUrl', avatarUrl);
             })
             .catch(error => {
                 console.error('Error fetching user data:', error);

@@ -39,57 +39,22 @@
 
     <script>
         let videoPlayer; // Variable to hold the video player
-        let episode; // Variable to hold the episode information
 
         // Function to fetch episode data and play using Clappr player
         async function loadAndPlayEpisode(episodeId) {
             try {
                 // Fetch episode data for the given episode ID
-                const response = await fetch("https://api.anify.tv/episodes/168092");
-                const data = await response.json();
+                const response = await fetch(`https://psyduckanime.xyz/anime/gogoanime/watch/Houkago-no-Breath-episode-${episodeId}`);
 
-                let foundCount = 0; // Counter to track the number of matches found
-
-for (const provider of data) {
-    const episodes = provider.episodes;
-    for (const ep of episodes) {
-        if (ep.number === episodeId) {
-            foundCount++; // Increment the counter when a match is found
-            if (foundCount === 3) { // Check if it's the third match
-                episode = ep;
-                console.log("Found third episode:", episode.title);
-                console.log("ID:", episode.id);
-                break; // Break out of the loop once the third match is found
-            }
-        }
-    }
-    if (foundCount === 3) { // Break out of the outer loop if the third match is found
-        break;
-    }
-}
-
-
-                console.log("episodeId is " + episodeId);
-
-                if (!episode) {
-                    console.log(`Episode data not available for episode ${episodeId}`);
-                    return;
-                }
-
-                // Assign the value of episode.id to episode.watchId
-                episode.watchId = episode.id;
-
-                const responseSources = await fetch(`https://api.anify.tv/sources?providerId=animepahe&watchId=${episode.watchId}&episodeNumber=${episodeId}&id=19291&subType=sub`);
-
-                if (!responseSources.ok) {
+                if (!response.ok) {
                     console.log(`Failed to fetch episode data for episode ${episodeId}`);
                     return;
                 }
 
-                const sourcesData = await responseSources.json();
+                const data = await response.json();
 
                 // Find the 1080p video URL from the episode data
-                const video1080p = sourcesData.sources.find(source => source.quality === "auto");
+                const video1080p = data.sources.find(source => source.quality === "default");
 
                 if (video1080p) {
                     // Create a container for the episode
@@ -125,17 +90,11 @@ for (const provider of data) {
         const fragmentIdentifier = window.location.search;
         const episodeId = parseInt(fragmentIdentifier.substring(1));
 
-        // Check if the episodeId is 146
-        if (episodeId === 146) {
-            alert("This episode doesn't exist. the last episode is 145 not 146");
-            window.location.href = "home.html"; // Redirect to home.html
+        // Load and play the episode specified in the URL fragment
+        if (!isNaN(episodeId) && episodeId >= 1) {
+            loadAndPlayEpisode(episodeId);
         } else {
-            // Load and play the episode specified in the URL fragment
-            if (!isNaN(episodeId) && episodeId >= 1) {
-                loadAndPlayEpisode(episodeId);
-            } else {
-                console.log("No episode specified in the URL fragment.");
-            }
+            console.log("No episode specified in the URL fragment.");
         }
 
         // Function to save the timestamp in Local Storage
@@ -177,5 +136,6 @@ for (const provider of data) {
     <button onclick="lightMode()">Light Mode</button>
     <button onclick="saveTimestamp()">Save Timestamp</button>
     <button onclick="loadSavedTimestamp()">Load Timestamp</button>
+
 </body>
 </html>

@@ -55,8 +55,26 @@
 
                 // Find the 1080p video URL from the episode data
                 const video1080p = data.sources.find(source => source.quality === "default");
-//
+
                 if (video1080p) {
+                    // Fetch the ostitle.json file from external URL
+                    const titlesResponse = await fetch('https://psyduckanime.lol/ostitles.json');
+
+                    if (!titlesResponse.ok) {
+                        console.log('Failed to fetch episode titles.');
+                        return;
+                    }
+
+                    const titlesData = await titlesResponse.json();
+
+                    // Find the title for the given episodeId
+                    const episodeTitle = titlesData[episodeId];
+
+                    if (!episodeTitle) {
+                        console.log(`Title for episode ${episodeId} not found.`);
+                        return;
+                    }
+
                     // Create a container for the episode
                     const episodeContainer = document.getElementById("episode-container");
                     const episodeElement = document.createElement("div");
@@ -64,7 +82,7 @@
 
                     // Create a header with episode information
                     const episodeHeader = document.createElement("h2");
-                    episodeHeader.textContent = `Episode ${episodeId}`;
+                    episodeHeader.textContent = `Episode ${episodeId} - ${episodeTitle}`;
                     episodeElement.appendChild(episodeHeader);
 
                     // Append the episode container to the main container

@@ -1,0 +1,1462 @@
+{
+  "001": {
+    "ID": 1,
+    "EnglishTitle": "Alola to New Adventure!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ï¼ã¯ããã¦ã®å³¶ãã¯ããã¦ã®ãã±ã¢ã³ãã¡ï¼ï¼",
+    "JapaneseTransliteration": "Alola! The Starting Island, the Starter PokÃ©mon!!",
+    "AirDate": {
+      "International": "December 5, 2016",
+      "Japanese": "November 17, 2016}}"
+    }
+  },
+  "002": {
+    "ID": 2,
+    "EnglishTitle": "The Guardian's Challenge!",
+    "JapaneseTitle": "å®ãç¥ã«ãã»ã³ã±ã³ç»å ´ï¼ææ¦ããªã¬ãã¡ã®Zã¯ã¶ï¼ï¼",
+    "JapaneseTransliteration": "The Guardian Deity {{tt",
+    "AirDate": {
+      "International": "Kapu-Kokeko",
+      "Japanese": "Tapu Koko}} Appears! Challenge, Our Z-Move!!"
+    }
+  },
+  "003": {
+    "ID": 3,
+    "EnglishTitle": "Loading the Dex!",
+    "JapaneseTitle": "ãã­ãããããã¯ãã­ãã å³éã­ãï¼",
+    "JapaneseTransliteration": "Hello, Roto, I'm the Rotom PokÃ©dex, Roto!",
+    "AirDate": {
+      "International": "May 13, 2017",
+      "Japanese": "November 24, 2016}}"
+    }
+  },
+  "004": {
+    "ID": 4,
+    "EnglishTitle": "First Catch in Alola, Ketchum-Style!",
+    "JapaneseTitle": "ã¢ã¯ã­ã¼ç»å ´ï¼ã¢ã­ã¼ã©ã§ãã±ã¢ã³ã²ããã ãï¼ï¼",
+    "JapaneseTransliteration": "It's {{tt",
+    "AirDate": {
+      "International": "Mokuroh",
+      "Japanese": "Rowlet}}! Catching PokÃ©mon in Alola!!"
+    }
+  },
+  "005": {
+    "ID": 5,
+    "EnglishTitle": "Yo, Ho, Ho! Go, Popplio!",
+    "JapaneseTitle": "ã¢ã·ããªããããã«ã¼ã³ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Ashimari",
+      "Japanese": "Popplio}}, Give it Your bALLoon!"
+    }
+  },
+  "006": {
+    "ID": 6,
+    "EnglishTitle": "A Shocking Grocery Run!",
+    "JapaneseTitle": "ã³ãã³ãã¡ãã¡ããã²ããã«ï¼",
+    "JapaneseTransliteration": "The {{tt",
+    "AirDate": {
+      "International": "Shocking and Prickly",
+      "Japanese": "Zing Zap}} Togedemaru!"
+    }
+  },
+  "007": {
+    "ID": 7,
+    "EnglishTitle": "That's Why the Litten is a Scamp!",
+    "JapaneseTitle": "å¸å ´ã®é¢¨æ¥åãã£ãã¼ï¼",
+    "JapaneseTransliteration": "The Vagabond in the Market, {{tt",
+    "AirDate": {
+      "International": "Nyabby",
+      "Japanese": "Litten}}!"
+    }
+  },
+  "008": {
+    "ID": 8,
+    "EnglishTitle": "Lillie's Egg-xhilarating Challenge!",
+    "JapaneseTitle": "ã¿ãã´ä¿ã¯ã ããã ï¼",
+    "JapaneseTransliteration": "Who'll Be in Charge of the Egg?",
+    "AirDate": {
+      "International": "May 18, 2017",
+      "Japanese": "December 22, 2016}}"
+    }
+  },
+  "009": {
+    "ID": 9,
+    "EnglishTitle": "To Top a Totem!",
+    "JapaneseTitle": "ã¬ããã±ã¢ã³ã¯ãã«ã°ã¼ã¹ï¼",
+    "JapaneseTransliteration": "The {{tt",
+    "AirDate": {
+      "International": "Leader",
+      "Japanese": "Totem}} PokÃ©mon is {{tt"
+    }
+  },
+  "010": {
+    "ID": 10,
+    "EnglishTitle": "Trial and Tribulation!",
+    "JapaneseTitle": "åºããZã¯ã¶ï¼å¤§è©¦ç·´ã¸ã®ææ¦ï¼ï¼",
+    "JapaneseTransliteration": "Will the Z-Move Work! Challenge the Grand Trial!!",
+    "AirDate": {
+      "International": "May 20, 2017",
+      "Japanese": "January 12, 2017}}"
+    }
+  },
+  "011": {
+    "ID": 11,
+    "EnglishTitle": "Young Kiawe Had a Farm!",
+    "JapaneseTitle": "ãµãã·ãã«ã­ãã¡ã«è¡ãï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} Visits {{tt"
+    }
+  },
+  "012": {
+    "ID": 12,
+    "EnglishTitle": "The Sun, the Scare, the Secret Lair!",
+    "JapaneseTitle": "èª²å¤ææ¥­ã¯ããã¤ãï¼ï¼",
+    "JapaneseTransliteration": "The Extracurricular Lesson is {{tt",
+    "AirDate": {
+      "International": "Hidoide",
+      "Japanese": "Mareanie}}!?"
+    }
+  },
+  "013": {
+    "ID": 13,
+    "EnglishTitle": "Racing to a Big Event!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ãã³ã±ã¼ã­å¤§ã¬ã¼ã¹ï¼",
+    "JapaneseTransliteration": "The Big Alola Pancake Race!",
+    "AirDate": {
+      "International": "June 10, 2017",
+      "Japanese": "February 2, 2017}}"
+    }
+  },
+  "014": {
+    "ID": 14,
+    "EnglishTitle": "Getting to Know You!",
+    "JapaneseTitle": "åæ°ã®çµæ¶ããªã¼ãªã¨ã¨ã­ã³ã³ï¼",
+    "JapaneseTransliteration": "The Crystal of Courage, {{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} and {{tt"
+    }
+  },
+  "015": {
+    "ID": 15,
+    "EnglishTitle": "Rocking Clawmark Hill!",
+    "JapaneseTitle": "çªãã¨ã®ä¸ãã¤ã¯ã³ã³ã¨ã«ã¬ã«ã¬ã³ï¼ï¼",
+    "JapaneseTransliteration": "Clawmark Hill, {{tt",
+    "AirDate": {
+      "International": "Iwanko",
+      "Japanese": "Rockruff}} and {{tt"
+    }
+  },
+  "016": {
+    "ID": 16,
+    "EnglishTitle": "They Might Not Be Giants!",
+    "JapaneseTitle": "å°ããªä¸å¹ãå¤§ããªåéºï¼",
+    "JapaneseTransliteration": "A Small Trio on a Big Adventure!!",
+    "AirDate": {
+      "International": "July 1, 2017",
+      "Japanese": "March 2, 2017}}"
+    }
+  },
+  "017": {
+    "ID": 17,
+    "EnglishTitle": "Crystal-Clear Sleuthing!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©æ¢åµã­ãã ï¼æ¶ããã¯ãªã¹ã¿ã«ã®è¬ï¼ï¼",
+    "JapaneseTransliteration": "Alola Detective Rotom! The Mystery of the Missing Crystal!!",
+    "AirDate": {
+      "International": "July 1, 2017",
+      "Japanese": "March 9, 2017}}"
+    }
+  },
+  "018": {
+    "ID": 18,
+    "EnglishTitle": "A Seasoned Search!",
+    "JapaneseTitle": "ãã¸ã£ï¼ï¼ããªã®ãæçå¤§ä½æ¦ï¼ï¼",
+    "JapaneseTransliteration": "Really!? {{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}}'s Great Cooking Operation!!"
+    }
+  },
+  "019": {
+    "ID": 19,
+    "EnglishTitle": "A Guardian Rematch!",
+    "JapaneseTitle": "é»æçç¹è¨ï¼ã«ãã»ã³ã±ã³ã¨ã®åæ¦ï¼ï¼",
+    "JapaneseTransliteration": "Intense Electrifying Training! Rematch with {{tt",
+    "AirDate": {
+      "International": "Kapu-Kokeko",
+      "Japanese": "Tapu Koko}}!!"
+    }
+  },
+  "020": {
+    "ID": 20,
+    "EnglishTitle": "Partner Promises!",
+    "JapaneseTitle": "ãµãã·ã¨ãã«ãã¥ã¦ãäºäººã®ç´æ",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and Pikachu, the Promise between Them"
+    }
+  },
+  "021": {
+    "ID": 21,
+    "EnglishTitle": "One Journey Ends, Another Begins...",
+    "JapaneseTitle": "ãã£ãã¼ãæç«ã¡ã®æï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Nyabby",
+      "Japanese": "Litten}}, Time to Begin the Journey!"
+    }
+  },
+  "022": {
+    "ID": 22,
+    "EnglishTitle": "A Shivering Shovel Search!",
+    "JapaneseTitle": "ã¹ã³ããã«è¦æ³¨æï¼ï¼ï¼",
+    "JapaneseTransliteration": "Beware of Shovels!!!",
+    "AirDate": {
+      "International": "July 8, 2017",
+      "Japanese": "April 13, 2017}}"
+    }
+  },
+  "023": {
+    "ID": 23,
+    "EnglishTitle": "Getting the Band Back Together!",
+    "JapaneseTitle": "è¡æï¼ãã°ããªãªè§£æ£ï¼ï¼",
+    "JapaneseTransliteration": "Shocking! Dugtrio Split Up!?",
+    "AirDate": {
+      "International": "July 15, 2017",
+      "Japanese": "April 20, 2017}}"
+    }
+  },
+  "024": {
+    "ID": 24,
+    "EnglishTitle": "Alolan Open House!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ï¼ã¯ããã¦ã®ææ¥­åè¦³ï¼ï¼",
+    "JapaneseTransliteration": "Alola! The First Visiting Day!!",
+    "AirDate": {
+      "International": "July 22, 2017",
+      "Japanese": "April 27, 2017}}"
+    }
+  },
+  "025": {
+    "ID": 25,
+    "EnglishTitle": "A Team-on-Team Tussle!",
+    "JapaneseTitle": "ã¯ãªã¹ã¿ã«äºå¥ªæ¦ï¼ã­ã±ããå£å¯¾ã¹ã«ã«å£ï¼ï¼",
+    "JapaneseTransliteration": "Fighting for a Crystal! {{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}} VS {{tt"
+    }
+  },
+  "026": {
+    "ID": 26,
+    "EnglishTitle": "So Long, Sophocles!",
+    "JapaneseTitle": "ãããªããã¼ããï¼",
+    "JapaneseTransliteration": "Farewell, {{tt",
+    "AirDate": {
+      "International": "Mamane",
+      "Japanese": "Sophocles}}!"
+    }
+  },
+  "027": {
+    "ID": 27,
+    "EnglishTitle": "A Glaring Rivalry!",
+    "JapaneseTitle": "åºã§ãï¼ç´ãç¼å·®ãã«ã¬ã«ã¬ã³ï¼ï¼",
+    "JapaneseTransliteration": "Come Forth! The Red, Red Gaze of {{tt",
+    "AirDate": {
+      "International": "Lugarugan",
+      "Japanese": "Lycanroc}}!!"
+    }
+  },
+  "028": {
+    "ID": 28,
+    "EnglishTitle": "Pulling Out the PokÃ©mon Base Pepper!",
+    "JapaneseTitle": "ç±éãã±ãã¼ã¹ï¼ã­ããéè»¢ãã¼ã ã©ã³ï¼ï¼",
+    "JapaneseTransliteration": "The Fierce {{tt",
+    "AirDate": {
+      "International": "PokÃ©base",
+      "Japanese": "PokÃ©mon Base}} Match! Aim for a Home Run to Turn the Tide!!"
+    }
+  },
+  "029": {
+    "ID": 29,
+    "EnglishTitle": "Lulled to La-La Land!",
+    "JapaneseTitle": "ããã·ã¥ã®æ£®ã§ããªããå¯ã¾ããï¼",
+    "JapaneseTransliteration": "Are You Going to Have a Nap-masyu in the {{tt",
+    "AirDate": {
+      "International": "Nemasyu",
+      "Japanese": "Morelull}} Forest Too?"
+    }
+  },
+  "030": {
+    "ID": 30,
+    "EnglishTitle": "The Ol' Raise and Switch!",
+    "JapaneseTitle": "ãªã¼ãªã¨ããã«ãã¥ã¦ãããããã£ã¦ããã¦ã­",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}}, Take Good Care of Pikachu"
+    }
+  },
+  "031": {
+    "ID": 31,
+    "EnglishTitle": "The Island Whisperer!",
+    "JapaneseTitle": "ã©ã¤ãç»å ´ï¼æ³£ãã¦ç¬ã£ã¦ãå³¶ã¯ã¤ã¼ã³ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lychee",
+      "Japanese": "Olivia}} Appears! Laugh and Cry, {{tt"
+    }
+  },
+  "032": {
+    "ID": 32,
+    "EnglishTitle": "Treasure Hunt, Akala Style!",
+    "JapaneseTitle": "ãå®çºè¦ï¼ã ã¼ã©ã³ããµã¼ãï¼ï¼",
+    "JapaneseTransliteration": "Treasure Found! {{tt",
+    "AirDate": {
+      "International": "Mooland",
+      "Japanese": "Stoutland}} Search!!"
+    }
+  },
+  "033": {
+    "ID": 33,
+    "EnglishTitle": "Big Sky, Small Fry!",
+    "JapaneseTitle": "ã¨ã¯ã·å¼·ããæ± ã®ã¬ãï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Yowashi",
+      "Japanese": "Wishiwashi}} the Powerhouse, {{tt"
+    }
+  },
+  "034": {
+    "ID": 34,
+    "EnglishTitle": "A Crowning Moment of Truth!",
+    "JapaneseTitle": "çã®ããã«ï¼ã¬ã©ã¬ã©ããããï¼ï¼",
+    "JapaneseTransliteration": "Battle of Fire! {{tt",
+    "AirDate": {
+      "International": "Garagara",
+      "Japanese": "Marowak}} Appears!!"
+    }
+  },
+  "035": {
+    "ID": 35,
+    "EnglishTitle": "Currying Favor and Flavor!",
+    "JapaneseTitle": "ã«ã¬ã¼ãªããã«ï¼ã©ã©ã³ãã¹ã®èï¼ï¼",
+    "JapaneseTransliteration": "A Beautiful Curry Battle! The Dance of {{tt",
+    "AirDate": {
+      "International": "Lalantes",
+      "Japanese": "Lurantis}}!!"
+    }
+  },
+  "036": {
+    "ID": 36,
+    "EnglishTitle": "Trials and Determinations!",
+    "JapaneseTitle": "ã©ã¤ãã®å¤§è©¦ç·´ï¼ä¸çªãã¼ããªãã±ã¢ã³åè² ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lychee",
+      "Japanese": "Olivia}}'s Grand Trial! The Hardest PokÃ©mon Match!!"
+    }
+  },
+  "037": {
+    "ID": 37,
+    "EnglishTitle": "Rising from the Ruins!",
+    "JapaneseTitle": "ã¤ã¯ã³ã³ã¨ãã®ã¡ã®éºè·¡ã®å®ãç¥ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Iwanko",
+      "Japanese": "Rockruff}} and the Guardian Deity of the Ruins of Life!"
+    }
+  },
+  "038": {
+    "ID": 38,
+    "EnglishTitle": "Mimikyu Unmasked!",
+    "JapaneseTitle": "ãããã­ã¥ã®ã°ãã®ããï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mimikkyu",
+      "Japanese": "Mimikyu}}'s Disguise!"
+    }
+  },
+  "039": {
+    "ID": 39,
+    "EnglishTitle": "Mallow and the Forest Teacher!",
+    "JapaneseTitle": "å®¶åºã®ããªã¨ã¤ã¬ã¦ã¼ã¿ã³ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}} Runs Away from Home and {{tt"
+    }
+  },
+  "040": {
+    "ID": 40,
+    "EnglishTitle": "Balloons, Brionne, and Belligerence!",
+    "JapaneseTitle": "ã¢ã·ããªããªã·ã£ããªããããã®ãããªã³ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Ashimari",
+      "Japanese": "Popplio}}, {{tt"
+    }
+  },
+  "041": {
+    "ID": 41,
+    "EnglishTitle": "Mounting an Electrifying Charge!",
+    "JapaneseTitle": "ããã·ã¥ï¼ãã³ãã ã·",
+    "JapaneseTransliteration": "Dash! {{tt",
+    "AirDate": {
+      "International": "Dendimushi",
+      "Japanese": "Charjabug}}"
+    }
+  },
+  "042": {
+    "ID": 42,
+    "EnglishTitle": "Alola, Kanto!",
+    "JapaneseTitle": "ã«ã³ãã¼ã§ã¢ã­ã¼ã©ï¼ã¿ã±ã·ã¨ã«ã¹ãï¼ï¼ ",
+    "JapaneseTransliteration": "Alola at Kanto! {{tt",
+    "AirDate": {
+      "International": "Takeshi",
+      "Japanese": "Brock}} and {{tt"
+    }
+  },
+  "043": {
+    "ID": 43,
+    "EnglishTitle": "When Regions Collide!",
+    "JapaneseTitle": "ã¸ã ããã«ï¼ï¼ºã¯ã¶å¯¾ã¡ã¬ã·ã³ã«ï¼ï¼",
+    "JapaneseTransliteration": "Gym Battle! Z-Move VS Mega Evolution!!",
+    "AirDate": {
+      "International": "December 9, 2017",
+      "Japanese": "September 21, 2017}}"
+    }
+  },
+  "044": {
+    "ID": 44,
+    "EnglishTitle": "A Dream Encounter!",
+    "JapaneseTitle": "ãµãã·ã®ã»ãããï¼ä¸æè­°ãªåºä¼ãï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and {{tt"
+    }
+  },
+  "045": {
+    "ID": 45,
+    "EnglishTitle": "Now You See Them, Now You Don't!",
+    "JapaneseTitle": "ã»ããããããã¯ï¼ãã¬ãã¼ãã¯çªç¶ã«ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Hoshigumo",
+      "Japanese": "Nebby}} Panic! A Sudden Teleport!!"
+    }
+  },
+  "046": {
+    "ID": 46,
+    "EnglishTitle": "Deceiving Appearances!",
+    "JapaneseTitle": "å¤èº«ã¡ã¿ã¢ã³ãæ¢ããã ã¢ã³ï¼",
+    "JapaneseTransliteration": "The Shapeshifting {{tt",
+    "AirDate": {
+      "International": "Metamon",
+      "Japanese": "Ditto}}, Find that 'mon!"
+    }
+  },
+  "047": {
+    "ID": 47,
+    "EnglishTitle": "A Masked Warning!",
+    "JapaneseTitle": "ã°ã©ã¸ãªã¨ã·ã«ã´ã¡ãã£ï¼æãã®ä»®é¢ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Glazio",
+      "Japanese": "Gladion}} and {{tt"
+    }
+  },
+  "048": {
+    "ID": 48,
+    "EnglishTitle": "Night of a Thousand Poses!",
+    "JapaneseTitle": "ã¼ã³ãªã§ã¯ãã¼ãºã§ãæ³ã¾ãä¼ï¼",
+    "JapaneseTransliteration": "Full Force Pose at the Sleepover!",
+    "AirDate": {
+      "International": "March 28, 2018",
+      "Japanese": "November 2, 2017}}"
+    }
+  },
+  "049": {
+    "ID": 49,
+    "EnglishTitle": "Mission: Total Recall!",
+    "JapaneseTitle": "ãªã¼ãªã¨ã¨ã·ã«ã´ã¡ãã£ããã¿ãããè¨æ¶ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} and {{tt"
+    }
+  },
+  "050": {
+    "ID": 50,
+    "EnglishTitle": "Faba's Revenge!",
+    "JapaneseTitle": "ã¶ãªãã¼ã®éè¥²ï¼ãããããã»ãããï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Sauboh",
+      "Japanese": "Faba}}'s Counterattack! The Kidnapped {{tt"
+    }
+  },
+  "051": {
+    "ID": 51,
+    "EnglishTitle": "Family Determination!",
+    "JapaneseTitle": "ããã°ãªã¼ãªã¨ï¼æ±ºæã®å®¶åºï¼ï¼",
+    "JapaneseTransliteration": "Lively {{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}}! A Determined Runaway!! "
+    }
+  },
+  "052": {
+    "ID": 52,
+    "EnglishTitle": "Revealing the Stuff of Legend!",
+    "JapaneseTitle": "æ¥è¼ªã®ç¥­å£ï¼ã½ã«ã¬ã¬ãªéè¨ï¼ï¼",
+    "JapaneseTransliteration": "The Altar of the {{tt",
+    "AirDate": {
+      "International": "Sun",
+      "Japanese": "Sunne}}! Solgaleo Descends!! "
+    }
+  },
+  "053": {
+    "ID": 53,
+    "EnglishTitle": "Rescuing the Unwilling!",
+    "JapaneseTitle": "æ¥ãï¼ã«ã¶ãã¼ãæåºå¤§ä½æ¦ï¼ï¼",
+    "JapaneseTransliteration": "Hurry! The Great Lusamine Rescue Operation!!",
+    "AirDate": {
+      "International": "April 14, 2018",
+      "Japanese": "December 7, 2017}}"
+    }
+  },
+  "054": {
+    "ID": 54,
+    "EnglishTitle": "10,000,000 Reasons to Fight!",
+    "JapaneseTitle": "è¼ãZãã¯ã¼ãªã³ã°ï¼è¶ã¼ã³ãªã§ã¯ã®1000ã¾ããã«ãï¼ï¼",
+    "JapaneseTransliteration": "Shine, Z-Power Ring! Super Full-Force {{tt",
+    "AirDate": {
+      "International": "10,000,000 Volts",
+      "Japanese": "10,000,000 Volt Thunderbolt}}!!"
+    }
+  },
+  "055": {
+    "ID": 55,
+    "EnglishTitle": "The Professors' New Adventure!",
+    "JapaneseTitle": "ãããã¨ãã½ã«ã¬ã¬ãªï¼ä¿ºãã¡ã®ã»ãããï¼ï¼",
+    "JapaneseTransliteration": "Thank You, Solgaleo! Our {{tt",
+    "AirDate": {
+      "International": "Hoshigumo",
+      "Japanese": "Nebby}}!!"
+    }
+  },
+  "056": {
+    "ID": 56,
+    "EnglishTitle": "Let Sleeping PokÃ©mon Lie!",
+    "JapaneseTitle": "å¯ãå­ã¯å¼·ããããã³ã¢ã©ã®ç§å¯ï¼",
+    "JapaneseTransliteration": "The Strong Sleeper, {{tt",
+    "AirDate": {
+      "International": "Nekkoara",
+      "Japanese": "Komala}}'s Secret!"
+    }
+  },
+  "057": {
+    "ID": 57,
+    "EnglishTitle": "The Dex Can't Help It!",
+    "JapaneseTitle": "ã­ãã ããã©ã«ã ãã§ã³ã¸ãæ­¢ã¾ããªãï¼",
+    "JapaneseTransliteration": "Rotom, Can't Stop the Form Change!",
+    "AirDate": {
+      "International": "May 12, 2018",
+      "Japanese": "January 11, 2018}}"
+    }
+  },
+  "058": {
+    "ID": 58,
+    "EnglishTitle": "Fighting Back the Tears!",
+    "JapaneseTitle": "æ³£ããªãã§ããã¤ãï¼",
+    "JapaneseTransliteration": "Don't Cry, {{tt",
+    "AirDate": {
+      "International": "Hidoide",
+      "Japanese": "Mareanie}}!"
+    }
+  },
+  "059": {
+    "ID": 59,
+    "EnglishTitle": "Tasting the Bitter with the Sweet!",
+    "JapaneseTitle": "ããªã¨ã¹ã¤ã¬ã³ãã«ããã¾ã¡ã¢ãªã¼ãºï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}} and {{tt"
+    }
+  },
+  "060": {
+    "ID": 60,
+    "EnglishTitle": "Getting a Jump on the Competition!",
+    "JapaneseTitle": "ãªã¼ãªã¨é£ã³ã¾ãï¼ãã±ã¾ãªã¸ã£ã³ãå¤§ä¼ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} Soars Through the Air! The {{tt"
+    }
+  },
+  "061": {
+    "ID": 61,
+    "EnglishTitle": "A Mission of Ultra Urgency!",
+    "JapaneseTitle": "åºåï¼åãã®ã¦ã«ãã©ã¬ã¼ãã£ã¢ã³ãºï¼ï¼",
+    "JapaneseTransliteration": "Set Off! Our Ultra Guardians!!",
+    "AirDate": {
+      "International": "July 16, 2018",
+      "Japanese": "February 8, 2018}}"
+    }
+  },
+  "062": {
+    "ID": 62,
+    "EnglishTitle": "Acting True to Form!",
+    "JapaneseTitle": "æªã®ãã£ã¼ã¹ã¯ã¢ã­ã¼ã©ãã£ã¼ã¹ï¼ï¼",
+    "JapaneseTransliteration": "The Evil {{tt",
+    "AirDate": {
+      "International": "Nyarth",
+      "Japanese": "Meowth}} is an Alolan Nyarth!?"
+    }
+  },
+  "063": {
+    "ID": 63,
+    "EnglishTitle": "Pushing the Fiery Envelope!",
+    "JapaneseTitle": "çãä¸ãããã£ãã¼ï¼æåã¬ãªã¬ã¨ã³ï¼ï¼",
+    "JapaneseTransliteration": "Blaze, {{tt",
+    "AirDate": {
+      "International": "Nyabby",
+      "Japanese": "Litten}}! Overthrow {{tt"
+    }
+  },
+  "064": {
+    "ID": 64,
+    "EnglishTitle": "None",
+    "JapaneseTitle": "ãµãã·ã¨ãã²ãã±ãµã«ï¼åæã®ã¿ãããã¦ã³ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and {{tt"
+    }
+  },
+  "065": {
+    "ID": 65,
+    "EnglishTitle": "Turning Heads and Training Hard!",
+    "JapaneseTitle": "ã¤ãªãã¨ã¤ã¼ãã¤ã¾ã¤ãªããï¼ï¼",
+    "JapaneseTransliteration": "Ilima and {{tt",
+    "AirDate": {
+      "International": "Eievui",
+      "Japanese": "Eevee}} IliMake Their Entrance!!"
+    }
+  },
+  "066": {
+    "ID": 66,
+    "EnglishTitle": "Smashing with Sketch!",
+    "JapaneseTitle": "ã¹ã±ããã§ã¹ããã·ã¥ï¼æ¿éãã±ãã³ãã³ï¼",
+    "JapaneseTransliteration": "Smash with Sketch! The Fierce Fighting PokÃ©-Ping Pong!",
+    "AirDate": {
+      "International": "August 13, 2018",
+      "Japanese": "March 15, 2018}}"
+    }
+  },
+  "067": {
+    "ID": 67,
+    "EnglishTitle": "Love at First Twirl!",
+    "JapaneseTitle": "ãã«ãã«ã ãããï¼ãããããããã ï¼ï¼",
+    "JapaneseTransliteration": "Shining Love! Spinning {{tt",
+    "AirDate": {
+      "International": "Bevenom",
+      "Japanese": "Poipole}}!!"
+    }
+  },
+  "068": {
+    "ID": 68,
+    "EnglishTitle": "Real Life...Inquire Within!",
+    "JapaneseTitle": "ãä»äºä½é¨ï¼ãã±ã¢ã³ã»ã³ã¿ã¼24æï¼ï¼",
+    "JapaneseTransliteration": "Work Experience! 24-Hour PokÃ©mon Center!!",
+    "AirDate": {
+      "International": "September 1, 2018",
+      "Japanese": "April 5, 2018}}"
+    }
+  },
+  "069": {
+    "ID": 69,
+    "EnglishTitle": "Rise and Shine, Starship!",
+    "JapaneseTitle": "è¼ãæèããã«ã°ã¤ï¼",
+    "JapaneseTransliteration": "The Shining Starship {{tt",
+    "AirDate": {
+      "International": "Tekkaguya",
+      "Japanese": "Celesteela}}!"
+    }
+  },
+  "070": {
+    "ID": 70,
+    "EnglishTitle": "The Young Flame Strikes Back!",
+    "JapaneseTitle": "ç§å ´ãå®ãï¼éè¥²ã®è¼ãçï¼ï¼",
+    "JapaneseTransliteration": "Protect the Ranch! The Blue Flame's Counterattack!!",
+    "AirDate": {
+      "International": "September 15, 2018",
+      "Japanese": "April 19, 2018}}"
+    }
+  },
+  "071": {
+    "ID": 71,
+    "EnglishTitle": "Dewpider Ascending!",
+    "JapaneseTitle": "ã·ãºã¯ã¢ãã¹ã¤ã¬ã³ã²ããã ãï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Shizukumo",
+      "Japanese": "Dewpider}}, Get {{tt"
+    }
+  },
+  "072": {
+    "ID": 72,
+    "EnglishTitle": "Sours for the Sweet!",
+    "JapaneseTitle": "ãã³ãã«ãã¼ã³ï¼çããããªãã¡ããªã¼ï¼ï¼",
+    "JapaneseTransliteration": "Ta-ta-ta-dough! Fire it Up, {{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}}'s Family!!"
+    }
+  },
+  "073": {
+    "ID": 73,
+    "EnglishTitle": "Why Not Give Me a Z-Ring Sometime?",
+    "JapaneseTitle": "ã­ã±ããå£ã®å³¶ãããï¼ï¼Zãªã³ã°ãã²ããããï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}}'s {{tt"
+    }
+  },
+  "074": {
+    "ID": 74,
+    "EnglishTitle": "Tough Guy Trials!",
+    "JapaneseTitle": "ã¡ãã¼ã¯ã«ãããã¯ãã¾ã­ã³ã°ï¼ï¼",
+    "JapaneseTransliteration": "The Big Old Thug is an {{tt",
+    "AirDate": {
+      "International": "Island King",
+      "Japanese": "Island Kahuna}}!?"
+    }
+  },
+  "075": {
+    "ID": 75,
+    "EnglishTitle": "Some Kind of Laziness!",
+    "JapaneseTitle": "ã«ãã»ãã«ã«ï¼ãã¼ããã¢ã¼ç¹è¨ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Kapu-Bulul",
+      "Japanese": "Tapu Bulu}}! Intense Lazy Training!!"
+    }
+  },
+  "076": {
+    "ID": 76,
+    "EnglishTitle": "A Battle Hand-Off!",
+    "JapaneseTitle": "ã¹ã¼ãã¼æ±ºæ¦ï¼ãã«ãã¥ã¦VSãããã­ã¥ï¼ï¼",
+    "JapaneseTransliteration": "Super Decisive Battle! Pikachu VS {{tt",
+    "AirDate": {
+      "International": "Mimikkyu",
+      "Japanese": "Mimikyu}}!!"
+    }
+  },
+  "077": {
+    "ID": 77,
+    "EnglishTitle": "Guiding an Awakening!",
+    "JapaneseTitle": "ã¯ããã·ã®å¤§è©¦ç·´ï¼ã«ã¬ã«ã¬ã³è¦éï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Kuchinashi",
+      "Japanese": "Nanu}}'s Grand Trial! {{tt"
+    }
+  },
+  "078": {
+    "ID": 78,
+    "EnglishTitle": "Twirling with a Bang!",
+    "JapaneseTitle": "æ¿çªã¦ã«ãã©ãã¼ã¹ãï¼ãã³ãã³ããããå¤§ä½æ¦ï¼ï¼",
+    "JapaneseTransliteration": "Ultra Beast Clash! The Great Crackling Rumble Operation!!",
+    "AirDate": {
+      "International": "November 10, 2018",
+      "Japanese": "June 7, 2018}}"
+    }
+  },
+  "079": {
+    "ID": 79,
+    "EnglishTitle": "Showering the World with Love!",
+    "JapaneseTitle": "ã¡ããã¨ãããã ãæç©ºã«æ¶ããç´æï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Meteno",
+      "Japanese": "Minior}} and {{tt"
+    }
+  },
+  "080": {
+    "ID": 80,
+    "EnglishTitle": "Not Caving Under Pressure!",
+    "JapaneseTitle": "ãµã³ãã®åµï¼æ°·ç©´ã®ããã«ããã«ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Sand",
+      "Japanese": "Sandshrew}}'s Storm! Ice Cave Double Battle!!"
+    }
+  },
+  "081": {
+    "ID": 81,
+    "EnglishTitle": "A Young Royal Flame Ignites!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ã®è¥ãçï¼ã­ã¤ã¤ã«ãµãã·èªçï¼ï¼",
+    "JapaneseTransliteration": "Alola's Young Fire! {{tt",
+    "AirDate": {
+      "International": "Royal Satoshi",
+      "Japanese": "Ash Royal}}'s Birth!!"
+    }
+  },
+  "082": {
+    "ID": 82,
+    "EnglishTitle": "All They Want to Do is Dance Dance!",
+    "JapaneseTitle": "ãã³ã¹ãã³ã¹ã§é²åãããï¼",
+    "JapaneseTransliteration": "Dance Dance in Evolution?",
+    "AirDate": {
+      "International": "December 8, 2018",
+      "Japanese": "July 19, 2018}}"
+    }
+  },
+  "083": {
+    "ID": 83,
+    "EnglishTitle": "Dummy, You Shrunk the Kids!",
+    "JapaneseTitle": "ãµãã·ãã¡ããããªã",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} Becomes Small"
+    }
+  },
+  "084": {
+    "ID": 84,
+    "EnglishTitle": "The Shape of Love to Come!",
+    "JapaneseTitle": "å®¶æã®ã«ã¿ãããããã ã®ã­ã¢ãï¼",
+    "JapaneseTransliteration": "The Shape of Family, {{tt",
+    "AirDate": {
+      "International": "Bevenom",
+      "Japanese": "Poipole}}'s Feelings!"
+    }
+  },
+  "085": {
+    "ID": 85,
+    "EnglishTitle": "The Long Vault Home!",
+    "JapaneseTitle": "ãã³ãããããããã³ããã³ãï¼",
+    "JapaneseTransliteration": "Leap and Climb, {{tt",
+    "AirDate": {
+      "International": "Tundetunde",
+      "Japanese": "Stakataka}}!"
+    }
+  },
+  "086": {
+    "ID": 86,
+    "EnglishTitle": "I Choose Paradise!",
+    "JapaneseTitle": "ã³ã³ã«ãããï¼ãã±ã¢ã³æ¹¯ããããã©ãã¤ã¹ï¼ï¼",
+    "JapaneseTransliteration": "I Choose Here! PokÃ©mon Hot Spring Paradise!!",
+    "AirDate": {
+      "International": "January 12, 2019",
+      "Japanese": "August 16, 2018}}"
+    }
+  },
+  "087": {
+    "ID": 87,
+    "EnglishTitle": "Filling the Light with Darkness!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ã®å±æ©ï¼ãããããå°ããéï¼ï¼",
+    "JapaneseTransliteration": "A Crisis in Alola! The Darkness that Devours Radiance!!",
+    "AirDate": {
+      "International": "January 19, 2019",
+      "Japanese": "August 23, 2018}}"
+    }
+  },
+  "088": {
+    "ID": 88,
+    "EnglishTitle": "Full Moon and Many Arms!",
+    "JapaneseTitle": "ã«ãã¢ã¼ã©å¯¾UB:BLACKï¼æºæã®æ¦ãï¼ï¼",
+    "JapaneseTransliteration": "Lunala VS {{tt",
+    "AirDate": {
+      "International": "UB:BLACK",
+      "Japanese": "UB Black}}! A Full Moon Battle!!"
+    }
+  },
+  "089": {
+    "ID": 89,
+    "EnglishTitle": "The Prism Between Light and Darkness!",
+    "JapaneseTitle": "åã¨éã®ããªãºã ããã®åã¯ãã¯ã­ãºãï¼ï¼",
+    "JapaneseTransliteration": "The Prism of Light and Darkness - Its Name is Necrozma!!",
+    "AirDate": {
+      "International": "February 2, 2019",
+      "Japanese": "September 6, 2018}}"
+    }
+  },
+  "090": {
+    "ID": 90,
+    "EnglishTitle": "Securing the Future!",
+    "JapaneseTitle": "æªæ¥ã¸ã¤ãªãï¼ãããããã¾ã®ä¼èª¬ï¼ï¼",
+    "JapaneseTransliteration": "Connect to the Future! The Legend of the {{tt",
+    "AirDate": {
+      "International": "Radiant One",
+      "Japanese": "Blinding One}}!!"
+    }
+  },
+  "091": {
+    "ID": 91,
+    "EnglishTitle": "A Plethora of Pikachu!",
+    "JapaneseTitle": "å¤§éçºçãã¥ã¦ï¼ãã«ãã¥ã¦ã®ãã«ï¼ï¼",
+    "JapaneseTransliteration": "It's a Pikachu Outbreak! The Pikachu Valley!!",
+    "AirDate": {
+      "International": "February 16, 2019",
+      "Japanese": "October 7, 2018}}"
+    }
+  },
+  "092": {
+    "ID": 92,
+    "EnglishTitle": "Turning the Other Mask!",
+    "JapaneseTitle": "ã¯ã¯ã¤çµ¶ä½çµ¶å½ï¼ããä¸äººã®ã­ã¤ã¤ã«ãã¹ã¯ï¼ï¼",
+    "JapaneseTransliteration": "Kukui's Desperate Situation! Another {{tt",
+    "AirDate": {
+      "International": "Royal Mask",
+      "Japanese": "Masked Royal}}!!"
+    }
+  },
+  "093": {
+    "ID": 93,
+    "EnglishTitle": "Lillier and the Staff!",
+    "JapaneseTitle": "åèãªãªã¨ã«ã¨ã¢ã­ã¼ã©ã®æï¼",
+    "JapaneseTransliteration": "The Hero {{tt",
+    "AirDate": {
+      "International": "Lilier",
+      "Japanese": "Lillier}} and the Staff of Alola!"
+    }
+  },
+  "094": {
+    "ID": 94,
+    "EnglishTitle": "A Haunted House for Everyone!",
+    "JapaneseTitle": "ã´ã¼ã¹ããã±ã¢ã³å¤§éåï¼ã¿ããªã®ãåãå±æ·ï¼ï¼",
+    "JapaneseTransliteration": "Great Gathering of Ghost PokÃ©mon! Everyone's Haunted House!!",
+    "AirDate": {
+      "International": "March 24, 2019",
+      "Japanese": "October 28, 2018}}"
+    }
+  },
+  "095": {
+    "ID": 95,
+    "EnglishTitle": "Sparking Confusion!",
+    "JapaneseTitle": "ã´ã§ã©ç«å±±ãã´ã­ã¼ã³ã´ã­ã¼ãã£ãã¾ãã¨ãï¼",
+    "JapaneseTransliteration": "Wela Volcano, {{tt",
+    "AirDate": {
+      "International": "Golone",
+      "Japanese": "Graveler}}, {{tt"
+    }
+  },
+  "096": {
+    "ID": 96,
+    "EnglishTitle": "Don't Ignore the Small Stufful!",
+    "JapaneseTitle": "ã­ã±ããå£ã¨ãã¤ã³ã°ãï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}} and {{tt"
+    }
+  },
+  "097": {
+    "ID": 97,
+    "EnglishTitle": "No Stone Unturned!",
+    "JapaneseTitle": "å ã®ãã¯ã¹ã­ã¼ï¼ï¼ï¼ç ãã®ã¢ã¯ã­ã¼zzz",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Fukuthrow",
+      "Japanese": "Dartrix}} the Artisan!!! Sleeping {{tt"
+    }
+  },
+  "098": {
+    "ID": 98,
+    "EnglishTitle": "Bright Lights, Big Changes!",
+    "JapaneseTitle": "ã³ã³ãè§£æ£ï¼ï¼ãµãã·ã¨ã­ãã ",
+    "JapaneseTransliteration": "Splitting Up the Combination!? {{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and Rotom"
+    }
+  },
+  "099": {
+    "ID": 99,
+    "EnglishTitle": "We Know Where You're Going, Eevee!",
+    "JapaneseTitle": "ã¤ã¼ãã¤ã©ãããã®ï¼ãã®ã³ã«ä¼ãã«ã©ãã¾ã§ãï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Eievui",
+      "Japanese": "Eevee}}, Where Are You Going? To Go Anywhere to Meet Up!"
+    }
+  },
+  "100": {
+    "ID": 100,
+    "EnglishTitle": "Battling the Beast Within!",
+    "JapaneseTitle": "é¢¨ãæ­ã¤ç¨²å¦»ï¼ãã®åã¯ã¼ã©ãªã©ï¼ï¼",
+    "JapaneseTransliteration": "The Lighting Bolt that Severs the Wind! Its Name is Zeraora!!",
+    "AirDate": {
+      "International": "March 30, 2019",
+      "Japanese": "December 9, 2018}}"
+    }
+  },
+  "101": {
+    "ID": 101,
+    "EnglishTitle": "Parallel Friendships!",
+    "JapaneseTitle": "æ¾ã¦ï¼åæã®ãã¤ã³ã¹ãã¼ã­ã³ã°ã®ã¬ãã«ãï¼ï¼",
+    "JapaneseTransliteration": "Fire! The Twin {{tt",
+    "AirDate": {
+      "International": "Sparking Gigavolt",
+      "Japanese": "Gigavolt Havoc}} of Friendship!!"
+    }
+  },
+  "102": {
+    "ID": 102,
+    "EnglishTitle": "Alola, Alola!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ã§ã¢ã­ã¼ã©ï¼ ã¿ã±ã·ã¨ã«ã¹ãï¼ï¼",
+    "JapaneseTransliteration": "Alola at Alola! {{tt",
+    "AirDate": {
+      "International": "Takeshi",
+      "Japanese": "Brock}} and {{tt"
+    }
+  },
+  "103": {
+    "ID": 103,
+    "EnglishTitle": "Heart of Fire! Heart of Stone!",
+    "JapaneseTitle": "å²©ããç ãç±ããã¼ãï¼ã©ã¤ãã¨ã¿ã±ã·ï¼ï¼",
+    "JapaneseTransliteration": "A Passionate Heart That Can Smash Even Rock! {{tt",
+    "AirDate": {
+      "International": "Lychee",
+      "Japanese": "Olivia}} and {{tt"
+    }
+  },
+  "104": {
+    "ID": 104,
+    "EnglishTitle": "That's Some Spicy Island Research!",
+    "JapaneseTitle": "ããå³¶ã®èªç±ç ç©¶ï¼ãã¾ã­ã³ã°ããããï¼ï¼",
+    "JapaneseTransliteration": "Poni Island Research Project! Search for the {{tt",
+    "AirDate": {
+      "International": "Island King",
+      "Japanese": "Island Kahuna}}!!"
+    }
+  },
+  "105": {
+    "ID": 105,
+    "EnglishTitle": "Showdown on Poni Island!",
+    "JapaneseTitle": "ã«ã¬ã«ã¬ã³æ±ºæ¦ï¼ãµãã·VSã°ã©ã¸ãªï¼ï¼",
+    "JapaneseTransliteration": "Decisive {{tt",
+    "AirDate": {
+      "International": "Lugarugan",
+      "Japanese": "Lycanroc}} Battle! {{tt"
+    }
+  },
+  "106": {
+    "ID": 106,
+    "EnglishTitle": "Evolving Research!",
+    "JapaneseTitle": "æµ·ããè°·ããï¼ãã±ã¢ã³é²åå¤§ç¹è¨ï¼ï¼",
+    "JapaneseTransliteration": "We Have a Sea and We Have a Valley! Great Intensive PokÃ©mon Evolution Training!!",
+    "AirDate": {
+      "International": "June 1, 2019",
+      "Japanese": "January 27, 2019}}"
+    }
+  },
+  "107": {
+    "ID": 107,
+    "EnglishTitle": "Run, Heroes, Run!",
+    "JapaneseTitle": "èµ°ãã«ã­ï¼å·±ãè¶ãã¦ï¼ï¼",
+    "JapaneseTransliteration": "Run {{tt",
+    "AirDate": {
+      "International": "Kaki",
+      "Japanese": "Kiawe}}! Surpass Yourself!!"
+    }
+  },
+  "108": {
+    "ID": 108,
+    "EnglishTitle": "Memories in the Mist!",
+    "JapaneseTitle": "ã«ãã»ã¬ãã¬ã®é§ã®ä¸­ã§",
+    "JapaneseTransliteration": "Inside {{tt",
+    "AirDate": {
+      "International": "Kapu-Rehire",
+      "Japanese": "Tapu Fini}}'s Mist"
+    }
+  },
+  "109": {
+    "ID": 109,
+    "EnglishTitle": "A Grand Debut!",
+    "JapaneseTitle": "ãã¾ã¯ã¤ã¼ã³èªçï¼ãµãã·ã®å¤§è©¦ç·´ï¼ï¼",
+    "JapaneseTransliteration": "The Birth of an {{tt",
+    "AirDate": {
+      "International": "Island Queen",
+      "Japanese": "Island Kahuna}}! {{tt"
+    }
+  },
+  "110": {
+    "ID": 110,
+    "EnglishTitle": "Keeping Your Eyes on the Ball!",
+    "JapaneseTitle": "ãã±ã´ã«ãã§ãã¼ã«ã¤ã³ã¯ã³ï¼",
+    "JapaneseTransliteration": "Hole in One at PokÃ©Golf!",
+    "AirDate": {
+      "International": "June 29, 2019",
+      "Japanese": "February 24, 2019}}"
+    }
+  },
+  "111": {
+    "ID": 111,
+    "EnglishTitle": "Show Me the Metal!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©ä¸é¸ï¼ã¿ã«ã¿ã«ã¡ã¿ã«ãããã¯ï¼ï¼",
+    "JapaneseTransliteration": "Arrival in Alola! Dripping Metal Panic!!",
+    "AirDate": {
+      "International": "July 6, 2019",
+      "Japanese": "March 3, 2019}}"
+    }
+  },
+  "112": {
+    "ID": 112,
+    "EnglishTitle": "Got Meltan?",
+    "JapaneseTitle": "æ°ç¨®çºè¦ï¼ã¡ã«ã¿ã³ãã²ããã ãï¼ï¼",
+    "JapaneseTransliteration": "Discovering a New Species! Catch Meltan!!",
+    "AirDate": {
+      "International": "July 13, 2019",
+      "Japanese": "March 10, 2019}}"
+    }
+  },
+  "113": {
+    "ID": 113,
+    "EnglishTitle": "This Magik Moment!",
+    "JapaneseTitle": "æ°çªçµï¼ï¼å°ããªã³ã¤ã­ã³ã°ã®ã¡ã­ãã£",
+    "JapaneseTransliteration": "A New Program!? Melody of the Small {{tt",
+    "AirDate": {
+      "International": "Koiking",
+      "Japanese": "Magikarp}}"
+    }
+  },
+  "114": {
+    "ID": 114,
+    "EnglishTitle": "Beauty is Only Crystal Deep!",
+    "JapaneseTitle": "ãã¥ã¼ãã£ã¼ã»ã¢ã³ãã»ãã£ã¼ã¹ï¼",
+    "JapaneseTransliteration": "Beauty and {{tt",
+    "AirDate": {
+      "International": "Nyarth",
+      "Japanese": "Meowth}}!"
+    }
+  },
+  "115": {
+    "ID": 115,
+    "EnglishTitle": "The Dealer of Destruction!",
+    "JapaneseTitle": "ç ´å£ã®å¸çã°ãºãï¼",
+    "JapaneseTransliteration": "Emperor of Destruction Guzma!",
+    "AirDate": {
+      "International": "August 3, 2019",
+      "Japanese": "March 31, 2019}}"
+    }
+  },
+  "116": {
+    "ID": 116,
+    "EnglishTitle": "The Secret Princess!",
+    "JapaneseTitle": "ãªã¼ãªã¨ã¨ç§å¯ã®æ©å·§å§«ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} and the Secret Mechanical Princess!"
+    }
+  },
+  "117": {
+    "ID": 117,
+    "EnglishTitle": "Drawn with the Wind!",
+    "JapaneseTitle": "ã·ã§ã¤ããã¡ã«ã¿ã³ããã®ãµï¼è¿·å­ã®æ¢æ¤éï¼ï¼",
+    "JapaneseTransliteration": "Shaymin, Meltan, {{tt",
+    "AirDate": {
+      "International": "Nagisa",
+      "Japanese": "Sandy}}! The Lost Explorers!!"
+    }
+  },
+  "118": {
+    "ID": 118,
+    "EnglishTitle": "Aiming for the Top Floor!",
+    "JapaneseTitle": "æä¸éãç®æãï¼çé³ã®ãã©ã´ã³ã¸ã ï¼ï¼",
+    "JapaneseTransliteration": "Aim for the Top Floor! The Explosive Dragon Gym!!",
+    "AirDate": {
+      "International": "August 24, 2019",
+      "Japanese": "April 21, 2019}}"
+    }
+  },
+  "119": {
+    "ID": 119,
+    "EnglishTitle": "A High-Speed Awakening!",
+    "JapaneseTitle": "è¶éã®ã¯ã¯ã¬ãã³ï¼ãã¼ããè¦éï¼ï¼",
+    "JapaneseTransliteration": "Super Fast {{tt",
+    "AirDate": {
+      "International": "Kuwagannon",
+      "Japanese": "Vikavolt}}! The Awakening of {{tt"
+    }
+  },
+  "120": {
+    "ID": 120,
+    "EnglishTitle": "The One That Didn't Get Away!",
+    "JapaneseTitle": "ã¹ã¤ã¬ã³ãã«ã¤ãªã¼ã¬ãé£ãï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Suiren",
+      "Japanese": "Lana}} Fishes a Kyogre!?"
+    }
+  },
+  "121": {
+    "ID": 121,
+    "EnglishTitle": "A Recipe for Success!",
+    "JapaneseTitle": "ããªå¥®éï¼æ£®ã®ãã±ã¢ã³ã«ãã§ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}}'s Valiant Effort! The Forest PokÃ©mon CafÃ©!!"
+    }
+  },
+  "122": {
+    "ID": 122,
+    "EnglishTitle": "Spying for the Big Guy!",
+    "JapaneseTitle": "ç£è¦ãã¾ãï¼ã­ã±ããå£ã¢ã­ã¼ã©ã®ãããï¼ï¼",
+    "JapaneseTransliteration": "You're Being Watched! {{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}}'s Alola Forms!!"
+    }
+  },
+  "123": {
+    "ID": 123,
+    "EnglishTitle": "A Fiery Training Camp Trick!",
+    "JapaneseTitle": "Zã¯ã¶ãæ¥µããï¼ç¼ç±ã®ã«ã­åå®¿ï¼ï¼",
+    "JapaneseTransliteration": "Master the Z-Move! {{tt",
+    "AirDate": {
+      "International": "Kaki",
+      "Japanese": "Kiawe}}'s Fierce Boot Camp!!"
+    }
+  },
+  "124": {
+    "ID": 124,
+    "EnglishTitle": "Living on the Cutting Edge!",
+    "JapaneseTitle": "æ¬ãå³ããã°ã³ï¼ã«ããã«ã®è¦åï¼ï¼",
+    "JapaneseTransliteration": "Perfect Sharpness! {{tt",
+    "AirDate": {
+      "International": "Kamiturugi",
+      "Japanese": "Kartana}} has Arrived!!"
+    }
+  },
+  "125": {
+    "ID": 125,
+    "EnglishTitle": "A Timeless Encounter!",
+    "JapaneseTitle": "ãµãã·ãæãè¶ããåºä¼ãï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}}, Encounter Beyond Time!"
+    }
+  },
+  "126": {
+    "ID": 126,
+    "EnglishTitle": "Pikachu's Exciting Adventure!",
+    "JapaneseTitle": "ãã«ãã¥ã¦ã®ãã­ãã­æ¢æ¤éï¼",
+    "JapaneseTransliteration": "Pikachu's Exciting Expedition!",
+    "AirDate": {
+      "International": "October 19, 2019",
+      "Japanese": "June 16, 2019}}"
+    }
+  },
+  "127": {
+    "ID": 127,
+    "EnglishTitle": "Chasing Memories, Creating Dreams!",
+    "JapaneseTitle": "ã°ã©ã¸ãªã¨ãªã¼ãªã¨ï¼ç¶ã®å¹»å½±ãè¿½ã£ã¦ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Glazio",
+      "Japanese": "Gladion}} and {{tt"
+    }
+  },
+  "128": {
+    "ID": 128,
+    "EnglishTitle": "League Offenders and Defenders!",
+    "JapaneseTitle": "éå¹ï¼ã¢ã­ã¼ã©ãã±ã¢ã³ãªã¼ã°ï¼ï¼",
+    "JapaneseTransliteration": "The Curtain Rises! The Alola PokÃ©mon League!!",
+    "AirDate": {
+      "International": "November 2, 2019",
+      "Japanese": "June 30, 2019}}"
+    }
+  },
+  "129": {
+    "ID": 129,
+    "EnglishTitle": "Battle Royal 151!",
+    "JapaneseTitle": "å¤§ä¹±éï¼ããã«ã­ã¤ã¤ã«151ï¼ï¼",
+    "JapaneseTransliteration": "The Great Fray! Battle Royal 151!!",
+    "AirDate": {
+      "International": "November 9, 2019",
+      "Japanese": "July 7, 2019}}"
+    }
+  },
+  "130": {
+    "ID": 130,
+    "EnglishTitle": "Battling Besties!",
+    "JapaneseTitle": "ããªã¨ã¹ã¤ã¬ã³ï¼åæã®ã¼ã³ãªã§ã¯ããã«ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}} and {{tt"
+    }
+  },
+  "131": {
+    "ID": 131,
+    "EnglishTitle": "The Battlefield of Truth and Love!",
+    "JapaneseTitle": "ã ãµã·VSã³ã¸ã­ã¦ï¼æã¨çå®ã®ããã«ãã£ã¼ã«ãï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Musashi",
+      "Japanese": "Jessie}} VS {{tt"
+    }
+  },
+  "132": {
+    "ID": 132,
+    "EnglishTitle": "Imitation Is the Sincerest Form of Strategy!",
+    "JapaneseTitle": "ã¸ã¥ãã¤ãã¼ãæ»ç¥ããï¼",
+    "JapaneseTransliteration": "Overcome {{tt",
+    "AirDate": {
+      "International": "Junaiper",
+      "Japanese": "Decidueye}}!"
+    }
+  },
+  "133": {
+    "ID": 133,
+    "EnglishTitle": "Battling on the Wing!",
+    "JapaneseTitle": "é³¥ä¸æ±ºæ¦ï¼ãã¬ã¤ããã¼ãVSã´ãããã¼ãï¼ï¼",
+    "JapaneseTransliteration": "Bird Battle! Brave Bird VS {{tt",
+    "AirDate": {
+      "International": "God Bird",
+      "Japanese": "Sky Attack}}!!"
+    }
+  },
+  "134": {
+    "ID": 134,
+    "EnglishTitle": "The Road to the Semifinals!",
+    "JapaneseTitle": "ã¿ããªã¼ã³ãªã§ã¯ï¼æºæ±ºåã¸ã®éï¼ï¼",
+    "JapaneseTransliteration": "Everyone's Fully Powered! The Road to the Semifinals!!",
+    "AirDate": {
+      "International": "December 14, 2019",
+      "Japanese": "August 11, 2019}}"
+    }
+  },
+  "135": {
+    "ID": 135,
+    "EnglishTitle": "The Final Four!",
+    "JapaneseTitle": "æºæ±ºåï¼ã«ã­VSã°ã©ã¸ãªï¼ï¼",
+    "JapaneseTransliteration": "The Semifinals! {{tt",
+    "AirDate": {
+      "International": "Kaki",
+      "Japanese": "Kiawe}} VS {{tt"
+    }
+  },
+  "136": {
+    "ID": 136,
+    "EnglishTitle": "Getting Down to The Ire!",
+    "JapaneseTitle": "çãä¸ããçï¼ã©ã¤ãã«ã¯ã²ã¨ããããªãï¼ï¼",
+    "JapaneseTransliteration": "Rising Fire! There's More Than One Rival!!",
+    "AirDate": {
+      "International": "December 28, 2019",
+      "Japanese": "August 25, 2019}}"
+    }
+  },
+  "137": {
+    "ID": 137,
+    "EnglishTitle": "The Wisdom Not to Run!â",
+    "JapaneseTitle": "ç¡æã®å¸çã°ãºãï¼",
+    "JapaneseTransliteration": "Undefeated Emperor Guzma!",
+    "AirDate": {
+      "International": "January 4, 2020",
+      "Japanese": "September 1, 2019}}"
+    }
+  },
+  "138": {
+    "ID": 138,
+    "EnglishTitle": "Final Rivals!",
+    "JapaneseTitle": "æ±ºåæ¦ï¼æå¼·ã©ã¤ãã«å¯¾æ±ºï¼ï¼",
+    "JapaneseTransliteration": "The Finals! The Strongest Rival Showdown!!",
+    "AirDate": {
+      "International": "January 11, 2020",
+      "Japanese": "September 8, 2019}}"
+    }
+  },
+  "139": {
+    "ID": 139,
+    "EnglishTitle": "Enter the Champion!",
+    "JapaneseTitle": "èªçï¼ã¢ã­ã¼ã©ã®è¦èï¼ï¼",
+    "JapaneseTransliteration": "Birth! The Alola Champion!!",
+    "AirDate": {
+      "International": "January 18, 2020",
+      "Japanese": "September 15, 2019}}"
+    }
+  },
+  "140": {
+    "ID": 140,
+    "EnglishTitle": "Z-Move Showdown!",
+    "JapaneseTitle": "ã¢ã¯ã¸ã­ã³ã°è¥²æ¥ï¼Zã¯ã¶å¤§æ±ºæ¦ï¼ï¼",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Akuziking",
+      "Japanese": "Guzzlord}} Invasion! The Great Z-Move Battle!!"
+    }
+  },
+  "141": {
+    "ID": 141,
+    "EnglishTitle": "Exhibition Unmasked!",
+    "JapaneseTitle": "ãã¡ã¤ãã«ããã«ï¼ãµãã·å¯¾ã¯ã¯ã¤ï¼ï¼",
+    "JapaneseTransliteration": "Final Battle! {{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} VS Kukui!!"
+    }
+  },
+  "142": {
+    "ID": 142,
+    "EnglishTitle": "A Full Battle Bounty!",
+    "JapaneseTitle": "çããï¼ã¿ãªããï¼ï¼ãã«ããã«ï¼ï¼ï¼",
+    "JapaneseTransliteration": "Burn! Swell Up!! Full Battle!!!",
+    "AirDate": {
+      "International": "February 8, 2020",
+      "Japanese": "October 6, 2019}}"
+    }
+  },
+  "143": {
+    "ID": 143,
+    "EnglishTitle": "Fiery Surprises!",
+    "JapaneseTitle": "æ±ºçï¼ã¬ãªã¬ã¨ã³VSãã£ãã¼ãï¼ï¼",
+    "JapaneseTransliteration": "Conclusion! {{tt",
+    "AirDate": {
+      "International": "Gaogaen",
+      "Japanese": "Incineroar}} VS {{tt"
+    }
+  },
+  "144": {
+    "ID": 144,
+    "EnglishTitle": "From Z to Shining Z!",
+    "JapaneseTitle": "ã¢ã­ã¼ã©æå¼·ã®Zï¼ã«ãã»ã³ã±ã³VSãã«ãã¥ã¦ï¼ï¼",
+    "JapaneseTransliteration": "Alola's Strongest Z! {{tt",
+    "AirDate": {
+      "International": "Kapu-Kokeko",
+      "Japanese": "Tapu Koko}} VS Pikachu!!"
+    }
+  },
+  "145": {
+    "ID": 145,
+    "EnglishTitle": "Dreams of the Sun and Moon!",
+    "JapaneseTitle": "å¤ªé½ã¨æã¨ãã¿ããªã®å¤¢ï¼",
+    "JapaneseTransliteration": "The Sun, the Moon, and Everyone's Dreams!",
+    "AirDate": {
+      "International": "February 29, 2020",
+      "Japanese": "October 27, 2019}}"
+    }
+  },
+  "146": {
+    "ID": 146,
+    "EnglishTitle": "Thank You, Alola! The Journey Continues!",
+    "JapaneseTitle": "ãããã¨ãã¢ã­ã¼ã©ï¼ããããã®æç«ã¡ï¼ï¼",
+    "JapaneseTransliteration": "Thank You, Alola! Respective Departures!!",
+    "AirDate": {
+      "International": "March 7, 2020",
+      "Japanese": "November 3, 2019}}"
+    }
+  }
+}

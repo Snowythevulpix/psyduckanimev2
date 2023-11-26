@@ -58,6 +58,24 @@
 
                 if (video1080p) {
                     // Create a container for the episode
+                    const titlesResponse = await fetch('https://psyduckanime.lol/titles/sm.json');
+
+                    if (!titlesResponse.ok) {
+                        console.log('Failed to fetch episode titles.');
+                        return;
+                    }
+
+                    const titlesData = await titlesResponse.json();
+
+                    // Find the title for the given episodeId
+                    const episodeTitle = titlesData[episodeId];
+
+                    if (!episodeTitle) {
+                        console.log(`Title for episode ${episodeId} not found.`);
+                        return;
+                    }
+
+
                     const episodeContainer = document.getElementById("episode-container");
                     const episodeElement = document.createElement("div");
                     episodeElement.id = `episode-${episodeId}`;

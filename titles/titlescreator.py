@@ -1,8 +1,8 @@
 import json
 
 # File paths
-input_file = r'C:\Users\Hayle\psyduckanimev2\titles\smtitles.txt'
-output_file = r'C:\Users\Hayle\psyduckanimev2\titles\smtitles.json'
+input_file = r'C:\Users\Hayle\psyduckanimev2\titles\titles.txt'
+output_file = r'C:\Users\Hayle\psyduckanimev2\titles\sm.json'
 
 # Read data from smtitles.txt and process
 episode_data = {}

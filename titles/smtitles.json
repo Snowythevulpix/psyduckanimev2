@@ -1,0 +1,1462 @@
+{
+  "001": {
+    "ID": 1,
+    "EnglishTitle": "Alola to New Adventure!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00ef\u00bc\u0081\u00e3\u0081\u00af\u00e3\u0081\u0098\u00e3\u0082\u0081\u00e3\u0081\u00a6\u00e3\u0081\u00ae\u00e5\u00b3\u00b6\u00e3\u0080\u0081\u00e3\u0081\u00af\u00e3\u0081\u0098\u00e3\u0082\u0081\u00e3\u0081\u00a6\u00e3\u0081\u00ae\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0081\u009f\u00e3\u0081\u00a1\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Alola! The Starting Island, the Starter Pok\u00c3\u00a9mon!!",
+    "AirDate": {
+      "International": "December 5, 2016",
+      "Japanese": "November 17, 2016}}"
+    }
+  },
+  "002": {
+    "ID": 2,
+    "EnglishTitle": "The Guardian's Challenge!",
+    "JapaneseTitle": "\u00e5\u00ae\u0088\u00e3\u0082\u008a\u00e7\u00a5\u009e\u00e3\u0082\u00ab\u00e3\u0083\u0097\u00e3\u0083\u00bb\u00e3\u0082\u00b3\u00e3\u0082\u00b1\u00e3\u0082\u00b3\u00e7\u0099\u00bb\u00e5\u00a0\u00b4\u00ef\u00bc\u0081\u00e6\u008c\u0091\u00e6\u0088\u00a6\u00e3\u0080\u0081\u00e3\u0082\u00aa\u00e3\u0083\u00ac\u00e3\u0081\u009f\u00e3\u0081\u00a1\u00e3\u0081\u00aeZ\u00e3\u0083\u00af\u00e3\u0082\u00b6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Guardian Deity {{tt",
+    "AirDate": {
+      "International": "Kapu-Kokeko",
+      "Japanese": "Tapu Koko}} Appears! Challenge, Our Z-Move!!"
+    }
+  },
+  "003": {
+    "ID": 3,
+    "EnglishTitle": "Loading the Dex!",
+    "JapaneseTitle": "\u00e3\u0082\u0088\u00e3\u0083\u00ad\u00e3\u0083\u0088\u00e3\u0081\u0097\u00e3\u0081\u008f\u00e3\u0080\u0081\u00e3\u0083\u009c\u00e3\u0082\u00af\u00e3\u0080\u0081\u00e3\u0083\u00ad\u00e3\u0083\u0088\u00e3\u0083\u00a0\u00e5\u009b\u00b3\u00e9\u0091\u0091\u00e3\u0083\u00ad\u00e3\u0083\u0088\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Hello, Roto, I'm the Rotom Pok\u00c3\u00a9dex, Roto!",
+    "AirDate": {
+      "International": "May 13, 2017",
+      "Japanese": "November 24, 2016}}"
+    }
+  },
+  "004": {
+    "ID": 4,
+    "EnglishTitle": "First Catch in Alola, Ketchum-Style!",
+    "JapaneseTitle": "\u00e3\u0083\u00a2\u00e3\u0082\u00af\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e7\u0099\u00bb\u00e5\u00a0\u00b4\u00ef\u00bc\u0081\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00a7\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00b2\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e3\u0081\u00a0\u00e3\u0081\u009c\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "It's {{tt",
+    "AirDate": {
+      "International": "Mokuroh",
+      "Japanese": "Rowlet}}! Catching Pok\u00c3\u00a9mon in Alola!!"
+    }
+  },
+  "005": {
+    "ID": 5,
+    "EnglishTitle": "Yo, Ho, Ho! Go, Popplio!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0082\u00b7\u00e3\u0083\u009e\u00e3\u0083\u00aa\u00e3\u0080\u0081\u00e3\u0081\u008c\u00e3\u0082\u0093\u00e3\u0083\u0090\u00e3\u0083\u00ab\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Ashimari",
+      "Japanese": "Popplio}}, Give it Your bALLoon!"
+    }
+  },
+  "006": {
+    "ID": 6,
+    "EnglishTitle": "A Shocking Grocery Run!",
+    "JapaneseTitle": "\u00e3\u0081\u00b3\u00e3\u0082\u008a\u00e3\u0081\u00b3\u00e3\u0082\u008a\u00e3\u0081\u00a1\u00e3\u0081\u008f\u00e3\u0081\u00a1\u00e3\u0081\u008f\u00e3\u0083\u0088\u00e3\u0082\u00b2\u00e3\u0083\u0087\u00e3\u0083\u009e\u00e3\u0083\u00ab\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The {{tt",
+    "AirDate": {
+      "International": "Shocking and Prickly",
+      "Japanese": "Zing Zap}} Togedemaru!"
+    }
+  },
+  "007": {
+    "ID": 7,
+    "EnglishTitle": "That's Why the Litten is a Scamp!",
+    "JapaneseTitle": "\u00e5\u00b8\u0082\u00e5\u00a0\u00b4\u00e3\u0081\u00ae\u00e9\u00a2\u00a8\u00e6\u009d\u00a5\u00e5\u009d\u008a\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u0093\u00e3\u0083\u00bc\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Vagabond in the Market, {{tt",
+    "AirDate": {
+      "International": "Nyabby",
+      "Japanese": "Litten}}!"
+    }
+  },
+  "008": {
+    "ID": 8,
+    "EnglishTitle": "Lillie's Egg-xhilarating Challenge!",
+    "JapaneseTitle": "\u00e3\u0082\u00bf\u00e3\u0083\u009e\u00e3\u0082\u00b4\u00e4\u00bf\u0082\u00e3\u0081\u00af\u00e3\u0081\u00a0\u00e3\u0080\u009c\u00e3\u0082\u008c\u00e3\u0081\u00a0\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "Who'll Be in Charge of the Egg?",
+    "AirDate": {
+      "International": "May 18, 2017",
+      "Japanese": "December 22, 2016}}"
+    }
+  },
+  "009": {
+    "ID": 9,
+    "EnglishTitle": "To Top a Totem!",
+    "JapaneseTitle": "\u00e3\u0081\u00ac\u00e3\u0081\u0097\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0081\u00af\u00e3\u0083\u0087\u00e3\u0082\u00ab\u00e3\u0082\u00b0\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The {{tt",
+    "AirDate": {
+      "International": "Leader",
+      "Japanese": "Totem}} Pok\u00c3\u00a9mon is {{tt"
+    }
+  },
+  "010": {
+    "ID": 10,
+    "EnglishTitle": "Trial and Tribulation!",
+    "JapaneseTitle": "\u00e5\u0087\u00ba\u00e3\u0082\u008b\u00e3\u0081\u008bZ\u00e3\u0083\u00af\u00e3\u0082\u00b6\u00ef\u00bc\u0081\u00e5\u00a4\u00a7\u00e8\u00a9\u00a6\u00e7\u00b7\u00b4\u00e3\u0081\u00b8\u00e3\u0081\u00ae\u00e6\u008c\u0091\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Will the Z-Move Work! Challenge the Grand Trial!!",
+    "AirDate": {
+      "International": "May 20, 2017",
+      "Japanese": "January 12, 2017}}"
+    }
+  },
+  "011": {
+    "ID": 11,
+    "EnglishTitle": "Young Kiawe Had a Farm!",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0080\u0081\u00e3\u0082\u00ab\u00e3\u0082\u00ad\u00e3\u0082\u0093\u00e3\u0081\u00a1\u00e3\u0081\u00ab\u00e8\u00a1\u008c\u00e3\u0081\u008f\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} Visits {{tt"
+    }
+  },
+  "012": {
+    "ID": 12,
+    "EnglishTitle": "The Sun, the Scare, the Secret Lair!",
+    "JapaneseTitle": "\u00e8\u00aa\u00b2\u00e5\u00a4\u0096\u00e6\u008e\u0088\u00e6\u00a5\u00ad\u00e3\u0081\u00af\u00e3\u0083\u0092\u00e3\u0083\u0089\u00e3\u0082\u00a4\u00e3\u0083\u0087\u00ef\u00bc\u0081\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "The Extracurricular Lesson is {{tt",
+    "AirDate": {
+      "International": "Hidoide",
+      "Japanese": "Mareanie}}!?"
+    }
+  },
+  "013": {
+    "ID": 13,
+    "EnglishTitle": "Racing to a Big Event!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u0091\u00e3\u0083\u00b3\u00e3\u0082\u00b1\u00e3\u0083\u00bc\u00e3\u0082\u00ad\u00e5\u00a4\u00a7\u00e3\u0083\u00ac\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Big Alola Pancake Race!",
+    "AirDate": {
+      "International": "June 10, 2017",
+      "Japanese": "February 2, 2017}}"
+    }
+  },
+  "014": {
+    "ID": 14,
+    "EnglishTitle": "Getting to Know You!",
+    "JapaneseTitle": "\u00e5\u008b\u0087\u00e6\u00b0\u0097\u00e3\u0081\u00ae\u00e7\u00b5\u0090\u00e6\u0099\u00b6\u00e3\u0080\u0081\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e3\u0081\u00a8\u00e3\u0083\u00ad\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Crystal of Courage, {{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} and {{tt"
+    }
+  },
+  "015": {
+    "ID": 15,
+    "EnglishTitle": "Rocking Clawmark Hill!",
+    "JapaneseTitle": "\u00e7\u0088\u00aa\u00e3\u0081\u0082\u00e3\u0081\u00a8\u00e3\u0081\u00ae\u00e4\u00b8\u0098\u00e3\u0080\u0081\u00e3\u0082\u00a4\u00e3\u0083\u00af\u00e3\u0083\u00b3\u00e3\u0082\u00b3\u00e3\u0081\u00a8\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Clawmark Hill, {{tt",
+    "AirDate": {
+      "International": "Iwanko",
+      "Japanese": "Rockruff}} and {{tt"
+    }
+  },
+  "016": {
+    "ID": 16,
+    "EnglishTitle": "They Might Not Be Giants!",
+    "JapaneseTitle": "\u00e5\u00b0\u008f\u00e3\u0081\u0095\u00e3\u0081\u00aa\u00e4\u00b8\u0089\u00e5\u008c\u00b9\u00e3\u0080\u0081\u00e5\u00a4\u00a7\u00e3\u0081\u008d\u00e3\u0081\u00aa\u00e5\u0086\u0092\u00e9\u0099\u00ba\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "A Small Trio on a Big Adventure!!",
+    "AirDate": {
+      "International": "July 1, 2017",
+      "Japanese": "March 2, 2017}}"
+    }
+  },
+  "017": {
+    "ID": 17,
+    "EnglishTitle": "Crystal-Clear Sleuthing!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e6\u008e\u00a2\u00e5\u0081\u00b5\u00e3\u0083\u00ad\u00e3\u0083\u0088\u00e3\u0083\u00a0\u00ef\u00bc\u0081\u00e6\u00b6\u0088\u00e3\u0081\u0088\u00e3\u0081\u009f\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0082\u00b9\u00e3\u0082\u00bf\u00e3\u0083\u00ab\u00e3\u0081\u00ae\u00e8\u00ac\u008e\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Alola Detective Rotom! The Mystery of the Missing Crystal!!",
+    "AirDate": {
+      "International": "July 1, 2017",
+      "Japanese": "March 9, 2017}}"
+    }
+  },
+  "018": {
+    "ID": 18,
+    "EnglishTitle": "A Seasoned Search!",
+    "JapaneseTitle": "\u00e3\u0083\u009e\u00e3\u0082\u00b8\u00e3\u0082\u00a3\u00ef\u00bc\u0081\u00ef\u00bc\u009f\u00e3\u0083\u009e\u00e3\u0082\u00aa\u00e3\u0081\u00ae\u00e3\u0081\u008a\u00e6\u0096\u0099\u00e7\u0090\u0086\u00e5\u00a4\u00a7\u00e4\u00bd\u009c\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Really!? {{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}}'s Great Cooking Operation!!"
+    }
+  },
+  "019": {
+    "ID": 19,
+    "EnglishTitle": "A Guardian Rematch!",
+    "JapaneseTitle": "\u00e9\u009b\u00bb\u00e6\u0092\u0083\u00e7\u008c\u009b\u00e7\u0089\u00b9\u00e8\u00a8\u0093\u00ef\u00bc\u0081\u00e3\u0082\u00ab\u00e3\u0083\u0097\u00e3\u0083\u00bb\u00e3\u0082\u00b3\u00e3\u0082\u00b1\u00e3\u0082\u00b3\u00e3\u0081\u00a8\u00e3\u0081\u00ae\u00e5\u0086\u008d\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Intense Electrifying Training! Rematch with {{tt",
+    "AirDate": {
+      "International": "Kapu-Kokeko",
+      "Japanese": "Tapu Koko}}!!"
+    }
+  },
+  "020": {
+    "ID": 20,
+    "EnglishTitle": "Partner Promises!",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0081\u00a8\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6\u00e3\u0080\u0081\u00e4\u00ba\u008c\u00e4\u00ba\u00ba\u00e3\u0081\u00ae\u00e7\u00b4\u0084\u00e6\u009d\u009f",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and Pikachu, the Promise between Them"
+    }
+  },
+  "021": {
+    "ID": 21,
+    "EnglishTitle": "One Journey Ends, Another Begins...",
+    "JapaneseTitle": "\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u0093\u00e3\u0083\u00bc\u00e3\u0080\u0081\u00e6\u0097\u0085\u00e7\u00ab\u008b\u00e3\u0081\u00a1\u00e3\u0081\u00ae\u00e6\u0099\u0082\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Nyabby",
+      "Japanese": "Litten}}, Time to Begin the Journey!"
+    }
+  },
+  "022": {
+    "ID": 22,
+    "EnglishTitle": "A Shivering Shovel Search!",
+    "JapaneseTitle": "\u00e3\u0082\u00b9\u00e3\u0082\u00b3\u00e3\u0083\u0083\u00e3\u0083\u0097\u00e3\u0081\u00ab\u00e8\u00a6\u0081\u00e6\u00b3\u00a8\u00e6\u0084\u008f\u00ef\u00bc\u0081\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Beware of Shovels!!!",
+    "AirDate": {
+      "International": "July 8, 2017",
+      "Japanese": "April 13, 2017}}"
+    }
+  },
+  "023": {
+    "ID": 23,
+    "EnglishTitle": "Getting the Band Back Together!",
+    "JapaneseTitle": "\u00e8\u00a1\u009d\u00e6\u0092\u0083\u00ef\u00bc\u0081\u00e3\u0083\u0080\u00e3\u0082\u00b0\u00e3\u0083\u0088\u00e3\u0083\u00aa\u00e3\u0082\u00aa\u00e8\u00a7\u00a3\u00e6\u0095\u00a3\u00ef\u00bc\u0081\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "Shocking! Dugtrio Split Up!?",
+    "AirDate": {
+      "International": "July 15, 2017",
+      "Japanese": "April 20, 2017}}"
+    }
+  },
+  "024": {
+    "ID": 24,
+    "EnglishTitle": "Alolan Open House!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00ef\u00bc\u0081\u00e3\u0081\u00af\u00e3\u0081\u0098\u00e3\u0082\u0081\u00e3\u0081\u00a6\u00e3\u0081\u00ae\u00e6\u008e\u0088\u00e6\u00a5\u00ad\u00e5\u008f\u0082\u00e8\u00a6\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Alola! The First Visiting Day!!",
+    "AirDate": {
+      "International": "July 22, 2017",
+      "Japanese": "April 27, 2017}}"
+    }
+  },
+  "025": {
+    "ID": 25,
+    "EnglishTitle": "A Team-on-Team Tussle!",
+    "JapaneseTitle": "\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0082\u00b9\u00e3\u0082\u00bf\u00e3\u0083\u00ab\u00e4\u00ba\u0089\u00e5\u00a5\u00aa\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00e3\u0083\u00ad\u00e3\u0082\u00b1\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e5\u009b\u00a3\u00e5\u00af\u00be\u00e3\u0082\u00b9\u00e3\u0082\u00ab\u00e3\u0083\u00ab\u00e5\u009b\u00a3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Fighting for a Crystal! {{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}} VS {{tt"
+    }
+  },
+  "026": {
+    "ID": 26,
+    "EnglishTitle": "So Long, Sophocles!",
+    "JapaneseTitle": "\u00e3\u0081\u0095\u00e3\u0082\u0088\u00e3\u0081\u00aa\u00e3\u0082\u0089\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u009e\u00e3\u0083\u008d\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Farewell, {{tt",
+    "AirDate": {
+      "International": "Mamane",
+      "Japanese": "Sophocles}}!"
+    }
+  },
+  "027": {
+    "ID": 27,
+    "EnglishTitle": "A Glaring Rivalry!",
+    "JapaneseTitle": "\u00e5\u0087\u00ba\u00e3\u0081\u00a7\u00e3\u0082\u0088\u00ef\u00bc\u0081\u00e7\u00b4\u0085\u00e3\u0081\u008d\u00e7\u009c\u00bc\u00e5\u00b7\u00ae\u00e3\u0081\u0097\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Come Forth! The Red, Red Gaze of {{tt",
+    "AirDate": {
+      "International": "Lugarugan",
+      "Japanese": "Lycanroc}}!!"
+    }
+  },
+  "028": {
+    "ID": 28,
+    "EnglishTitle": "Pulling Out the Pok\u00c3\u00a9mon Base Pepper!",
+    "JapaneseTitle": "\u00e7\u0086\u00b1\u00e9\u0097\u0098\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u0099\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00ef\u00bc\u0081\u00e3\u0081\u00ad\u00e3\u0082\u0089\u00e3\u0081\u0088\u00e9\u0080\u0086\u00e8\u00bb\u00a2\u00e3\u0083\u009b\u00e3\u0083\u00bc\u00e3\u0083\u00a0\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Fierce {{tt",
+    "AirDate": {
+      "International": "Pok\u00c3\u00a9base",
+      "Japanese": "Pok\u00c3\u00a9mon Base}} Match! Aim for a Home Run to Turn the Tide!!"
+    }
+  },
+  "029": {
+    "ID": 29,
+    "EnglishTitle": "Lulled to La-La Land!",
+    "JapaneseTitle": "\u00e3\u0083\u008d\u00e3\u0083\u009e\u00e3\u0082\u00b7\u00e3\u0083\u00a5\u00e3\u0081\u00ae\u00e6\u00a3\u00ae\u00e3\u0081\u00a7\u00e3\u0081\u0082\u00e3\u0081\u00aa\u00e3\u0081\u009f\u00e3\u0082\u0082\u00e5\u00af\u009d\u00e3\u0081\u00be\u00e3\u0081\u0097\u00e3\u0082\u0085\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "Are You Going to Have a Nap-masyu in the {{tt",
+    "AirDate": {
+      "International": "Nemasyu",
+      "Japanese": "Morelull}} Forest Too?"
+    }
+  },
+  "030": {
+    "ID": 30,
+    "EnglishTitle": "The Ol' Raise and Switch!",
+    "JapaneseTitle": "\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e3\u0080\u0081\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6\u00e3\u0082\u0092\u00e3\u0081\u008b\u00e3\u0082\u008f\u00e3\u0081\u0084\u00e3\u0081\u008c\u00e3\u0081\u00a3\u00e3\u0081\u00a6\u00e3\u0081\u0082\u00e3\u0081\u0092\u00e3\u0081\u00a6\u00e3\u0081\u00ad",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}}, Take Good Care of Pikachu"
+    }
+  },
+  "031": {
+    "ID": 31,
+    "EnglishTitle": "The Island Whisperer!",
+    "JapaneseTitle": "\u00e3\u0083\u00a9\u00e3\u0082\u00a4\u00e3\u0083\u0081\u00e7\u0099\u00bb\u00e5\u00a0\u00b4\u00ef\u00bc\u0081\u00e6\u00b3\u00a3\u00e3\u0081\u0084\u00e3\u0081\u00a6\u00e7\u00ac\u0091\u00e3\u0081\u00a3\u00e3\u0081\u00a6\u00e3\u0080\u0081\u00e5\u00b3\u00b6\u00e3\u0082\u00af\u00e3\u0082\u00a4\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lychee",
+      "Japanese": "Olivia}} Appears! Laugh and Cry, {{tt"
+    }
+  },
+  "032": {
+    "ID": 32,
+    "EnglishTitle": "Treasure Hunt, Akala Style!",
+    "JapaneseTitle": "\u00e3\u0081\u008a\u00e5\u00ae\u009d\u00e7\u0099\u00ba\u00e8\u00a6\u008b\u00ef\u00bc\u0081\u00e3\u0083\u00a0\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e3\u0082\u00b5\u00e3\u0083\u00bc\u00e3\u0083\u0081\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Treasure Found! {{tt",
+    "AirDate": {
+      "International": "Mooland",
+      "Japanese": "Stoutland}} Search!!"
+    }
+  },
+  "033": {
+    "ID": 33,
+    "EnglishTitle": "Big Sky, Small Fry!",
+    "JapaneseTitle": "\u00e3\u0083\u00a8\u00e3\u0083\u00af\u00e3\u0082\u00b7\u00e5\u00bc\u00b7\u00e3\u0081\u0097\u00e3\u0080\u0081\u00e6\u00b1\u00a0\u00e3\u0081\u00ae\u00e3\u0081\u00ac\u00e3\u0081\u0097\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Yowashi",
+      "Japanese": "Wishiwashi}} the Powerhouse, {{tt"
+    }
+  },
+  "034": {
+    "ID": 34,
+    "EnglishTitle": "A Crowning Moment of Truth!",
+    "JapaneseTitle": "\u00e7\u0082\u008e\u00e3\u0081\u00ae\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00e3\u0082\u00ac\u00e3\u0083\u00a9\u00e3\u0082\u00ac\u00e3\u0083\u00a9\u00e3\u0081\u0082\u00e3\u0082\u0089\u00e3\u0082\u008f\u00e3\u0082\u008b\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Battle of Fire! {{tt",
+    "AirDate": {
+      "International": "Garagara",
+      "Japanese": "Marowak}} Appears!!"
+    }
+  },
+  "035": {
+    "ID": 35,
+    "EnglishTitle": "Currying Favor and Flavor!",
+    "JapaneseTitle": "\u00e3\u0082\u00ab\u00e3\u0083\u00ac\u00e3\u0083\u00bc\u00e3\u0081\u00aa\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00e3\u0083\u00a9\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0086\u00e3\u0082\u00b9\u00e3\u0081\u00ae\u00e8\u0088\u009e\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "A Beautiful Curry Battle! The Dance of {{tt",
+    "AirDate": {
+      "International": "Lalantes",
+      "Japanese": "Lurantis}}!!"
+    }
+  },
+  "036": {
+    "ID": 36,
+    "EnglishTitle": "Trials and Determinations!",
+    "JapaneseTitle": "\u00e3\u0083\u00a9\u00e3\u0082\u00a4\u00e3\u0083\u0081\u00e3\u0081\u00ae\u00e5\u00a4\u00a7\u00e8\u00a9\u00a6\u00e7\u00b7\u00b4\u00ef\u00bc\u0081\u00e4\u00b8\u0080\u00e7\u0095\u00aa\u00e3\u0083\u008f\u00e3\u0083\u00bc\u00e3\u0083\u0089\u00e3\u0081\u00aa\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e5\u008b\u009d\u00e8\u00b2\u00a0\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lychee",
+      "Japanese": "Olivia}}'s Grand Trial! The Hardest Pok\u00c3\u00a9mon Match!!"
+    }
+  },
+  "037": {
+    "ID": 37,
+    "EnglishTitle": "Rising from the Ruins!",
+    "JapaneseTitle": "\u00e3\u0082\u00a4\u00e3\u0083\u00af\u00e3\u0083\u00b3\u00e3\u0082\u00b3\u00e3\u0081\u00a8\u00e3\u0081\u0084\u00e3\u0081\u00ae\u00e3\u0081\u00a1\u00e3\u0081\u00ae\u00e9\u0081\u00ba\u00e8\u00b7\u00a1\u00e3\u0081\u00ae\u00e5\u00ae\u0088\u00e3\u0082\u008a\u00e7\u00a5\u009e\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Iwanko",
+      "Japanese": "Rockruff}} and the Guardian Deity of the Ruins of Life!"
+    }
+  },
+  "038": {
+    "ID": 38,
+    "EnglishTitle": "Mimikyu Unmasked!",
+    "JapaneseTitle": "\u00e3\u0083\u009f\u00e3\u0083\u009f\u00e3\u0083\u0083\u00e3\u0082\u00ad\u00e3\u0083\u00a5\u00e3\u0081\u00ae\u00e3\u0081\u00b0\u00e3\u0081\u0091\u00e3\u0081\u00ae\u00e3\u0081\u008b\u00e3\u0082\u008f\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mimikkyu",
+      "Japanese": "Mimikyu}}'s Disguise!"
+    }
+  },
+  "039": {
+    "ID": 39,
+    "EnglishTitle": "Mallow and the Forest Teacher!",
+    "JapaneseTitle": "\u00e5\u00ae\u00b6\u00e5\u0087\u00ba\u00e3\u0081\u00ae\u00e3\u0083\u009e\u00e3\u0082\u00aa\u00e3\u0081\u00a8\u00e3\u0083\u00a4\u00e3\u0083\u00ac\u00e3\u0083\u00a6\u00e3\u0083\u00bc\u00e3\u0082\u00bf\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}} Runs Away from Home and {{tt"
+    }
+  },
+  "040": {
+    "ID": 40,
+    "EnglishTitle": "Balloons, Brionne, and Belligerence!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0082\u00b7\u00e3\u0083\u009e\u00e3\u0083\u00aa\u00e3\u0080\u0081\u00e3\u0082\u00aa\u00e3\u0082\u00b7\u00e3\u0083\u00a3\u00e3\u0083\u009e\u00e3\u0083\u00aa\u00e3\u0080\u0081\u00e3\u0081\u0084\u00e3\u0081\u008b\u00e3\u0082\u008a\u00e3\u0081\u00ae\u00e3\u0083\u0080\u00e3\u0083\u0080\u00e3\u0083\u00aa\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Ashimari",
+      "Japanese": "Popplio}}, {{tt"
+    }
+  },
+  "041": {
+    "ID": 41,
+    "EnglishTitle": "Mounting an Electrifying Charge!",
+    "JapaneseTitle": "\u00e3\u0083\u0080\u00e3\u0083\u0083\u00e3\u0082\u00b7\u00e3\u0083\u00a5\u00ef\u00bc\u0081\u00e3\u0083\u0087\u00e3\u0083\u00b3\u00e3\u0083\u0082\u00e3\u0083\u00a0\u00e3\u0082\u00b7",
+    "JapaneseTransliteration": "Dash! {{tt",
+    "AirDate": {
+      "International": "Dendimushi",
+      "Japanese": "Charjabug}}"
+    }
+  },
+  "042": {
+    "ID": 42,
+    "EnglishTitle": "Alola, Kanto!",
+    "JapaneseTitle": "\u00e3\u0082\u00ab\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bc\u00e3\u0081\u00a7\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00ef\u00bc\u0081\u00e3\u0082\u00bf\u00e3\u0082\u00b1\u00e3\u0082\u00b7\u00e3\u0081\u00a8\u00e3\u0082\u00ab\u00e3\u0082\u00b9\u00e3\u0083\u009f\u00ef\u00bc\u0081\u00ef\u00bc\u0081 ",
+    "JapaneseTransliteration": "Alola at Kanto! {{tt",
+    "AirDate": {
+      "International": "Takeshi",
+      "Japanese": "Brock}} and {{tt"
+    }
+  },
+  "043": {
+    "ID": 43,
+    "EnglishTitle": "When Regions Collide!",
+    "JapaneseTitle": "\u00e3\u0082\u00b8\u00e3\u0083\u00a0\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u00ba\u00e3\u0083\u00af\u00e3\u0082\u00b6\u00e5\u00af\u00be\u00e3\u0083\u00a1\u00e3\u0082\u00ac\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0082\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Gym Battle! Z-Move VS Mega Evolution!!",
+    "AirDate": {
+      "International": "December 9, 2017",
+      "Japanese": "September 21, 2017}}"
+    }
+  },
+  "044": {
+    "ID": 44,
+    "EnglishTitle": "A Dream Encounter!",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0081\u00ae\u00e3\u0081\u00bb\u00e3\u0081\u0097\u00e3\u0081\u0090\u00e3\u0082\u0082\u00ef\u00bc\u0081\u00e4\u00b8\u008d\u00e6\u0080\u009d\u00e8\u00ad\u00b0\u00e3\u0081\u00aa\u00e5\u0087\u00ba\u00e4\u00bc\u009a\u00e3\u0081\u0084\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and {{tt"
+    }
+  },
+  "045": {
+    "ID": 45,
+    "EnglishTitle": "Now You See Them, Now You Don't!",
+    "JapaneseTitle": "\u00e3\u0081\u00bb\u00e3\u0081\u0097\u00e3\u0081\u0090\u00e3\u0082\u0082\u00e3\u0083\u0091\u00e3\u0083\u008b\u00e3\u0083\u0083\u00e3\u0082\u00af\u00ef\u00bc\u0081\u00e3\u0083\u0086\u00e3\u0083\u00ac\u00e3\u0083\u009d\u00e3\u0083\u00bc\u00e3\u0083\u0088\u00e3\u0081\u00af\u00e7\u00aa\u0081\u00e7\u0084\u00b6\u00e3\u0081\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Hoshigumo",
+      "Japanese": "Nebby}} Panic! A Sudden Teleport!!"
+    }
+  },
+  "046": {
+    "ID": 46,
+    "EnglishTitle": "Deceiving Appearances!",
+    "JapaneseTitle": "\u00e5\u00a4\u0089\u00e8\u00ba\u00ab\u00e3\u0083\u00a1\u00e3\u0082\u00bf\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0080\u0081\u00e6\u008e\u00a2\u00e3\u0081\u0099\u00e3\u0082\u0093\u00e3\u0081\u00a0\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Shapeshifting {{tt",
+    "AirDate": {
+      "International": "Metamon",
+      "Japanese": "Ditto}}, Find that 'mon!"
+    }
+  },
+  "047": {
+    "ID": 47,
+    "EnglishTitle": "A Masked Warning!",
+    "JapaneseTitle": "\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0082\u00b8\u00e3\u0082\u00aa\u00e3\u0081\u00a8\u00e3\u0082\u00b7\u00e3\u0083\u00ab\u00e3\u0083\u00b4\u00e3\u0082\u00a1\u00e3\u0083\u0087\u00e3\u0082\u00a3\u00ef\u00bc\u0081\u00e6\u0088\u0092\u00e3\u0082\u0081\u00e3\u0081\u00ae\u00e4\u00bb\u00ae\u00e9\u009d\u00a2\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Glazio",
+      "Japanese": "Gladion}} and {{tt"
+    }
+  },
+  "048": {
+    "ID": 48,
+    "EnglishTitle": "Night of a Thousand Poses!",
+    "JapaneseTitle": "\u00e3\u0082\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00aa\u00e3\u0083\u00a7\u00e3\u0082\u00af\u00e3\u0083\u009d\u00e3\u0083\u00bc\u00e3\u0082\u00ba\u00e3\u0081\u00a7\u00e3\u0081\u008a\u00e6\u00b3\u008a\u00e3\u0081\u00be\u00e3\u0082\u008a\u00e4\u00bc\u009a\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Full Force Pose at the Sleepover!",
+    "AirDate": {
+      "International": "March 28, 2018",
+      "Japanese": "November 2, 2017}}"
+    }
+  },
+  "049": {
+    "ID": 49,
+    "EnglishTitle": "Mission: Total Recall!",
+    "JapaneseTitle": "\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e3\u0081\u00a8\u00e3\u0082\u00b7\u00e3\u0083\u00ab\u00e3\u0083\u00b4\u00e3\u0082\u00a1\u00e3\u0083\u0087\u00e3\u0082\u00a3\u00e3\u0080\u0081\u00e3\u0082\u0088\u00e3\u0081\u00bf\u00e3\u0081\u008c\u00e3\u0081\u0088\u00e3\u0082\u008b\u00e8\u00a8\u0098\u00e6\u0086\u00b6\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} and {{tt"
+    }
+  },
+  "050": {
+    "ID": 50,
+    "EnglishTitle": "Faba's Revenge!",
+    "JapaneseTitle": "\u00e3\u0082\u00b6\u00e3\u0082\u00aa\u00e3\u0083\u009c\u00e3\u0083\u00bc\u00e3\u0081\u00ae\u00e9\u0080\u0086\u00e8\u00a5\u00b2\u00ef\u00bc\u0081\u00e3\u0081\u0095\u00e3\u0082\u0089\u00e3\u0082\u008f\u00e3\u0082\u008c\u00e3\u0081\u009f\u00e3\u0081\u00bb\u00e3\u0081\u0097\u00e3\u0081\u0090\u00e3\u0082\u0082\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Sauboh",
+      "Japanese": "Faba}}'s Counterattack! The Kidnapped {{tt"
+    }
+  },
+  "051": {
+    "ID": 51,
+    "EnglishTitle": "Family Determination!",
+    "JapaneseTitle": "\u00e3\u0081\u008c\u00e3\u0082\u0093\u00e3\u0081\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00ef\u00bc\u0081\u00e6\u00b1\u00ba\u00e6\u0084\u008f\u00e3\u0081\u00ae\u00e5\u00ae\u00b6\u00e5\u0087\u00ba\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Lively {{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}}! A Determined Runaway!! "
+    }
+  },
+  "052": {
+    "ID": 52,
+    "EnglishTitle": "Revealing the Stuff of Legend!",
+    "JapaneseTitle": "\u00e6\u0097\u00a5\u00e8\u00bc\u00aa\u00e3\u0081\u00ae\u00e7\u00a5\u00ad\u00e5\u00a3\u0087\u00ef\u00bc\u0081\u00e3\u0082\u00bd\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00ac\u00e3\u0082\u00aa\u00e9\u0099\u008d\u00e8\u0087\u00a8\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Altar of the {{tt",
+    "AirDate": {
+      "International": "Sun",
+      "Japanese": "Sunne}}! Solgaleo Descends!! "
+    }
+  },
+  "053": {
+    "ID": 53,
+    "EnglishTitle": "Rescuing the Unwilling!",
+    "JapaneseTitle": "\u00e6\u0080\u00a5\u00e3\u0081\u0092\u00ef\u00bc\u0081\u00e3\u0083\u00ab\u00e3\u0082\u00b6\u00e3\u0083\u009f\u00e3\u0083\u00bc\u00e3\u0083\u008d\u00e6\u0095\u0091\u00e5\u0087\u00ba\u00e5\u00a4\u00a7\u00e4\u00bd\u009c\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Hurry! The Great Lusamine Rescue Operation!!",
+    "AirDate": {
+      "International": "April 14, 2018",
+      "Japanese": "December 7, 2017}}"
+    }
+  },
+  "054": {
+    "ID": 54,
+    "EnglishTitle": "10,000,000 Reasons to Fight!",
+    "JapaneseTitle": "\u00e8\u00bc\u009d\u00e3\u0081\u0091Z\u00e3\u0083\u0091\u00e3\u0083\u00af\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00ef\u00bc\u0081\u00e8\u00b6\u0085\u00e3\u0082\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00aa\u00e3\u0083\u00a7\u00e3\u0082\u00af\u00e3\u0081\u00ae1000\u00e3\u0081\u00be\u00e3\u0082\u0093\u00e3\u0083\u009c\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Shine, Z-Power Ring! Super Full-Force {{tt",
+    "AirDate": {
+      "International": "10,000,000 Volts",
+      "Japanese": "10,000,000 Volt Thunderbolt}}!!"
+    }
+  },
+  "055": {
+    "ID": 55,
+    "EnglishTitle": "The Professors' New Adventure!",
+    "JapaneseTitle": "\u00e3\u0081\u0082\u00e3\u0082\u008a\u00e3\u0081\u008c\u00e3\u0081\u00a8\u00e3\u0081\u0086\u00e3\u0082\u00bd\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00ac\u00e3\u0082\u00aa\u00ef\u00bc\u0081\u00e4\u00bf\u00ba\u00e3\u0081\u009f\u00e3\u0081\u00a1\u00e3\u0081\u00ae\u00e3\u0081\u00bb\u00e3\u0081\u0097\u00e3\u0081\u0090\u00e3\u0082\u0082\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Thank You, Solgaleo! Our {{tt",
+    "AirDate": {
+      "International": "Hoshigumo",
+      "Japanese": "Nebby}}!!"
+    }
+  },
+  "056": {
+    "ID": 56,
+    "EnglishTitle": "Let Sleeping Pok\u00c3\u00a9mon Lie!",
+    "JapaneseTitle": "\u00e5\u00af\u009d\u00e3\u0082\u008b\u00e5\u00ad\u0090\u00e3\u0081\u00af\u00e5\u00bc\u00b7\u00e3\u0081\u0084\u00e3\u0080\u0081\u00e3\u0083\u008d\u00e3\u0083\u0083\u00e3\u0082\u00b3\u00e3\u0082\u00a2\u00e3\u0083\u00a9\u00e3\u0081\u00ae\u00e7\u00a7\u0098\u00e5\u00af\u0086\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Strong Sleeper, {{tt",
+    "AirDate": {
+      "International": "Nekkoara",
+      "Japanese": "Komala}}'s Secret!"
+    }
+  },
+  "057": {
+    "ID": 57,
+    "EnglishTitle": "The Dex Can't Help It!",
+    "JapaneseTitle": "\u00e3\u0083\u00ad\u00e3\u0083\u0088\u00e3\u0083\u00a0\u00e3\u0080\u0081\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00ab\u00e3\u0083\u00a0\u00e3\u0083\u0081\u00e3\u0082\u00a7\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0081\u008c\u00e6\u00ad\u00a2\u00e3\u0081\u00be\u00e3\u0082\u0089\u00e3\u0081\u00aa\u00e3\u0081\u0084\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Rotom, Can't Stop the Form Change!",
+    "AirDate": {
+      "International": "May 12, 2018",
+      "Japanese": "January 11, 2018}}"
+    }
+  },
+  "058": {
+    "ID": 58,
+    "EnglishTitle": "Fighting Back the Tears!",
+    "JapaneseTitle": "\u00e6\u00b3\u00a3\u00e3\u0081\u008b\u00e3\u0081\u00aa\u00e3\u0081\u0084\u00e3\u0081\u00a7\u00e3\u0083\u0092\u00e3\u0083\u0089\u00e3\u0082\u00a4\u00e3\u0083\u0087\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Don't Cry, {{tt",
+    "AirDate": {
+      "International": "Hidoide",
+      "Japanese": "Mareanie}}!"
+    }
+  },
+  "059": {
+    "ID": 59,
+    "EnglishTitle": "Tasting the Bitter with the Sweet!",
+    "JapaneseTitle": "\u00e3\u0083\u009e\u00e3\u0082\u00aa\u00e3\u0081\u00a8\u00e3\u0082\u00b9\u00e3\u0082\u00a4\u00e3\u0083\u00ac\u00e3\u0083\u00b3\u00e3\u0080\u0081\u00e3\u0081\u00ab\u00e3\u0081\u008c\u00e3\u0081\u0082\u00e3\u0081\u00be\u00e3\u0083\u00a1\u00e3\u0083\u00a2\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00ba\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}} and {{tt"
+    }
+  },
+  "060": {
+    "ID": 60,
+    "EnglishTitle": "Getting a Jump on the Competition!",
+    "JapaneseTitle": "\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e9\u00a3\u009b\u00e3\u0081\u00b3\u00e3\u0081\u00be\u00e3\u0081\u0099\u00ef\u00bc\u0081\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0082\u00be\u00e3\u0083\u00aa\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00b3\u00e3\u0083\u0097\u00e5\u00a4\u00a7\u00e4\u00bc\u009a\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} Soars Through the Air! The {{tt"
+    }
+  },
+  "061": {
+    "ID": 61,
+    "EnglishTitle": "A Mission of Ultra Urgency!",
+    "JapaneseTitle": "\u00e5\u0087\u00ba\u00e5\u008b\u0095\u00ef\u00bc\u0081\u00e5\u0083\u0095\u00e3\u0082\u0089\u00e3\u0081\u00ae\u00e3\u0082\u00a6\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00e3\u0083\u00a9\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u0087\u00e3\u0082\u00a3\u00e3\u0082\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00ba\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Set Off! Our Ultra Guardians!!",
+    "AirDate": {
+      "International": "July 16, 2018",
+      "Japanese": "February 8, 2018}}"
+    }
+  },
+  "062": {
+    "ID": 62,
+    "EnglishTitle": "Acting True to Form!",
+    "JapaneseTitle": "\u00e6\u0082\u00aa\u00e3\u0081\u00ae\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00e3\u0081\u00af\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00ef\u00bc\u0081\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "The Evil {{tt",
+    "AirDate": {
+      "International": "Nyarth",
+      "Japanese": "Meowth}} is an Alolan Nyarth!?"
+    }
+  },
+  "063": {
+    "ID": 63,
+    "EnglishTitle": "Pushing the Fiery Envelope!",
+    "JapaneseTitle": "\u00e7\u0087\u0083\u00e3\u0081\u0088\u00e4\u00b8\u008a\u00e3\u0081\u008c\u00e3\u0082\u008c\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u0093\u00e3\u0083\u00bc\u00ef\u00bc\u0081\u00e6\u0089\u0093\u00e5\u0080\u0092\u00e3\u0082\u00ac\u00e3\u0082\u00aa\u00e3\u0082\u00ac\u00e3\u0082\u00a8\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Blaze, {{tt",
+    "AirDate": {
+      "International": "Nyabby",
+      "Japanese": "Litten}}! Overthrow {{tt"
+    }
+  },
+  "064": {
+    "ID": 64,
+    "EnglishTitle": "None",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0081\u00a8\u00e3\u0083\u008a\u00e3\u0082\u00b2\u00e3\u0083\u0084\u00e3\u0082\u00b1\u00e3\u0082\u00b5\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00e5\u008f\u008b\u00e6\u0083\u0085\u00e3\u0081\u00ae\u00e3\u0082\u00bf\u00e3\u0083\u0083\u00e3\u0083\u0081\u00e3\u0083\u0080\u00e3\u0082\u00a6\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and {{tt"
+    }
+  },
+  "065": {
+    "ID": 65,
+    "EnglishTitle": "Turning Heads and Training Hard!",
+    "JapaneseTitle": "\u00e3\u0082\u00a4\u00e3\u0083\u00aa\u00e3\u0083\u009e\u00e3\u0081\u00a8\u00e3\u0082\u00a4\u00e3\u0083\u00bc\u00e3\u0083\u0096\u00e3\u0082\u00a4\u00e3\u0081\u00be\u00e3\u0082\u00a4\u00e3\u0083\u00aa\u00e3\u0083\u009e\u00e3\u0081\u0099\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Ilima and {{tt",
+    "AirDate": {
+      "International": "Eievui",
+      "Japanese": "Eevee}} IliMake Their Entrance!!"
+    }
+  },
+  "066": {
+    "ID": 66,
+    "EnglishTitle": "Smashing with Sketch!",
+    "JapaneseTitle": "\u00e3\u0082\u00b9\u00e3\u0082\u00b1\u00e3\u0083\u0083\u00e3\u0083\u0081\u00e3\u0081\u00a7\u00e3\u0082\u00b9\u00e3\u0083\u009e\u00e3\u0083\u0083\u00e3\u0082\u00b7\u00e3\u0083\u00a5\u00ef\u00bc\u0081\u00e6\u00bf\u0080\u00e9\u0097\u0098\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u0094\u00e3\u0083\u00b3\u00e3\u0083\u009d\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Smash with Sketch! The Fierce Fighting Pok\u00c3\u00a9-Ping Pong!",
+    "AirDate": {
+      "International": "August 13, 2018",
+      "Japanese": "March 15, 2018}}"
+    }
+  },
+  "067": {
+    "ID": 67,
+    "EnglishTitle": "Love at First Twirl!",
+    "JapaneseTitle": "\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0081\u00a0\u00e3\u0081\u0084\u00e3\u0081\u0099\u00e3\u0081\u008d\u00ef\u00bc\u0081\u00e3\u0081\u008f\u00e3\u0082\u008b\u00e3\u0081\u008f\u00e3\u0082\u008b\u00e3\u0083\u0099\u00e3\u0083\u0099\u00e3\u0083\u008e\u00e3\u0083\u00a0\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Shining Love! Spinning {{tt",
+    "AirDate": {
+      "International": "Bevenom",
+      "Japanese": "Poipole}}!!"
+    }
+  },
+  "068": {
+    "ID": 68,
+    "EnglishTitle": "Real Life...Inquire Within!",
+    "JapaneseTitle": "\u00e3\u0081\u008a\u00e4\u00bb\u0095\u00e4\u00ba\u008b\u00e4\u00bd\u0093\u00e9\u00a8\u0093\u00ef\u00bc\u0081\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0082\u00bf\u00e3\u0083\u00bc24\u00e6\u0099\u0082\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Work Experience! 24-Hour Pok\u00c3\u00a9mon Center!!",
+    "AirDate": {
+      "International": "September 1, 2018",
+      "Japanese": "April 5, 2018}}"
+    }
+  },
+  "069": {
+    "ID": 69,
+    "EnglishTitle": "Rise and Shine, Starship!",
+    "JapaneseTitle": "\u00e8\u00bc\u009d\u00e3\u0081\u0091\u00e6\u0098\u009f\u00e8\u0088\u009f\u00e3\u0083\u0086\u00e3\u0083\u0083\u00e3\u0082\u00ab\u00e3\u0082\u00b0\u00e3\u0083\u00a4\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Shining Starship {{tt",
+    "AirDate": {
+      "International": "Tekkaguya",
+      "Japanese": "Celesteela}}!"
+    }
+  },
+  "070": {
+    "ID": 70,
+    "EnglishTitle": "The Young Flame Strikes Back!",
+    "JapaneseTitle": "\u00e7\u0089\u00a7\u00e5\u00a0\u00b4\u00e3\u0082\u0092\u00e5\u00ae\u0088\u00e3\u0082\u008c\u00ef\u00bc\u0081\u00e9\u0080\u0086\u00e8\u00a5\u00b2\u00e3\u0081\u00ae\u00e8\u0092\u00bc\u00e3\u0081\u008d\u00e7\u0082\u008e\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Protect the Ranch! The Blue Flame's Counterattack!!",
+    "AirDate": {
+      "International": "September 15, 2018",
+      "Japanese": "April 19, 2018}}"
+    }
+  },
+  "071": {
+    "ID": 71,
+    "EnglishTitle": "Dewpider Ascending!",
+    "JapaneseTitle": "\u00e3\u0082\u00b7\u00e3\u0082\u00ba\u00e3\u0082\u00af\u00e3\u0083\u00a2\u00e3\u0080\u0081\u00e3\u0082\u00b9\u00e3\u0082\u00a4\u00e3\u0083\u00ac\u00e3\u0083\u00b3\u00e3\u0082\u00b2\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e3\u0081\u00a0\u00e3\u0081\u009c\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Shizukumo",
+      "Japanese": "Dewpider}}, Get {{tt"
+    }
+  },
+  "072": {
+    "ID": 72,
+    "EnglishTitle": "Sours for the Sweet!",
+    "JapaneseTitle": "\u00e3\u0083\u0091\u00e3\u0083\u00b3\u00e3\u0083\u0091\u00e3\u0082\u00ab\u00e3\u0083\u0091\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00e7\u0087\u0083\u00e3\u0081\u0088\u00e3\u0082\u0088\u00e3\u0083\u009e\u00e3\u0082\u00aa\u00e3\u0083\u0095\u00e3\u0082\u00a1\u00e3\u0083\u009f\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Ta-ta-ta-dough! Fire it Up, {{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}}'s Family!!"
+    }
+  },
+  "073": {
+    "ID": 73,
+    "EnglishTitle": "Why Not Give Me a Z-Ring Sometime?",
+    "JapaneseTitle": "\u00e3\u0083\u00ad\u00e3\u0082\u00b1\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e5\u009b\u00a3\u00e3\u0081\u00ae\u00e5\u00b3\u00b6\u00e3\u0082\u0081\u00e3\u0081\u0090\u00e3\u0082\u008a\u00ef\u00bc\u0081\u00ef\u00bc\u009fZ\u00e3\u0083\u00aa\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00e3\u0082\u0092\u00e3\u0082\u00b2\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e3\u0081\u009b\u00e3\u0082\u0088\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}}'s {{tt"
+    }
+  },
+  "074": {
+    "ID": 74,
+    "EnglishTitle": "Tough Guy Trials!",
+    "JapaneseTitle": "\u00e3\u0081\u00a1\u00e3\u0082\u0087\u00e3\u0083\u00bc\u00e3\u0083\u00af\u00e3\u0083\u00ab\u00e3\u0081\u008a\u00e3\u0082\u0084\u00e3\u0081\u0098\u00e3\u0081\u00af\u00e3\u0081\u0097\u00e3\u0081\u00be\u00e3\u0082\u00ad\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00ef\u00bc\u0081\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "The Big Old Thug is an {{tt",
+    "AirDate": {
+      "International": "Island King",
+      "Japanese": "Island Kahuna}}!?"
+    }
+  },
+  "075": {
+    "ID": 75,
+    "EnglishTitle": "Some Kind of Laziness!",
+    "JapaneseTitle": "\u00e3\u0082\u00ab\u00e3\u0083\u0097\u00e3\u0083\u00bb\u00e3\u0083\u0096\u00e3\u0083\u00ab\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00e3\u0081\u0090\u00e3\u0083\u00bc\u00e3\u0081\u009f\u00e3\u0082\u0089\u00e3\u0083\u00a2\u00e3\u0083\u00bc\u00e7\u0089\u00b9\u00e8\u00a8\u0093\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Kapu-Bulul",
+      "Japanese": "Tapu Bulu}}! Intense Lazy Training!!"
+    }
+  },
+  "076": {
+    "ID": 76,
+    "EnglishTitle": "A Battle Hand-Off!",
+    "JapaneseTitle": "\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0091\u00e3\u0083\u00bc\u00e6\u00b1\u00ba\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6VS\u00e3\u0083\u009f\u00e3\u0083\u009f\u00e3\u0083\u0083\u00e3\u0082\u00ad\u00e3\u0083\u00a5\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Super Decisive Battle! Pikachu VS {{tt",
+    "AirDate": {
+      "International": "Mimikkyu",
+      "Japanese": "Mimikyu}}!!"
+    }
+  },
+  "077": {
+    "ID": 77,
+    "EnglishTitle": "Guiding an Awakening!",
+    "JapaneseTitle": "\u00e3\u0082\u00af\u00e3\u0083\u0081\u00e3\u0083\u008a\u00e3\u0082\u00b7\u00e3\u0081\u00ae\u00e5\u00a4\u00a7\u00e8\u00a9\u00a6\u00e7\u00b7\u00b4\u00ef\u00bc\u0081\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00b3\u00e8\u00a6\u009a\u00e9\u0086\u0092\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Kuchinashi",
+      "Japanese": "Nanu}}'s Grand Trial! {{tt"
+    }
+  },
+  "078": {
+    "ID": 78,
+    "EnglishTitle": "Twirling with a Bang!",
+    "JapaneseTitle": "\u00e6\u00bf\u0080\u00e7\u00aa\u0081\u00e3\u0082\u00a6\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00e3\u0083\u00a9\u00e3\u0083\u0093\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00e3\u0083\u0088\u00ef\u00bc\u0081\u00e3\u0083\u0089\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e3\u0083\u00b3\u00e3\u0083\u0090\u00e3\u0083\u0081\u00e3\u0083\u0090\u00e3\u0083\u0081\u00e5\u00a4\u00a7\u00e4\u00bd\u009c\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Ultra Beast Clash! The Great Crackling Rumble Operation!!",
+    "AirDate": {
+      "International": "November 10, 2018",
+      "Japanese": "June 7, 2018}}"
+    }
+  },
+  "079": {
+    "ID": 79,
+    "EnglishTitle": "Showering the World with Love!",
+    "JapaneseTitle": "\u00e3\u0083\u00a1\u00e3\u0083\u0086\u00e3\u0083\u008e\u00e3\u0081\u00a8\u00e3\u0083\u0099\u00e3\u0083\u0099\u00e3\u0083\u008e\u00e3\u0083\u00a0\u00e3\u0080\u0081\u00e6\u0098\u009f\u00e7\u00a9\u00ba\u00e3\u0081\u00ab\u00e6\u00b6\u0088\u00e3\u0081\u0088\u00e3\u0081\u009f\u00e7\u00b4\u0084\u00e6\u009d\u009f\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Meteno",
+      "Japanese": "Minior}} and {{tt"
+    }
+  },
+  "080": {
+    "ID": 80,
+    "EnglishTitle": "Not Caving Under Pressure!",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e3\u0081\u00ae\u00e5\u00b5\u0090\u00ef\u00bc\u0081\u00e6\u00b0\u00b7\u00e7\u00a9\u00b4\u00e3\u0081\u00ae\u00e3\u0083\u0080\u00e3\u0083\u0096\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Sand",
+      "Japanese": "Sandshrew}}'s Storm! Ice Cave Double Battle!!"
+    }
+  },
+  "081": {
+    "ID": 81,
+    "EnglishTitle": "A Young Royal Flame Ignites!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00ae\u00e8\u008b\u00a5\u00e3\u0081\u008d\u00e7\u0082\u008e\u00ef\u00bc\u0081\u00e3\u0083\u00ad\u00e3\u0082\u00a4\u00e3\u0083\u00a4\u00e3\u0083\u00ab\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e8\u00aa\u0095\u00e7\u0094\u009f\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Alola's Young Fire! {{tt",
+    "AirDate": {
+      "International": "Royal Satoshi",
+      "Japanese": "Ash Royal}}'s Birth!!"
+    }
+  },
+  "082": {
+    "ID": 82,
+    "EnglishTitle": "All They Want to Do is Dance Dance!",
+    "JapaneseTitle": "\u00e3\u0083\u0080\u00e3\u0083\u00b3\u00e3\u0082\u00b9\u00e3\u0083\u0080\u00e3\u0083\u00b3\u00e3\u0082\u00b9\u00e3\u0081\u00a7\u00e9\u0080\u00b2\u00e5\u008c\u0096\u00e3\u0081\u009b\u00e3\u0082\u0093\u00e3\u0081\u008b\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "Dance Dance in Evolution?",
+    "AirDate": {
+      "International": "December 8, 2018",
+      "Japanese": "July 19, 2018}}"
+    }
+  },
+  "083": {
+    "ID": 83,
+    "EnglishTitle": "Dummy, You Shrunk the Kids!",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0080\u0081\u00e3\u0081\u00a1\u00e3\u0081\u0084\u00e3\u0081\u0095\u00e3\u0081\u008f\u00e3\u0081\u00aa\u00e3\u0082\u008b",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} Becomes Small"
+    }
+  },
+  "084": {
+    "ID": 84,
+    "EnglishTitle": "The Shape of Love to Come!",
+    "JapaneseTitle": "\u00e5\u00ae\u00b6\u00e6\u0097\u008f\u00e3\u0081\u00ae\u00e3\u0082\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u0081\u00e3\u0080\u0081\u00e3\u0083\u0099\u00e3\u0083\u0099\u00e3\u0083\u008e\u00e3\u0083\u00a0\u00e3\u0081\u00ae\u00e3\u0082\u00ad\u00e3\u0083\u00a2\u00e3\u0083\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Shape of Family, {{tt",
+    "AirDate": {
+      "International": "Bevenom",
+      "Japanese": "Poipole}}'s Feelings!"
+    }
+  },
+  "085": {
+    "ID": 85,
+    "EnglishTitle": "The Long Vault Home!",
+    "JapaneseTitle": "\u00e3\u0083\u0088\u00e3\u0083\u00b3\u00e3\u0083\u0087\u00e3\u0083\u008e\u00e3\u0083\u009c\u00e3\u0083\u0083\u00e3\u0083\u0086\u00e3\u0080\u0081\u00e3\u0083\u0084\u00e3\u0083\u00b3\u00e3\u0083\u0087\u00e3\u0083\u0084\u00e3\u0083\u00b3\u00e3\u0083\u0087\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Leap and Climb, {{tt",
+    "AirDate": {
+      "International": "Tundetunde",
+      "Japanese": "Stakataka}}!"
+    }
+  },
+  "086": {
+    "ID": 86,
+    "EnglishTitle": "I Choose Paradise!",
+    "JapaneseTitle": "\u00e3\u0082\u00b3\u00e3\u0082\u00b3\u00e3\u0081\u00ab\u00e3\u0081\u008d\u00e3\u0082\u0081\u00e3\u0081\u009f\u00ef\u00bc\u0081\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e6\u00b9\u00af\u00e3\u0081\u0091\u00e3\u0082\u0080\u00e3\u0082\u008a\u00e3\u0083\u0091\u00e3\u0083\u00a9\u00e3\u0083\u0080\u00e3\u0082\u00a4\u00e3\u0082\u00b9\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "I Choose Here! Pok\u00c3\u00a9mon Hot Spring Paradise!!",
+    "AirDate": {
+      "International": "January 12, 2019",
+      "Japanese": "August 16, 2018}}"
+    }
+  },
+  "087": {
+    "ID": 87,
+    "EnglishTitle": "Filling the Light with Darkness!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00ae\u00e5\u008d\u00b1\u00e6\u00a9\u009f\u00ef\u00bc\u0081\u00e3\u0081\u008b\u00e3\u0081\u008c\u00e3\u0082\u0084\u00e3\u0081\u008d\u00e3\u0082\u0092\u00e5\u0096\u00b0\u00e3\u0082\u0089\u00e3\u0081\u0086\u00e9\u0097\u0087\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "A Crisis in Alola! The Darkness that Devours Radiance!!",
+    "AirDate": {
+      "International": "January 19, 2019",
+      "Japanese": "August 23, 2018}}"
+    }
+  },
+  "088": {
+    "ID": 88,
+    "EnglishTitle": "Full Moon and Many Arms!",
+    "JapaneseTitle": "\u00e3\u0083\u00ab\u00e3\u0083\u008a\u00e3\u0082\u00a2\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e5\u00af\u00beUB:BLACK\u00ef\u00bc\u0081\u00e6\u00ba\u0080\u00e6\u009c\u0088\u00e3\u0081\u00ae\u00e6\u0088\u00a6\u00e3\u0081\u0084\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Lunala VS {{tt",
+    "AirDate": {
+      "International": "UB:BLACK",
+      "Japanese": "UB Black}}! A Full Moon Battle!!"
+    }
+  },
+  "089": {
+    "ID": 89,
+    "EnglishTitle": "The Prism Between Light and Darkness!",
+    "JapaneseTitle": "\u00e5\u0085\u0089\u00e3\u0081\u00a8\u00e9\u0097\u0087\u00e3\u0081\u00ae\u00e3\u0083\u0097\u00e3\u0083\u00aa\u00e3\u0082\u00ba\u00e3\u0083\u00a0\u00e3\u0080\u0081\u00e3\u0081\u009d\u00e3\u0081\u00ae\u00e5\u0090\u008d\u00e3\u0081\u00af\u00e3\u0083\u008d\u00e3\u0082\u00af\u00e3\u0083\u00ad\u00e3\u0082\u00ba\u00e3\u0083\u009e\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Prism of Light and Darkness - Its Name is Necrozma!!",
+    "AirDate": {
+      "International": "February 2, 2019",
+      "Japanese": "September 6, 2018}}"
+    }
+  },
+  "090": {
+    "ID": 90,
+    "EnglishTitle": "Securing the Future!",
+    "JapaneseTitle": "\u00e6\u009c\u00aa\u00e6\u009d\u00a5\u00e3\u0081\u00b8\u00e3\u0081\u00a4\u00e3\u0081\u00aa\u00e3\u0081\u0092\u00ef\u00bc\u0081\u00e3\u0081\u008b\u00e3\u0081\u008c\u00e3\u0082\u0084\u00e3\u0081\u008d\u00e3\u0081\u0095\u00e3\u0081\u00be\u00e3\u0081\u00ae\u00e4\u00bc\u009d\u00e8\u00aa\u00ac\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Connect to the Future! The Legend of the {{tt",
+    "AirDate": {
+      "International": "Radiant One",
+      "Japanese": "Blinding One}}!!"
+    }
+  },
+  "091": {
+    "ID": 91,
+    "EnglishTitle": "A Plethora of Pikachu!",
+    "JapaneseTitle": "\u00e5\u00a4\u00a7\u00e9\u0087\u008f\u00e7\u0099\u00ba\u00e7\u0094\u009f\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6\u00ef\u00bc\u0081\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6\u00e3\u0081\u00ae\u00e3\u0081\u009f\u00e3\u0081\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "It's a Pikachu Outbreak! The Pikachu Valley!!",
+    "AirDate": {
+      "International": "February 16, 2019",
+      "Japanese": "October 7, 2018}}"
+    }
+  },
+  "092": {
+    "ID": 92,
+    "EnglishTitle": "Turning the Other Mask!",
+    "JapaneseTitle": "\u00e3\u0082\u00af\u00e3\u0082\u00af\u00e3\u0082\u00a4\u00e7\u00b5\u00b6\u00e4\u00bd\u0093\u00e7\u00b5\u00b6\u00e5\u0091\u00bd\u00ef\u00bc\u0081\u00e3\u0082\u0082\u00e3\u0081\u0086\u00e4\u00b8\u0080\u00e4\u00ba\u00ba\u00e3\u0081\u00ae\u00e3\u0083\u00ad\u00e3\u0082\u00a4\u00e3\u0083\u00a4\u00e3\u0083\u00ab\u00e3\u0083\u009e\u00e3\u0082\u00b9\u00e3\u0082\u00af\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Kukui's Desperate Situation! Another {{tt",
+    "AirDate": {
+      "International": "Royal Mask",
+      "Japanese": "Masked Royal}}!!"
+    }
+  },
+  "093": {
+    "ID": 93,
+    "EnglishTitle": "Lillier and the Staff!",
+    "JapaneseTitle": "\u00e5\u008b\u0087\u00e8\u0080\u0085\u00e3\u0083\u00aa\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e3\u0083\u00ab\u00e3\u0081\u00a8\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00ae\u00e6\u009d\u0096\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Hero {{tt",
+    "AirDate": {
+      "International": "Lilier",
+      "Japanese": "Lillier}} and the Staff of Alola!"
+    }
+  },
+  "094": {
+    "ID": 94,
+    "EnglishTitle": "A Haunted House for Everyone!",
+    "JapaneseTitle": "\u00e3\u0082\u00b4\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00e3\u0083\u0088\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e5\u00a4\u00a7\u00e9\u009b\u0086\u00e5\u0090\u0088\u00ef\u00bc\u0081\u00e3\u0081\u00bf\u00e3\u0082\u0093\u00e3\u0081\u00aa\u00e3\u0081\u00ae\u00e3\u0081\u008a\u00e5\u008c\u0096\u00e3\u0081\u0091\u00e5\u00b1\u008b\u00e6\u0095\u00b7\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Great Gathering of Ghost Pok\u00c3\u00a9mon! Everyone's Haunted House!!",
+    "AirDate": {
+      "International": "March 24, 2019",
+      "Japanese": "October 28, 2018}}"
+    }
+  },
+  "095": {
+    "ID": 95,
+    "EnglishTitle": "Sparking Confusion!",
+    "JapaneseTitle": "\u00e3\u0083\u00b4\u00e3\u0082\u00a7\u00e3\u0083\u00a9\u00e7\u0081\u00ab\u00e5\u00b1\u00b1\u00e3\u0080\u0081\u00e3\u0082\u00b4\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b4\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0082\u0084\u00e3\u0081\u00be\u00e3\u0081\u008a\u00e3\u0081\u00a8\u00e3\u0081\u0093\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Wela Volcano, {{tt",
+    "AirDate": {
+      "International": "Golone",
+      "Japanese": "Graveler}}, {{tt"
+    }
+  },
+  "096": {
+    "ID": 96,
+    "EnglishTitle": "Don't Ignore the Small Stufful!",
+    "JapaneseTitle": "\u00e3\u0083\u00ad\u00e3\u0082\u00b1\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e5\u009b\u00a3\u00e3\u0081\u00a8\u00e3\u0083\u008c\u00e3\u0082\u00a4\u00e3\u0082\u00b3\u00e3\u0082\u00b0\u00e3\u0083\u009e\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}} and {{tt"
+    }
+  },
+  "097": {
+    "ID": 97,
+    "EnglishTitle": "No Stone Unturned!",
+    "JapaneseTitle": "\u00e5\u008c\u00a0\u00e3\u0081\u00ae\u00e3\u0083\u0095\u00e3\u0082\u00af\u00e3\u0082\u00b9\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00ef\u00bc\u0081\u00ef\u00bc\u0081\u00ef\u00bc\u0081\u00e7\u009c\u00a0\u00e3\u0082\u008a\u00e3\u0081\u00ae\u00e3\u0083\u00a2\u00e3\u0082\u00af\u00e3\u0083\u00ad\u00e3\u0083\u00bczzz",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Fukuthrow",
+      "Japanese": "Dartrix}} the Artisan!!! Sleeping {{tt"
+    }
+  },
+  "098": {
+    "ID": 98,
+    "EnglishTitle": "Bright Lights, Big Changes!",
+    "JapaneseTitle": "\u00e3\u0082\u00b3\u00e3\u0083\u00b3\u00e3\u0083\u0093\u00e8\u00a7\u00a3\u00e6\u0095\u00a3\u00ef\u00bc\u0081\u00ef\u00bc\u009f\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0081\u00a8\u00e3\u0083\u00ad\u00e3\u0083\u0088\u00e3\u0083\u00a0",
+    "JapaneseTransliteration": "Splitting Up the Combination!? {{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} and Rotom"
+    }
+  },
+  "099": {
+    "ID": 99,
+    "EnglishTitle": "We Know Where You're Going, Eevee!",
+    "JapaneseTitle": "\u00e3\u0082\u00a4\u00e3\u0083\u00bc\u00e3\u0083\u0096\u00e3\u0082\u00a4\u00e3\u0081\u00a9\u00e3\u0081\u0093\u00e3\u0081\u0084\u00e3\u0081\u008f\u00e3\u0081\u00ae\u00ef\u00bc\u009f\u00e3\u0081\u0082\u00e3\u0081\u00ae\u00e3\u0082\u00b3\u00e3\u0081\u00ab\u00e4\u00bc\u009a\u00e3\u0081\u0084\u00e3\u0081\u00ab\u00e3\u0081\u00a9\u00e3\u0081\u0093\u00e3\u0081\u00be\u00e3\u0081\u00a7\u00e3\u0082\u0082\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Eievui",
+      "Japanese": "Eevee}}, Where Are You Going? To Go Anywhere to Meet Up!"
+    }
+  },
+  "100": {
+    "ID": 100,
+    "EnglishTitle": "Battling the Beast Within!",
+    "JapaneseTitle": "\u00e9\u00a2\u00a8\u00e3\u0082\u0092\u00e6\u0096\u00ad\u00e3\u0081\u00a4\u00e7\u00a8\u00b2\u00e5\u00a6\u00bb\u00ef\u00bc\u0081\u00e3\u0081\u009d\u00e3\u0081\u00ae\u00e5\u0090\u008d\u00e3\u0081\u00af\u00e3\u0082\u00bc\u00e3\u0083\u00a9\u00e3\u0082\u00aa\u00e3\u0083\u00a9\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Lighting Bolt that Severs the Wind! Its Name is Zeraora!!",
+    "AirDate": {
+      "International": "March 30, 2019",
+      "Japanese": "December 9, 2018}}"
+    }
+  },
+  "101": {
+    "ID": 101,
+    "EnglishTitle": "Parallel Friendships!",
+    "JapaneseTitle": "\u00e6\u0094\u00be\u00e3\u0081\u00a6\u00ef\u00bc\u0081\u00e5\u008f\u008b\u00e6\u0083\u0085\u00e3\u0081\u00ae\u00e3\u0083\u0084\u00e3\u0082\u00a4\u00e3\u0083\u00b3\u00e3\u0082\u00b9\u00e3\u0083\u0091\u00e3\u0083\u00bc\u00e3\u0082\u00ad\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00e3\u0082\u00ae\u00e3\u0082\u00ac\u00e3\u0083\u009c\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Fire! The Twin {{tt",
+    "AirDate": {
+      "International": "Sparking Gigavolt",
+      "Japanese": "Gigavolt Havoc}} of Friendship!!"
+    }
+  },
+  "102": {
+    "ID": 102,
+    "EnglishTitle": "Alola, Alola!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00a7\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00ef\u00bc\u0081 \u00e3\u0082\u00bf\u00e3\u0082\u00b1\u00e3\u0082\u00b7\u00e3\u0081\u00a8\u00e3\u0082\u00ab\u00e3\u0082\u00b9\u00e3\u0083\u009f\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Alola at Alola! {{tt",
+    "AirDate": {
+      "International": "Takeshi",
+      "Japanese": "Brock}} and {{tt"
+    }
+  },
+  "103": {
+    "ID": 103,
+    "EnglishTitle": "Heart of Fire! Heart of Stone!",
+    "JapaneseTitle": "\u00e5\u00b2\u00a9\u00e3\u0082\u0092\u00e3\u0082\u0082\u00e7\u00a0\u0095\u00e3\u0081\u008f\u00e7\u0086\u00b1\u00e3\u0081\u008d\u00e3\u0083\u008f\u00e3\u0083\u00bc\u00e3\u0083\u0088\u00ef\u00bc\u0081\u00e3\u0083\u00a9\u00e3\u0082\u00a4\u00e3\u0083\u0081\u00e3\u0081\u00a8\u00e3\u0082\u00bf\u00e3\u0082\u00b1\u00e3\u0082\u00b7\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "A Passionate Heart That Can Smash Even Rock! {{tt",
+    "AirDate": {
+      "International": "Lychee",
+      "Japanese": "Olivia}} and {{tt"
+    }
+  },
+  "104": {
+    "ID": 104,
+    "EnglishTitle": "That's Some Spicy Island Research!",
+    "JapaneseTitle": "\u00e3\u0083\u009d\u00e3\u0083\u008b\u00e5\u00b3\u00b6\u00e3\u0081\u00ae\u00e8\u0087\u00aa\u00e7\u0094\u00b1\u00e7\u00a0\u0094\u00e7\u00a9\u00b6\u00ef\u00bc\u0081\u00e3\u0081\u0097\u00e3\u0081\u00be\u00e3\u0082\u00ad\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00e3\u0082\u0092\u00e3\u0081\u0095\u00e3\u0081\u008c\u00e3\u0081\u009b\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Poni Island Research Project! Search for the {{tt",
+    "AirDate": {
+      "International": "Island King",
+      "Japanese": "Island Kahuna}}!!"
+    }
+  },
+  "105": {
+    "ID": 105,
+    "EnglishTitle": "Showdown on Poni Island!",
+    "JapaneseTitle": "\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00b3\u00e6\u00b1\u00ba\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7VS\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0082\u00b8\u00e3\u0082\u00aa\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Decisive {{tt",
+    "AirDate": {
+      "International": "Lugarugan",
+      "Japanese": "Lycanroc}} Battle! {{tt"
+    }
+  },
+  "106": {
+    "ID": 106,
+    "EnglishTitle": "Evolving Research!",
+    "JapaneseTitle": "\u00e6\u00b5\u00b7\u00e3\u0081\u0082\u00e3\u0082\u008a\u00e8\u00b0\u00b7\u00e3\u0081\u0082\u00e3\u0082\u008a\u00ef\u00bc\u0081\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e9\u0080\u00b2\u00e5\u008c\u0096\u00e5\u00a4\u00a7\u00e7\u0089\u00b9\u00e8\u00a8\u0093\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "We Have a Sea and We Have a Valley! Great Intensive Pok\u00c3\u00a9mon Evolution Training!!",
+    "AirDate": {
+      "International": "June 1, 2019",
+      "Japanese": "January 27, 2019}}"
+    }
+  },
+  "107": {
+    "ID": 107,
+    "EnglishTitle": "Run, Heroes, Run!",
+    "JapaneseTitle": "\u00e8\u00b5\u00b0\u00e3\u0082\u008c\u00e3\u0082\u00ab\u00e3\u0082\u00ad\u00ef\u00bc\u0081\u00e5\u00b7\u00b1\u00e3\u0082\u0092\u00e8\u00b6\u0085\u00e3\u0081\u0088\u00e3\u0081\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Run {{tt",
+    "AirDate": {
+      "International": "Kaki",
+      "Japanese": "Kiawe}}! Surpass Yourself!!"
+    }
+  },
+  "108": {
+    "ID": 108,
+    "EnglishTitle": "Memories in the Mist!",
+    "JapaneseTitle": "\u00e3\u0082\u00ab\u00e3\u0083\u0097\u00e3\u0083\u00bb\u00e3\u0083\u00ac\u00e3\u0083\u0092\u00e3\u0083\u00ac\u00e3\u0081\u00ae\u00e9\u009c\u00a7\u00e3\u0081\u00ae\u00e4\u00b8\u00ad\u00e3\u0081\u00a7",
+    "JapaneseTransliteration": "Inside {{tt",
+    "AirDate": {
+      "International": "Kapu-Rehire",
+      "Japanese": "Tapu Fini}}'s Mist"
+    }
+  },
+  "109": {
+    "ID": 109,
+    "EnglishTitle": "A Grand Debut!",
+    "JapaneseTitle": "\u00e3\u0081\u0097\u00e3\u0081\u00be\u00e3\u0082\u00af\u00e3\u0082\u00a4\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e8\u00aa\u0095\u00e7\u0094\u009f\u00ef\u00bc\u0081\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0081\u00ae\u00e5\u00a4\u00a7\u00e8\u00a9\u00a6\u00e7\u00b7\u00b4\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Birth of an {{tt",
+    "AirDate": {
+      "International": "Island Queen",
+      "Japanese": "Island Kahuna}}! {{tt"
+    }
+  },
+  "110": {
+    "ID": 110,
+    "EnglishTitle": "Keeping Your Eyes on the Ball!",
+    "JapaneseTitle": "\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0082\u00b4\u00e3\u0083\u00ab\u00e3\u0083\u0095\u00e3\u0081\u00a7\u00e3\u0083\u009b\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0082\u00a4\u00e3\u0083\u00b3\u00e3\u0083\u00af\u00e3\u0083\u00b3\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Hole in One at Pok\u00c3\u00a9Golf!",
+    "AirDate": {
+      "International": "June 29, 2019",
+      "Japanese": "February 24, 2019}}"
+    }
+  },
+  "111": {
+    "ID": 111,
+    "EnglishTitle": "Show Me the Metal!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e4\u00b8\u008a\u00e9\u0099\u00b8\u00ef\u00bc\u0081\u00e3\u0082\u00bf\u00e3\u0083\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00ab\u00e3\u0083\u00a1\u00e3\u0082\u00bf\u00e3\u0083\u00ab\u00e3\u0083\u0091\u00e3\u0083\u008b\u00e3\u0083\u0083\u00e3\u0082\u00af\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Arrival in Alola! Dripping Metal Panic!!",
+    "AirDate": {
+      "International": "July 6, 2019",
+      "Japanese": "March 3, 2019}}"
+    }
+  },
+  "112": {
+    "ID": 112,
+    "EnglishTitle": "Got Meltan?",
+    "JapaneseTitle": "\u00e6\u0096\u00b0\u00e7\u00a8\u00ae\u00e7\u0099\u00ba\u00e8\u00a6\u008b\u00ef\u00bc\u0081\u00e3\u0083\u00a1\u00e3\u0083\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00b3\u00e3\u0080\u0081\u00e3\u0082\u00b2\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e3\u0081\u00a0\u00e3\u0081\u009c\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Discovering a New Species! Catch Meltan!!",
+    "AirDate": {
+      "International": "July 13, 2019",
+      "Japanese": "March 10, 2019}}"
+    }
+  },
+  "113": {
+    "ID": 113,
+    "EnglishTitle": "This Magik Moment!",
+    "JapaneseTitle": "\u00e6\u0096\u00b0\u00e7\u0095\u00aa\u00e7\u00b5\u0084\u00ef\u00bc\u0081\u00ef\u00bc\u009f\u00e5\u00b0\u008f\u00e3\u0081\u0095\u00e3\u0081\u00aa\u00e3\u0082\u00b3\u00e3\u0082\u00a4\u00e3\u0082\u00ad\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00e3\u0081\u00ae\u00e3\u0083\u00a1\u00e3\u0083\u00ad\u00e3\u0083\u0087\u00e3\u0082\u00a3",
+    "JapaneseTransliteration": "A New Program!? Melody of the Small {{tt",
+    "AirDate": {
+      "International": "Koiking",
+      "Japanese": "Magikarp}}"
+    }
+  },
+  "114": {
+    "ID": 114,
+    "EnglishTitle": "Beauty is Only Crystal Deep!",
+    "JapaneseTitle": "\u00e3\u0083\u0093\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0083\u0086\u00e3\u0082\u00a3\u00e3\u0083\u00bc\u00e3\u0083\u00bb\u00e3\u0082\u00a2\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e3\u0083\u00bb\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Beauty and {{tt",
+    "AirDate": {
+      "International": "Nyarth",
+      "Japanese": "Meowth}}!"
+    }
+  },
+  "115": {
+    "ID": 115,
+    "EnglishTitle": "The Dealer of Destruction!",
+    "JapaneseTitle": "\u00e7\u00a0\u00b4\u00e5\u00a3\u008a\u00e3\u0081\u00ae\u00e5\u00b8\u009d\u00e7\u008e\u008b\u00e3\u0082\u00b0\u00e3\u0082\u00ba\u00e3\u0083\u009e\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Emperor of Destruction Guzma!",
+    "AirDate": {
+      "International": "August 3, 2019",
+      "Japanese": "March 31, 2019}}"
+    }
+  },
+  "116": {
+    "ID": 116,
+    "EnglishTitle": "The Secret Princess!",
+    "JapaneseTitle": "\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00e3\u0081\u00a8\u00e7\u00a7\u0098\u00e5\u00af\u0086\u00e3\u0081\u00ae\u00e6\u00a9\u009f\u00e5\u00b7\u00a7\u00e5\u00a7\u00ab\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Lilie",
+      "Japanese": "Lillie}} and the Secret Mechanical Princess!"
+    }
+  },
+  "117": {
+    "ID": 117,
+    "EnglishTitle": "Drawn with the Wind!",
+    "JapaneseTitle": "\u00e3\u0082\u00b7\u00e3\u0082\u00a7\u00e3\u0082\u00a4\u00e3\u0083\u009f\u00e3\u0080\u0081\u00e3\u0083\u00a1\u00e3\u0083\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00b3\u00e3\u0080\u0081\u00e3\u0083\u008a\u00e3\u0082\u00ae\u00e3\u0082\u00b5\u00ef\u00bc\u0081\u00e8\u00bf\u00b7\u00e5\u00ad\u0090\u00e3\u0081\u00ae\u00e6\u008e\u00a2\u00e6\u00a4\u009c\u00e9\u009a\u008a\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Shaymin, Meltan, {{tt",
+    "AirDate": {
+      "International": "Nagisa",
+      "Japanese": "Sandy}}! The Lost Explorers!!"
+    }
+  },
+  "118": {
+    "ID": 118,
+    "EnglishTitle": "Aiming for the Top Floor!",
+    "JapaneseTitle": "\u00e6\u009c\u0080\u00e4\u00b8\u008a\u00e9\u009a\u008e\u00e3\u0082\u0092\u00e7\u009b\u00ae\u00e6\u008c\u0087\u00e3\u0081\u009b\u00ef\u00bc\u0081\u00e7\u0088\u0086\u00e9\u009f\u00b3\u00e3\u0081\u00ae\u00e3\u0083\u0089\u00e3\u0083\u00a9\u00e3\u0082\u00b4\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00a0\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Aim for the Top Floor! The Explosive Dragon Gym!!",
+    "AirDate": {
+      "International": "August 24, 2019",
+      "Japanese": "April 21, 2019}}"
+    }
+  },
+  "119": {
+    "ID": 119,
+    "EnglishTitle": "A High-Speed Awakening!",
+    "JapaneseTitle": "\u00e8\u00b6\u0085\u00e9\u0080\u009f\u00e3\u0081\u00ae\u00e3\u0082\u00af\u00e3\u0083\u00af\u00e3\u0082\u00ac\u00e3\u0083\u008e\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u009e\u00e3\u0083\u008d\u00e8\u00a6\u009a\u00e9\u0086\u0092\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Super Fast {{tt",
+    "AirDate": {
+      "International": "Kuwagannon",
+      "Japanese": "Vikavolt}}! The Awakening of {{tt"
+    }
+  },
+  "120": {
+    "ID": 120,
+    "EnglishTitle": "The One That Didn't Get Away!",
+    "JapaneseTitle": "\u00e3\u0082\u00b9\u00e3\u0082\u00a4\u00e3\u0083\u00ac\u00e3\u0083\u00b3\u00e3\u0080\u0081\u00e3\u0082\u00ab\u00e3\u0082\u00a4\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00ac\u00e3\u0082\u0092\u00e9\u0087\u00a3\u00e3\u0082\u008b\u00ef\u00bc\u0081\u00ef\u00bc\u009f",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Suiren",
+      "Japanese": "Lana}} Fishes a Kyogre!?"
+    }
+  },
+  "121": {
+    "ID": 121,
+    "EnglishTitle": "A Recipe for Success!",
+    "JapaneseTitle": "\u00e3\u0083\u009e\u00e3\u0082\u00aa\u00e5\u00a5\u00ae\u00e9\u0097\u0098\u00ef\u00bc\u0081\u00e6\u00a3\u00ae\u00e3\u0081\u00ae\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00ab\u00e3\u0083\u0095\u00e3\u0082\u00a7\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}}'s Valiant Effort! The Forest Pok\u00c3\u00a9mon Caf\u00c3\u00a9!!"
+    }
+  },
+  "122": {
+    "ID": 122,
+    "EnglishTitle": "Spying for the Big Guy!",
+    "JapaneseTitle": "\u00e7\u009b\u00a3\u00e8\u00a6\u0096\u00e3\u0081\u0097\u00e3\u0081\u00be\u00e3\u0081\u0099\u00ef\u00bc\u0081\u00e3\u0083\u00ad\u00e3\u0082\u00b1\u00e3\u0083\u0083\u00e3\u0083\u0088\u00e5\u009b\u00a3\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00ae\u00e3\u0081\u0099\u00e3\u0081\u008c\u00e3\u0081\u009f\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "You're Being Watched! {{tt",
+    "AirDate": {
+      "International": "Rocket-dan",
+      "Japanese": "Team Rocket}}'s Alola Forms!!"
+    }
+  },
+  "123": {
+    "ID": 123,
+    "EnglishTitle": "A Fiery Training Camp Trick!",
+    "JapaneseTitle": "Z\u00e3\u0083\u00af\u00e3\u0082\u00b6\u00e3\u0082\u0092\u00e6\u00a5\u00b5\u00e3\u0082\u0081\u00e3\u0082\u008d\u00ef\u00bc\u0081\u00e7\u0081\u00bc\u00e7\u0086\u00b1\u00e3\u0081\u00ae\u00e3\u0082\u00ab\u00e3\u0082\u00ad\u00e5\u0090\u0088\u00e5\u00ae\u00bf\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Master the Z-Move! {{tt",
+    "AirDate": {
+      "International": "Kaki",
+      "Japanese": "Kiawe}}'s Fierce Boot Camp!!"
+    }
+  },
+  "124": {
+    "ID": 124,
+    "EnglishTitle": "Living on the Cutting Edge!",
+    "JapaneseTitle": "\u00e6\u0096\u00ac\u00e3\u0082\u008c\u00e5\u0091\u00b3\u00e3\u0083\u0090\u00e3\u0083\u0084\u00e3\u0082\u00b0\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00e3\u0082\u00ab\u00e3\u0083\u009f\u00e3\u0083\u0084\u00e3\u0083\u00ab\u00e3\u0082\u00ae\u00e8\u00a6\u008b\u00e5\u008f\u0082\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Perfect Sharpness! {{tt",
+    "AirDate": {
+      "International": "Kamiturugi",
+      "Japanese": "Kartana}} has Arrived!!"
+    }
+  },
+  "125": {
+    "ID": 125,
+    "EnglishTitle": "A Timeless Encounter!",
+    "JapaneseTitle": "\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e3\u0080\u0081\u00e6\u0099\u0082\u00e3\u0082\u0092\u00e8\u00b6\u0085\u00e3\u0081\u0088\u00e3\u0081\u009f\u00e5\u0087\u00ba\u00e4\u00bc\u009a\u00e3\u0081\u0084\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}}, Encounter Beyond Time!"
+    }
+  },
+  "126": {
+    "ID": 126,
+    "EnglishTitle": "Pikachu's Exciting Adventure!",
+    "JapaneseTitle": "\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6\u00e3\u0081\u00ae\u00e3\u0083\u0089\u00e3\u0082\u00ad\u00e3\u0083\u0089\u00e3\u0082\u00ad\u00e6\u008e\u00a2\u00e6\u00a4\u009c\u00e9\u009a\u008a\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Pikachu's Exciting Expedition!",
+    "AirDate": {
+      "International": "October 19, 2019",
+      "Japanese": "June 16, 2019}}"
+    }
+  },
+  "127": {
+    "ID": 127,
+    "EnglishTitle": "Chasing Memories, Creating Dreams!",
+    "JapaneseTitle": "\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0082\u00b8\u00e3\u0082\u00aa\u00e3\u0081\u00a8\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00a8\u00ef\u00bc\u0081\u00e7\u0088\u00b6\u00e3\u0081\u00ae\u00e5\u00b9\u00bb\u00e5\u00bd\u00b1\u00e3\u0082\u0092\u00e8\u00bf\u00bd\u00e3\u0081\u00a3\u00e3\u0081\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Glazio",
+      "Japanese": "Gladion}} and {{tt"
+    }
+  },
+  "128": {
+    "ID": 128,
+    "EnglishTitle": "League Offenders and Defenders!",
+    "JapaneseTitle": "\u00e9\u0096\u008b\u00e5\u00b9\u0095\u00ef\u00bc\u0081\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u009d\u00e3\u0082\u00b1\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00b0\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Curtain Rises! The Alola Pok\u00c3\u00a9mon League!!",
+    "AirDate": {
+      "International": "November 2, 2019",
+      "Japanese": "June 30, 2019}}"
+    }
+  },
+  "129": {
+    "ID": 129,
+    "EnglishTitle": "Battle Royal 151!",
+    "JapaneseTitle": "\u00e5\u00a4\u00a7\u00e4\u00b9\u00b1\u00e9\u0097\u0098\u00ef\u00bc\u0081\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00e3\u0083\u00ad\u00e3\u0082\u00a4\u00e3\u0083\u00a4\u00e3\u0083\u00ab151\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Great Fray! Battle Royal 151!!",
+    "AirDate": {
+      "International": "November 9, 2019",
+      "Japanese": "July 7, 2019}}"
+    }
+  },
+  "130": {
+    "ID": 130,
+    "EnglishTitle": "Battling Besties!",
+    "JapaneseTitle": "\u00e3\u0083\u009e\u00e3\u0082\u00aa\u00e3\u0081\u00a8\u00e3\u0082\u00b9\u00e3\u0082\u00a4\u00e3\u0083\u00ac\u00e3\u0083\u00b3\u00ef\u00bc\u0081\u00e5\u008f\u008b\u00e6\u0083\u0085\u00e3\u0081\u00ae\u00e3\u0082\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00aa\u00e3\u0083\u00a7\u00e3\u0082\u00af\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Mao",
+      "Japanese": "Mallow}} and {{tt"
+    }
+  },
+  "131": {
+    "ID": 131,
+    "EnglishTitle": "The Battlefield of Truth and Love!",
+    "JapaneseTitle": "\u00e3\u0083\u00a0\u00e3\u0082\u00b5\u00e3\u0082\u00b7VS\u00e3\u0082\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00ad\u00e3\u0082\u00a6\u00ef\u00bc\u0081\u00e6\u0084\u009b\u00e3\u0081\u00a8\u00e7\u009c\u009f\u00e5\u00ae\u009f\u00e3\u0081\u00ae\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0089\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Musashi",
+      "Japanese": "Jessie}} VS {{tt"
+    }
+  },
+  "132": {
+    "ID": 132,
+    "EnglishTitle": "Imitation Is the Sincerest Form of Strategy!",
+    "JapaneseTitle": "\u00e3\u0082\u00b8\u00e3\u0083\u00a5\u00e3\u0083\u008a\u00e3\u0082\u00a4\u00e3\u0083\u0091\u00e3\u0083\u00bc\u00e3\u0082\u0092\u00e6\u0094\u00bb\u00e7\u0095\u00a5\u00e3\u0081\u009b\u00e3\u0082\u0088\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Overcome {{tt",
+    "AirDate": {
+      "International": "Junaiper",
+      "Japanese": "Decidueye}}!"
+    }
+  },
+  "133": {
+    "ID": 133,
+    "EnglishTitle": "Battling on the Wing!",
+    "JapaneseTitle": "\u00e9\u00b3\u00a5\u00e4\u00b8\u008a\u00e6\u00b1\u00ba\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00e3\u0083\u0096\u00e3\u0083\u00ac\u00e3\u0082\u00a4\u00e3\u0083\u0096\u00e3\u0083\u0090\u00e3\u0083\u00bc\u00e3\u0083\u0089VS\u00e3\u0082\u00b4\u00e3\u0083\u0083\u00e3\u0083\u0089\u00e3\u0083\u0090\u00e3\u0083\u00bc\u00e3\u0083\u0089\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Bird Battle! Brave Bird VS {{tt",
+    "AirDate": {
+      "International": "God Bird",
+      "Japanese": "Sky Attack}}!!"
+    }
+  },
+  "134": {
+    "ID": 134,
+    "EnglishTitle": "The Road to the Semifinals!",
+    "JapaneseTitle": "\u00e3\u0081\u00bf\u00e3\u0082\u0093\u00e3\u0081\u00aa\u00e3\u0082\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00aa\u00e3\u0083\u00a7\u00e3\u0082\u00af\u00ef\u00bc\u0081\u00e6\u00ba\u0096\u00e6\u00b1\u00ba\u00e5\u008b\u009d\u00e3\u0081\u00b8\u00e3\u0081\u00ae\u00e9\u0081\u0093\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Everyone's Fully Powered! The Road to the Semifinals!!",
+    "AirDate": {
+      "International": "December 14, 2019",
+      "Japanese": "August 11, 2019}}"
+    }
+  },
+  "135": {
+    "ID": 135,
+    "EnglishTitle": "The Final Four!",
+    "JapaneseTitle": "\u00e6\u00ba\u0096\u00e6\u00b1\u00ba\u00e5\u008b\u009d\u00ef\u00bc\u0081\u00e3\u0082\u00ab\u00e3\u0082\u00adVS\u00e3\u0082\u00b0\u00e3\u0083\u00a9\u00e3\u0082\u00b8\u00e3\u0082\u00aa\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Semifinals! {{tt",
+    "AirDate": {
+      "International": "Kaki",
+      "Japanese": "Kiawe}} VS {{tt"
+    }
+  },
+  "136": {
+    "ID": 136,
+    "EnglishTitle": "Getting Down to The Ire!",
+    "JapaneseTitle": "\u00e7\u0087\u0083\u00e3\u0081\u0088\u00e4\u00b8\u008a\u00e3\u0081\u008c\u00e3\u0082\u008b\u00e7\u0082\u008e\u00ef\u00bc\u0081\u00e3\u0083\u00a9\u00e3\u0082\u00a4\u00e3\u0083\u0090\u00e3\u0083\u00ab\u00e3\u0081\u00af\u00e3\u0081\u00b2\u00e3\u0081\u00a8\u00e3\u0082\u008a\u00e3\u0081\u0098\u00e3\u0082\u0083\u00e3\u0081\u00aa\u00e3\u0081\u0084\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Rising Fire! There's More Than One Rival!!",
+    "AirDate": {
+      "International": "December 28, 2019",
+      "Japanese": "August 25, 2019}}"
+    }
+  },
+  "137": {
+    "ID": 137,
+    "EnglishTitle": "The Wisdom Not to Run!\u00e2\u0080\u008e",
+    "JapaneseTitle": "\u00e7\u0084\u00a1\u00e6\u0095\u0097\u00e3\u0081\u00ae\u00e5\u00b8\u009d\u00e7\u008e\u008b\u00e3\u0082\u00b0\u00e3\u0082\u00ba\u00e3\u0083\u009e\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Undefeated Emperor Guzma!",
+    "AirDate": {
+      "International": "January 4, 2020",
+      "Japanese": "September 1, 2019}}"
+    }
+  },
+  "138": {
+    "ID": 138,
+    "EnglishTitle": "Final Rivals!",
+    "JapaneseTitle": "\u00e6\u00b1\u00ba\u00e5\u008b\u009d\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00e6\u009c\u0080\u00e5\u00bc\u00b7\u00e3\u0083\u00a9\u00e3\u0082\u00a4\u00e3\u0083\u0090\u00e3\u0083\u00ab\u00e5\u00af\u00be\u00e6\u00b1\u00ba\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Finals! The Strongest Rival Showdown!!",
+    "AirDate": {
+      "International": "January 11, 2020",
+      "Japanese": "September 8, 2019}}"
+    }
+  },
+  "139": {
+    "ID": 139,
+    "EnglishTitle": "Enter the Champion!",
+    "JapaneseTitle": "\u00e8\u00aa\u0095\u00e7\u0094\u009f\u00ef\u00bc\u0081\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0081\u00ae\u00e8\u00a6\u0087\u00e8\u0080\u0085\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Birth! The Alola Champion!!",
+    "AirDate": {
+      "International": "January 18, 2020",
+      "Japanese": "September 15, 2019}}"
+    }
+  },
+  "140": {
+    "ID": 140,
+    "EnglishTitle": "Z-Move Showdown!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0082\u00af\u00e3\u0082\u00b8\u00e3\u0082\u00ad\u00e3\u0083\u00b3\u00e3\u0082\u00b0\u00e8\u00a5\u00b2\u00e6\u009d\u00a5\u00ef\u00bc\u0081Z\u00e3\u0083\u00af\u00e3\u0082\u00b6\u00e5\u00a4\u00a7\u00e6\u00b1\u00ba\u00e6\u0088\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "{{tt",
+    "AirDate": {
+      "International": "Akuziking",
+      "Japanese": "Guzzlord}} Invasion! The Great Z-Move Battle!!"
+    }
+  },
+  "141": {
+    "ID": 141,
+    "EnglishTitle": "Exhibition Unmasked!",
+    "JapaneseTitle": "\u00e3\u0083\u0095\u00e3\u0082\u00a1\u00e3\u0082\u00a4\u00e3\u0083\u008a\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00e3\u0082\u00b5\u00e3\u0083\u0088\u00e3\u0082\u00b7\u00e5\u00af\u00be\u00e3\u0082\u00af\u00e3\u0082\u00af\u00e3\u0082\u00a4\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Final Battle! {{tt",
+    "AirDate": {
+      "International": "Satoshi",
+      "Japanese": "Ash}} VS Kukui!!"
+    }
+  },
+  "142": {
+    "ID": 142,
+    "EnglishTitle": "A Full Battle Bounty!",
+    "JapaneseTitle": "\u00e7\u0087\u0083\u00e3\u0081\u0088\u00e3\u0082\u008b\u00ef\u00bc\u0081\u00e3\u0081\u00bf\u00e3\u0081\u00aa\u00e3\u0081\u008e\u00e3\u0082\u008b\u00ef\u00bc\u0081\u00ef\u00bc\u0081\u00e3\u0083\u0095\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u0088\u00e3\u0083\u00ab\u00ef\u00bc\u0081\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Burn! Swell Up!! Full Battle!!!",
+    "AirDate": {
+      "International": "February 8, 2020",
+      "Japanese": "October 6, 2019}}"
+    }
+  },
+  "143": {
+    "ID": 143,
+    "EnglishTitle": "Fiery Surprises!",
+    "JapaneseTitle": "\u00e6\u00b1\u00ba\u00e7\u009d\u0080\u00ef\u00bc\u0081\u00e3\u0082\u00ac\u00e3\u0082\u00aa\u00e3\u0082\u00ac\u00e3\u0082\u00a8\u00e3\u0083\u00b3VS\u00e3\u0083\u008b\u00e3\u0083\u00a3\u00e3\u0083\u0092\u00e3\u0083\u00bc\u00e3\u0083\u0088\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Conclusion! {{tt",
+    "AirDate": {
+      "International": "Gaogaen",
+      "Japanese": "Incineroar}} VS {{tt"
+    }
+  },
+  "144": {
+    "ID": 144,
+    "EnglishTitle": "From Z to Shining Z!",
+    "JapaneseTitle": "\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e6\u009c\u0080\u00e5\u00bc\u00b7\u00e3\u0081\u00aeZ\u00ef\u00bc\u0081\u00e3\u0082\u00ab\u00e3\u0083\u0097\u00e3\u0083\u00bb\u00e3\u0082\u00b3\u00e3\u0082\u00b1\u00e3\u0082\u00b3VS\u00e3\u0083\u0094\u00e3\u0082\u00ab\u00e3\u0083\u0081\u00e3\u0083\u00a5\u00e3\u0082\u00a6\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Alola's Strongest Z! {{tt",
+    "AirDate": {
+      "International": "Kapu-Kokeko",
+      "Japanese": "Tapu Koko}} VS Pikachu!!"
+    }
+  },
+  "145": {
+    "ID": 145,
+    "EnglishTitle": "Dreams of the Sun and Moon!",
+    "JapaneseTitle": "\u00e5\u00a4\u00aa\u00e9\u0099\u00bd\u00e3\u0081\u00a8\u00e6\u009c\u0088\u00e3\u0081\u00a8\u00e3\u0080\u0081\u00e3\u0081\u00bf\u00e3\u0082\u0093\u00e3\u0081\u00aa\u00e3\u0081\u00ae\u00e5\u00a4\u00a2\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "The Sun, the Moon, and Everyone's Dreams!",
+    "AirDate": {
+      "International": "February 29, 2020",
+      "Japanese": "October 27, 2019}}"
+    }
+  },
+  "146": {
+    "ID": 146,
+    "EnglishTitle": "Thank You, Alola! The Journey Continues!",
+    "JapaneseTitle": "\u00e3\u0081\u0082\u00e3\u0082\u008a\u00e3\u0081\u008c\u00e3\u0081\u00a8\u00e3\u0081\u0086\u00e3\u0082\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00ef\u00bc\u0081\u00e3\u0081\u009d\u00e3\u0082\u008c\u00e3\u0081\u009e\u00e3\u0082\u008c\u00e3\u0081\u00ae\u00e6\u0097\u0085\u00e7\u00ab\u008b\u00e3\u0081\u00a1\u00ef\u00bc\u0081\u00ef\u00bc\u0081",
+    "JapaneseTransliteration": "Thank You, Alola! Respective Departures!!",
+    "AirDate": {
+      "International": "March 7, 2020",
+      "Japanese": "November 3, 2019}}"
+    }
+  }
+}

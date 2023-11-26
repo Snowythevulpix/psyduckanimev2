@@ -24,10 +24,10 @@ with open(input_file, 'r', encoding='latin-1', errors='ignore') as file:  # Try 
 # Check if data was read correctly
 print("Number of episodes processed:", len(episode_data))
 
-# Write formatted data to smtitles.json with error handling
+# Write formatted data to smtitles.json with ensure_ascii=False
 try:
-    with open(output_file, 'w') as json_file:
-        json.dump(episode_data, json_file, indent=2)
+    with open(output_file, 'w', encoding='utf-8') as json_file:
+        json.dump(episode_data, json_file, indent=2, ensure_ascii=False)
     print("Data successfully written to smtitles.json")
 except Exception as e:
     print("Error writing data:", e)

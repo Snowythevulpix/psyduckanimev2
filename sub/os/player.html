@@ -58,7 +58,7 @@
 
                 if (video1080p) {
                     // Fetch the ostitle.json file from external URL
-                    const titlesResponse = await fetch('https://psyduckanime.lol/ostitles.json');
+                    const titlesResponse = await fetch('https://psyduckanime.lol/titles/os.json');
 
                     if (!titlesResponse.ok) {
                         console.log('Failed to fetch episode titles.');

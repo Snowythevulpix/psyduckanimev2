@@ -1,89 +1,117 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>PsyduckAnime - watch Pokemon Jouneys for free </title>
-<meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
-<meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
-<!-- Favicon -->
-<link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
-<meta content="Psyduckanime - watch pokemon for free" property="og:title"/>
-<meta content="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" property="og:image"/>
-<!-- Favicon -->
-<link href="https://m.media-amazon.com/images/M/MV5BMGNjMmFlYWUtMTBjNS00YzdlLTk3NzktZjFjMjZlMWFiODUyXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_FMjpg_UX1000_.jpg" rel="icon"/>
-<!-- Font Awesome icons -->
-<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"/>
-<!-- Core theme CSS -->
-<link href="style.css" rel="stylesheet"/>
-</head>
-<body class="dark-mode"><div class="top-bar"><a href="https://snowythevulpix.github.io/redirect" title="Go to Home"><img alt="Logo" class_="logo" src="https://psyduckanime.lol/Psyduck.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/></a></div>
-<!-- Parallax Pixel Background Animation -->
-<section class="animated-background">
-<div id="stars1"></div>
-<div id="stars2"></div>
-<div id="stars3"></div>
-</section>
-<!-- End of Parallax Pixel Background Animation -->
-<a href="#popup" id="profilePicture">
-<img alt="Profile Picture" src="https://i.pinimg.com/736x/e7/6b/46/e76b4623af3d2f3a998362fd8fc9d8c7.jpg"/>
-</a>
-<div id="userName">
-      PsyduckAnime
-    </div>
-<div id="links">
-<a class="link" href="ep1.html" target="_self">
-        ep1
-      </a>
-<!-- Episodes 2 to 146 -->
-<script>
-        for (let episode = 2; episode <= 132; episode++) {
-          let link = document.createElement('a');
-          link.className = 'link';
-          link.href = 'ep' + episode + '.html';
-          link.target = '_self';
-          link.textContent = 'ep' + episode;
-
-          document.getElementById('links').appendChild(link);
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Choose Episode - PsyduckAnime</title>
+    <!-- Favicon -->
+    <meta content="Psyduckanime - watch Pokémon for free" property="og:title"/>
+    <meta content="/Psyduck.png" property="og:image"/> <!-- Updated image source -->
+    <!-- Favicon -->
+    <link href="Psyduck.png" rel="icon"/> <!-- Updated favicon source -->
+    <link href="/Psyduck.png" rel="icon"/>
+    <!-- Font Awesome icons -->
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"/>
+    <!-- Core theme CSS -->
+    <link href="style.css" rel="stylesheet"/>
+    <style>
+        /* CSS styles for the banner image */
+        body {
+            margin: 0; /* Remove default margin */
+            font-family: Arial, sans-serif; /* Specify your font */
         }
-      </script>
-</div>
-<script>
-            function redirectToDownload() {
-                fetch('https://psyduckanime.xyz/anime/gogoanime/watch/' + episodeId)
-                    .then(response => response.json())
-                    .then(data => {
-                        var downloadUrl = data.download;
-                        window.location.href = downloadUrl;
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                    });
-            }
-        </script><script>
-            function nextEpisode() {
-                // Get the current URL
-                const currentUrl = window.location.href;
+        #bannerImage {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: calc(110vh - 150px); /* Adjust height to the position before buttons */
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5; /* Adjust the opacity as needed */
+        }
+        .top-bar {
+            z-index: 2; /* Ensure the top bar appears above the image */
+        }
+        #episode-links {
+            margin-top: calc(100vh - 150px); /* Adjust margin to match image height */
+            display: block; /* Show the episode links */
+        }
+    </style>
+</head>
+<body class="dark-mode">
+    <div class="top-bar">
+        <a href="https://snowythevulpix.github.io/redirect" title="Go to Home">
+            <img alt="Logo" class_="logo" src="/Psyduck.png" style="width: 40px; height: 40px; padding: 5px; cursor: pointer;"/> <!-- Updated logo source -->
+        </a>
+    </div>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+    <img id="bannerImage" src="" alt="Banner Image">
+    <!-- Loading GIF (half the size of the original) -->
+    <div id="loading-screen" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #333; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 999;">
+        <img src="https://psyduckanime.lol/loading.gif" alt="Loading" style="width: 50%; height: 50%;" />
+    </div>
+    <!-- Episode Links Container -->
+    <div id="episode-links" style="display: none;">
+        <!-- This is where episode links will be added -->
+    </div>
+    <script>
+        // Define the URL to fetch the totalEpisodes value
+        const infoURL = "https://api.anify.tv/info/112153";
 
-                // Extract the episode number from the current URL
-                const match = currentUrl.match(/\/ep(\d+)\.html/);
+        // Initialize a variable to store the totalEpisodes value
+        let totalEpisodes;
 
-                if (match) {
-                    // Extract the episode number as an integer
-                    const currentEpisodeNumber = parseInt(match[1]);
-
-                    // Calculate the next episode number
-                    const nextEpisodeNumber = currentEpisodeNumber + 1;
-
-                    // Construct the URL for the next episode
-                    const nextEpisodeUrl = `ep${nextEpisodeNumber}.html`;
-
-                    // Redirect to the next episode if it exists
-                    window.location.href = nextEpisodeUrl;
+        // Fetch the data from the URL
+        fetch(infoURL)
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
                 } else {
-                    alert('Could not determine the current episode number.');
+                    throw new Error("Failed to fetch total episodes data");
                 }
+            })
+            .then(data => {
+                totalEpisodes = data.totalEpisodes;
+                console.log("Total Episodes:", totalEpisodes);
+
+                // Call a function to create the episode links
+                createEpisodeLinks(totalEpisodes);
+
+                // Set the banner image source from the fetched data
+                const bannerImage = document.getElementById('bannerImage');
+                bannerImage.src = data.bannerImage; // Assuming 'bannerImage' is the key for the image URL in the data response
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+
+        // Function to create episode links
+        function createEpisodeLinks(totalEpisodes) {
+            const episodeLinksContainer = document.getElementById("episode-links");
+
+            for (let episode = 1; episode <= 132; episode++) {
+                let link = document.createElement("a");
+                link.className = "link";
+                link.href = `player.html?${episode}`;
+                link.target = "_self";
+                link.textContent = episode.toString();
+
+                episodeLinksContainer.appendChild(link);
             }
-        </script></body>
+
+            // Hide the loading screen and show the episode links
+            const loadingScreen = document.getElementById("loading-screen");
+            loadingScreen.style.display = "none";
+
+            episodeLinksContainer.style.display = "block";
+        }
+    </script>
+</body>
 </html>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>PsyduckAnime - best place to watch Pokemon subbed and dubbed</title>
-    <meta content="Psyduckanime - testing page" property="og:title"/>
+    <meta content="Psyduckanime - Watch pokemon for free" property="og:title"/>
     <meta content="https://psyduckanime.lol/Psyduck.png" property="og:image"/>
     <!-- Favicon -->
     <link href="https://psyduckanime.lol/Psyduck.png" rel="icon"/>
@@ -34,12 +34,17 @@
 
     <div id="episode-container"></div>
 
+    <!-- Create a container for the video player -->
+    <div id="videoPlayerContainer"></div>
+
     <script>
+        let videoPlayer; // Variable to hold the video player
+
         // Function to fetch episode data and play using Clappr player
         async function loadAndPlayEpisode(episodeId) {
             try {
                 // Fetch episode data for the given episode ID
-                const response = await fetch(`https://psyduckanime.xyz/anime/gogoanime/watch/houkago-no-breath-episode-${episodeId}`);
+                const response = await fetch(`https://psyduckanime.xyz/anime/gogoanime/watch/pokemon-shinsaku-anime-dub-episode-${episodeId}`);
 
                 if (!response.ok) {
                     console.log(`Failed to fetch episode data for episode ${episodeId}`);
@@ -49,7 +54,7 @@
                 const data = await response.json();
 
                 // Find the 1080p video URL from the episode data
-                const video1080p = data.sources.find(source => source.quality === "1080p");
+                const video1080p = data.sources.find(source => source.quality === "default");
 
                 if (video1080p) {
                     // Create a container for the episode
@@ -67,9 +72,12 @@
 
                     // Initialize Clappr player for the episode
                     const player = new Clappr.Player({
-                        source: "https://cdn.discordapp.com/attachments/752616453458624535/1168347456828866730/lolhz.mp4?ex=65516f5c&is=653efa5c&hm=80fba0d0064fb050c76150d7390aea1a506dd2682a350d8aaa58f44897ac30bf&",
+                        source: video1080p.url,
                         parentId: `#episode-${episodeId}`,
                     });
+
+                    // Store the player in the global variable
+                    videoPlayer = player;
                 } else {
                     console.log(`1080p video for episode ${episodeId} not available.`);
                 }
@@ -79,7 +87,7 @@
         }
 
         // Get the episode number from the fragment identifier in the URL
-        const fragmentIdentifier = window.location.hash;
+        const fragmentIdentifier = window.location.search;
         const episodeId = parseInt(fragmentIdentifier.substring(1));
 
         // Load and play the episode specified in the URL fragment
@@ -88,24 +96,46 @@
         } else {
             console.log("No episode specified in the URL fragment.");
         }
+
+        // Function to save the timestamp in Local Storage
+        function saveTimestamp() {
+            if (videoPlayer) {
+                const savedTimestamp = videoPlayer.getCurrentTime();
+                localStorage.setItem('savedTimestamp', savedTimestamp);
+                alert("Timestamp saved: " + savedTimestamp + " seconds");
+            } else {
+                alert("Video player not found. Try again after the player is ready.");
+            }
+        }
+
+        // Function to load the saved timestamp from Local Storage or start from the beginning
+        function loadSavedTimestamp() {
+            const loadedTimestamp = localStorage.getItem('savedTimestamp');
+            if (videoPlayer && loadedTimestamp !== null) {
+                videoPlayer.seek(parseFloat(loadedTimestamp));
+                alert("Timestamp loaded: " + loadedTimestamp + " seconds");
+            } else if (videoPlayer) {
+                videoPlayer.seek(0); // Start from the beginning
+                alert("Starting from the beginning.");
+            }
+        }
+
+        // JavaScript functions for toggling dark and light modes
+        function darkMode() {
+            document.body.className = "dark-mode";
+        }
+
+        function lightMode() {
+            document.body.className = "light-mode";
+        }
     </script>
 
     <!-- Your other HTML code -->
 
     <button onclick="darkMode()">Dark Mode</button>
     <button onclick="lightMode()">Light Mode</button>
-    <button onclick="redirectToDownload()">Click here to download</button>
-
-    <script>
-        function darkMode() {
-          var element = document.body;
-          element.className = "dark-mode";
-        }
-        function lightMode() {
-          var element = document.body;
-          element.className = "light-mode";
-        }
-    </script>
+    <button onclick="saveTimestamp()">Save Timestamp</button>
+    <button onclick="loadSavedTimestamp()">Load Timestamp</button>
 
 </body>
 </html>

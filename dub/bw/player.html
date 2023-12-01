@@ -170,11 +170,37 @@ for (const provider of data) {
         }
     </script>
 
-    <!-- Your other HTML code -->
-
-    <button onclick="darkMode()">Dark Mode</button>
-    <button onclick="lightMode()">Light Mode</button>
-    <button onclick="saveTimestamp()">Save Timestamp</button>
-    <button onclick="loadSavedTimestamp()">Load Timestamp</button>
-</body>
-</html>
+<script>
+    function nextEpisode() {
+      // Get the current URL
+      const currentUrl = window.location.href;
+    
+      // Function to extract the episodeId from the URL
+      const getEpisodeId = (url) => {
+        const urlParams = new URLSearchParams(url.split('?')[1]);
+        const params = Array.from(urlParams.keys());
+        return params.length > 0 ? parseInt(params[0]) : null;
+      };
+    
+      // Get the current episodeId
+      const currentEpisodeId = getEpisodeId(currentUrl);
+    
+      // If episodeId is found, add 1 to it and redirect
+      if (currentEpisodeId !== null && !isNaN(currentEpisodeId)) {
+        const nextEpisodeId = currentEpisodeId + 1;
+        const newUrl = currentUrl.replace(`?${currentEpisodeId}`, `?${nextEpisodeId}`);
+        window.location.href = newUrl;
+      } else {
+        // Handle the case where episodeId is not found in the URL
+        console.error('EpisodeId not found in the URL.');
+      }
+    }
+    </script>     
+    
+        <button onclick="darkMode()">Dark Mode</button>
+        <button onclick="lightMode()">Light Mode</button>
+        <button onclick="saveTimestamp()">Save Timestamp</button>
+        <button onclick="loadSavedTimestamp()">Load Timestamp</button>
+        <button onclick="nextEpisode()">Go to the next episode</button>
+    </body>
+    </html>

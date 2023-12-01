@@ -86,7 +86,7 @@
 
                 // Set the banner image source from the fetched data
                 const bannerImage = document.getElementById('bannerImage');
-                bannerImage.src = data.bannerImage; // Assuming 'bannerImage' is the key for the image URL in the data response
+                bannerImage.src = ""; // Assuming 'bannerImage' is the key for the image URL in the data response
             })
             .catch(error => {
                 console.error("Error:", error);
@@ -96,7 +96,7 @@
         function createEpisodeLinks(totalEpisodes) {
             const episodeLinksContainer = document.getElementById("episode-links");
 
-            for (let episode = 1; episode <= totalEpisodes; episode++) {
+            for (let episode = 1; episode <= 145; episode++) {
                 let link = document.createElement("a");
                 link.className = "link";
                 link.href = `player.html?${episode}`;

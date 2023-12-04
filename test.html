@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime Downloader</title>
+</head>
+<body>
+  <input type="text" id="animeUrl" placeholder="Enter Anime URL">
+  <button onclick="getAnimeData()">Fetch Data</button>
+  <div id="output"></div>
+
+  <script>
+    class Mixdrop {
+      constructor(url) {
+        this.url = url;
+      }
+
+      async getData() {
+        const evalRegex = /eval\(.*\)/;
+        const wurlRegex = /wurl.*?=.*?"(.*?)";/;
+        const redirectRegex = /\s*window\.location\s*=\s*('|\")(.*?)('|\")/;
+
+        let soup = await this.fetchUrl(this.url, true);
+        let redirect = soup.match(redirectRegex);
+
+        if (redirect) {
+          const redirectUrl = 'https://mixdrop.to' + redirect[2];
+          soup = await this.fetchUrl(redirectUrl);
+        }
+
+        if (soup.includes('WE ARE SORRY')) {
+          return '';
+        }
+
+        const deobfuscatedJS = this.deobfuscatePackedJS(soup.match(evalRegex)[0]);
+        console.log('Deobfuscated JS:', deobfuscatedJS);
+        const extractedUrl = deobfuscatedJS.match(wurlRegex)[1];
+        console.log('Url:', extractedUrl);
+        const finalUrl = extractedUrl.startsWith('//') ? `https:${extractedUrl}` : extractedUrl;
+        return { stream_url: finalUrl };
+      }
+
+      async fetchUrl(url, allowRedirects = false) {
+        const response = await fetch(url, { redirect: allowRedirects });
+        return await response.text();
+      }
+
+      deobfuscatePackedJS(jsCode) {
+        // Your deobfuscation logic here
+        // This function isn't implemented, replace with your logic
+        return jsCode; // Placeholder for deobfuscated JS
+      }
+    }
+
+    async function getAnimeData() {
+      const animeUrl = document.getElementById('animeUrl').value;
+      const mixdrop = new Mixdrop(animeUrl);
+      const data = await mixdrop.getData();
+      const outputDiv = document.getElementById('output');
+
+      if (data && data.stream_url) {
+        outputDiv.innerText = `Stream URL: ${data.stream_url}`;
+      } else {
+        outputDiv.innerText = 'Error fetching data.';
+      }
+    }
+  </script>
+</body>
+</html>

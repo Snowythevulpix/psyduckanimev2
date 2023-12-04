@@ -17,10 +17,6 @@
         <a href="/" class="text-sm mt-5">Logout</a>
     </div>
     <script>
-        // Declare global variables userId and discordLoggedIn
-        let userId;
-        let discordLoggedIn = true;
-
         window.onload = () => {
             const fragment = new URLSearchParams(window.location.hash.slice(1));
             const [accessToken, tokenType] = [fragment.get('access_token'), fragment.get('token_type')];
@@ -48,9 +44,6 @@
                 // Save the avatar URL locally using localStorage
                 localStorage.setItem('avatarUrl', avatarUrl);
                 console.log(avatarUrl)
-
-                // Set the global userId variable to the user's ID
-                userId = id;
 
                 // Redirect to index.html after fetching user data and setting localStorage
                 window.location.href = "/index.html";
